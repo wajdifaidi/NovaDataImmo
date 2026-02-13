@@ -1,93 +1,10 @@
 [
   {
-    "name": "Novo",
-    "city": "Ferney-Voltaire",
-    "dept_num": "01",
-    "cp": "01",
-    "statut": "Avant-Première",
-    "livraison": "4ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/ferney-voltaire-programme-novo-215849-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_0711b49b_030-201f30_1_vign.jpg",
-    "description": "Programme Neuf Ferney-Voltaire. Travaux en cours ! La résidence NOVO se dresse majestueusement dans la ville historique de Ferney-Voltaire, célèbre pour son patrimoine riche, notamment le château de Voltaire. Sa proximité stratégique avec Genève fait du programme neuf Ferney-Voltaire une aubaine pour les travailleurs frontaliers, bénéficiant d'un accès facile via l'A40 et d'une multitude de moyens de transports écologiques. Intégrée dans la vision futuriste de la ZAC FERNEY-GENEVE INNOVATION, la résidence prévoit de combiner logements, espaces de travail, culturels et sportifs pour un équilibre parfait entre travail et loisirs. Logements neufs, de 3 et 4 pièces, la résidence NOVO promet confort, sécurité et luxe. Un îlot paysagé central offre une bouffée d'air frais aux résidents. Alignée sur une démarche éco-responsable, elle vise la certification Minergie P suisse, garantissant des performances énergétiques exceptionnelles. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 429000,
-        "superficie": 65.6,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 429000,
-        "superficie": 64.3,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 450000,
-        "superficie": 67.2,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 461000,
-        "superficie": 67.2,
-        "nbr_piece": 3,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 472000,
-        "superficie": 67.2,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 483000,
-        "superficie": 67.2,
-        "nbr_piece": 3,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 493000,
-        "superficie": 67.2,
-        "nbr_piece": 3,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 507000,
-        "superficie": 67.2,
-        "nbr_piece": 3,
-        "etage": "7"
-      },
-      {
-        "typology": "A",
-        "prix": 528000,
-        "superficie": 79.1,
-        "nbr_piece": 4,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 538000,
-        "superficie": 79.1,
-        "nbr_piece": 4,
-        "etage": "5"
-      }
-    ]
-  },
-  {
     "name": "Morpho",
     "city": "Ferney-Voltaire",
     "dept_num": "01",
     "cp": "01",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "2ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/ferney-voltaire-programme-morpho-215812-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_603638d2_030-201f02_1_vign.jpg",
@@ -166,11 +83,94 @@
     ]
   },
   {
+    "name": "Novo",
+    "city": "Ferney-Voltaire",
+    "dept_num": "01",
+    "cp": "01",
+    "statut": "Travaux en cours",
+    "livraison": "4ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/ferney-voltaire-programme-novo-215849-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_0711b49b_030-201f30_1_vign.jpg",
+    "description": "Programme Neuf Ferney-Voltaire. Travaux en cours ! La résidence NOVO se dresse majestueusement dans la ville historique de Ferney-Voltaire, célèbre pour son patrimoine riche, notamment le château de Voltaire. Sa proximité stratégique avec Genève fait du programme neuf Ferney-Voltaire une aubaine pour les travailleurs frontaliers, bénéficiant d'un accès facile via l'A40 et d'une multitude de moyens de transports écologiques. Intégrée dans la vision futuriste de la ZAC FERNEY-GENEVE INNOVATION, la résidence prévoit de combiner logements, espaces de travail, culturels et sportifs pour un équilibre parfait entre travail et loisirs. Logements neufs, de 3 et 4 pièces, la résidence NOVO promet confort, sécurité et luxe. Un îlot paysagé central offre une bouffée d'air frais aux résidents. Alignée sur une démarche éco-responsable, elle vise la certification Minergie P suisse, garantissant des performances énergétiques exceptionnelles. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 429000,
+        "superficie": 65.6,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 429000,
+        "superficie": 64.3,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 450000,
+        "superficie": 67.2,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 461000,
+        "superficie": 67.2,
+        "nbr_piece": 3,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 472000,
+        "superficie": 67.2,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 483000,
+        "superficie": 67.2,
+        "nbr_piece": 3,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 493000,
+        "superficie": 67.2,
+        "nbr_piece": 3,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 507000,
+        "superficie": 67.2,
+        "nbr_piece": 3,
+        "etage": "7"
+      },
+      {
+        "typology": "A",
+        "prix": 528000,
+        "superficie": 79.1,
+        "nbr_piece": 4,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 538000,
+        "superficie": 79.1,
+        "nbr_piece": 4,
+        "etage": "5"
+      }
+    ]
+  },
+  {
     "name": "Clos Grangeon",
     "city": "Embrun",
     "dept_num": "05",
     "cp": "05",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "4ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/embrun-programme-clos-grangeon-215943-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_6466f1fe_030-205vi2_1_vign.jpg",
@@ -322,7 +322,7 @@
     "city": "Saint-Chaffrey",
     "dept_num": "05",
     "cp": "05",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "4ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-chaffrey-programme-aquila-215801-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_2ae3169a_030-205vi3_1_vign.jpg",
@@ -524,6 +524,33 @@
     "units": []
   },
   {
+    "name": "Nissa'Nova",
+    "city": "Nice",
+    "dept_num": "06",
+    "cp": "06",
+    "statut": "Travaux en cours",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/nice-programme-nissanova-215811-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_14d2c8cc_030-206ym2_1_vign.jpg",
+    "description": "\n\nTravaux en cours à la résidence Nissa'Nova à Nice ! Un cadre de vie unique dans le quartier prisé de Riquier. Dernières opportunités sur des appartements du 2 au 4 pièces duplex, dotés de prestations de qualité avec un cœur d'îlot végétalisé. À 4 min de la gare et proche commerces, restaurants et plages. Vivez l'azur, au cœur de Nice.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 498000,
+        "superficie": 73.19,
+        "nbr_piece": 3,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 540000,
+        "superficie": 78.2,
+        "nbr_piece": 4,
+        "etage": "6"
+      }
+    ]
+  },
+  {
     "name": "Nissa Campus - Résidence Étudiante",
     "city": "Nice",
     "dept_num": "06",
@@ -567,33 +594,6 @@
         "prix": 175320,
         "superficie": 22.85,
         "nbr_piece": 1,
-        "etage": "6"
-      }
-    ]
-  },
-  {
-    "name": "Nissa'Nova",
-    "city": "Nice",
-    "dept_num": "06",
-    "cp": "06",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/nice-programme-nissanova-215811-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_14d2c8cc_030-206ym2_1_vign.jpg",
-    "description": "\n\nTravaux en cours à la résidence Nissa'Nova à Nice ! Un cadre de vie unique dans le quartier prisé de Riquier. Dernières opportunités sur des appartements du 2 au 4 pièces duplex, dotés de prestations de qualité avec un cœur d'îlot végétalisé. À 4 min de la gare et proche commerces, restaurants et plages. Vivez l'azur, au cœur de Nice.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 498000,
-        "superficie": 73.19,
-        "nbr_piece": 3,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 540000,
-        "superficie": 78.2,
-        "nbr_piece": 4,
         "etage": "6"
       }
     ]
@@ -650,6 +650,18 @@
         "etage": "1"
       }
     ]
+  },
+  {
+    "name": "Vega - les Fabriques",
+    "city": "Marseille 15ème",
+    "dept_num": "13",
+    "cp": "13",
+    "statut": "Avant-Première",
+    "livraison": "3ème trimestre 2029",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/marseille-15eme-programme-vega-les-fabriques-215912-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_32699b94_030-213a03_1_vign.jpg",
+    "description": "Découvrez en avant première la nouvelle résidence Bouygues Immobilier au coeur de l'écoquartier durable et connecté des Fabriques à Marseille.  Elle propose des appartements du studio au 3 pièces, tous prolongés par une terrasse, avec pour certains une vue mer. Le quartier offre écoles, commerces, transports et espaces de loisirs. Un ensemble de services dédiés pour un quotidien pratique et serein. Profitez également de la TVA réduite et du PTZ pour faciliter l'achat de votre résidence principale ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": []
   },
   {
     "name": "Alma",
@@ -760,18 +772,6 @@
         "etage": "16"
       }
     ]
-  },
-  {
-    "name": "Vega - les Fabriques",
-    "city": "Marseille 15ème",
-    "dept_num": "13",
-    "cp": "13",
-    "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2029",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/marseille-15eme-programme-vega-les-fabriques-215912-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_32699b94_030-213a03_1_vign.jpg",
-    "description": "Découvrez en avant première la nouvelle résidence Bouygues Immobilier au coeur de l'écoquartier durable et connecté des Fabriques à Marseille.  Elle propose des appartements du studio au 3 pièces, tous prolongés par une terrasse, avec pour certains une vue mer. Le quartier offre écoles, commerces, transports et espaces de loisirs. Un ensemble de services dédiés pour un quotidien pratique et serein. Profitez également de la TVA réduite et du PTZ pour faciliter l'achat de votre résidence principale ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": []
   },
   {
     "name": "Domaine Olea",
@@ -1132,7 +1132,7 @@
     "city": "Chatelaillon-Plage",
     "dept_num": "17",
     "cp": "17",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "1er trimestre 2028",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/chatelaillon-plage-programme-domaine-du-haut-rillon-216186-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_8a00697f_364-217zn4_1_vign.jpg",
@@ -1359,7 +1359,7 @@
     "city": "Périgny",
     "dept_num": "17",
     "cp": "17",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "2ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/perigny-programme-rivea-215947-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_e041eb9b_030-217at7_1_vign.jpg",
@@ -1428,7 +1428,7 @@
     "city": "Puilboreau",
     "dept_num": "17",
     "cp": "17",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "1er trimestre 2028",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/puilboreau-programme-belhameau-215918-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_d18145ac_030-217ak4_1_vign.jpg",
@@ -2288,7 +2288,7 @@
     "city": "Dreux",
     "dept_num": "28",
     "cp": "28",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "4ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/dreux-programme-metamorphose-215928-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_9286427c_030-228zc2_1_vign.jpg",
@@ -2763,40 +2763,6 @@
     ]
   },
   {
-    "name": "Noveo",
-    "city": "Bordeaux",
-    "dept_num": "33",
-    "cp": "33",
-    "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-noveo-215750-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_1240fe2a_030-233an9_1_vign.jpg",
-    "description": "Appartements T4 et T5 à vendre, pour une remise des clés au 1er trimestre 2026. Visitez l'appartement témoin décoré sur rendez-vous. A proximité immédiate des commerces, du tram B et du Campus, ses grandes écoles de renom # NOVEO, un programme immobilier neuf à Bordeaux, offre des appartements écoresponsables aux Bassins à Flot # Les matériaux locaux et bas carbone soulignent l'engagement envers la durabilité # L'architecture contemporaine de NOVEO s'intègre harmonieusement au paysage urbain de Bordeaux # Un coeur d'îlot verdoyant de 2500 m² au sein de NOVEO crée un équilibre unique entre nature et vie urbaine # Le jardin partagé de la résidence est un havre de paix pour les résidents, favorisant la détente et la convivialité # Les villes voisines comme Mérignac et Pessac offrent des opportunités culturelles et commerciales, enrichissant l'expérience résidentielle à Bordeaux # Choisir NOVEO, c'est opter pour un mode de vie qui allie respect de l'environnement, confort moderne et accès aux commodités urbaines. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 355000,
-        "superficie": 81.3,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 400000,
-        "superficie": 81.3,
-        "nbr_piece": 4,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 390000,
-        "superficie": 93.29,
-        "nbr_piece": 5,
-        "etage": "1"
-      }
-    ]
-  },
-  {
     "name": "30e Avenue",
     "city": "Bordeaux",
     "dept_num": "33",
@@ -3152,6 +3118,177 @@
     ]
   },
   {
+    "name": "Quai Neuf-Adelaide",
+    "city": "Bordeaux",
+    "dept_num": "33",
+    "cp": "33",
+    "statut": "Livraison immédiate",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-quai-neuf-adelaide-215738-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_986ae1f6_289-233ap9_1_vign.jpg",
+    "description": "Située sur le quai de Brienne, à proximité des commodités, la résidence Quai Neuf est idéalement placée dans un quartier dynamique de Bordeaux. 1 appartement 5 pièces et 2 appartements 5 pièces. Eligibles à la TVA réduite à 5 ,5% (sous conditions). Livraison immédiate. Ne manquez pas ces dernières opportunités à des prix avantageux. Contactez-nous pour visiter notre appartement décoré et obtenir plus d'informations ! Résidence en co-promotion Bouygues Immobilier et SOGEPROM. TVA à taux réduit, sous conditions d'éligibilité : résidence principale de l'acquéreur - plafonds de ressources du réservataire à respecter. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 499000,
+        "superficie": 112.55,
+        "nbr_piece": 5,
+        "etage": "10"
+      }
+    ]
+  },
+  {
+    "name": "Quai Neuf - Otago & Callao",
+    "city": "Bordeaux",
+    "dept_num": "33",
+    "cp": "33",
+    "statut": "Avant-Première",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-quai-neuf-otago-callao-215800-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_0afdc496_030-233ap7_1_vign.jpg",
+    "description": "\n\nAppartements visitables à Bordeaux, visitez sur rendez-vous le témoin décoré. T3 et T4 à vendre, pour une remise des clés immédiate ! Devenez propriétaire ou investissez dans votre appartement neuf sur les résidences Otago et Callao de Quai Neuf ! Situé à l'entrée de ville de Bordeaux et dans le prolongement du nouveau pont Simone Veil, Quai Neuf s'inscrit dans un nouveau quartier vivant de logements, commerces de proximité et bureaux # Habiter ce nouveau quartier est l'opportunité exceptionnelle de vivre en ville, dans un rapport constant au végétal les jardins de l'Ars et la Garonne # L'arrêt de tramway Carle Vernet dessert les lignes C et D permettant de rejoindre le centre-ville en seulement 16 min # La résidence profite de cette situation privilégiée pour proposer des appartements lumineux, ouverts sur des vues dégagées # Callao accueille des appartements lumineux et ouverts sur des vues exceptionnelles : perspectives dégagées vers le parvis urbain ou panorama intimiste sur le jardin intérieur # Pour habiter : accédez à la propriété à des conditions exceptionnelles grâce à une TVA réduite à 5.5% # Quai Neuf à bordeaux est une copromotion de Bouygues Immobilier et Sogeprom.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 312815,
+        "superficie": 62.24,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 327000,
+        "superficie": 62.41,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 339000,
+        "superficie": 63.99,
+        "nbr_piece": 3,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 336700,
+        "superficie": 65.03,
+        "nbr_piece": 3,
+        "etage": "7"
+      },
+      {
+        "typology": "A",
+        "prix": 382600,
+        "superficie": 83.3,
+        "nbr_piece": 4,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 390351,
+        "superficie": 86.11,
+        "nbr_piece": 4,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 388000,
+        "superficie": 86.11,
+        "nbr_piece": 4,
+        "etage": "4"
+      }
+    ]
+  },
+  {
+    "name": "Iksso",
+    "city": "Bordeaux",
+    "dept_num": "33",
+    "cp": "33",
+    "statut": "Avant-Première",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-iksso-215907-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_51ae9ddd_030-233ap5_1_vign.jpg",
+    "description": "Visitez l'appartement décoré, choisissez et et profitez d'une remise des clés immédiate. Appartements 2, 3 et 5 pièces disponibles - Accédez à la propriété à des conditions exceptionnelles grâce à une TVA réduite à 5.5% # IKSSO à Bordeaux mêle patrimoine et modernité # Structure majoritairement en bois pour la durabilité # 86 appartements du 2 au 5 pièces # Espaces de vie spacieux et lumineux avec des agencements optimisés # Séjours sans vis-à-vis pour plus d'intimité # Balcons, loggias et terrasses offrent des vues extérieures variées # Situé au cœur d'un quartier dynamique avec accès facile aux services # Proximité des villes voisines pour une expérience culturelle enrichie. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 268000,
+        "superficie": 47.11,
+        "nbr_piece": 2,
+        "etage": "7"
+      },
+      {
+        "typology": "A",
+        "prix": 322109,
+        "superficie": 67.67,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 416303,
+        "superficie": 108.15,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 583033,
+        "superficie": 141.88,
+        "nbr_piece": 5,
+        "etage": "9"
+      },
+      {
+        "typology": "A",
+        "prix": 476587,
+        "superficie": 133.04,
+        "nbr_piece": 5,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 424929,
+        "superficie": 106.95,
+        "nbr_piece": 5,
+        "etage": "2"
+      }
+    ]
+  },
+  {
+    "name": "Noveo",
+    "city": "Bordeaux",
+    "dept_num": "33",
+    "cp": "33",
+    "statut": "Avant-Première",
+    "livraison": "2ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-noveo-215750-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_1240fe2a_030-233an9_1_vign.jpg",
+    "description": "Appartements T4 et T5 à vendre, pour une remise des clés au 1er trimestre 2026. Visitez l'appartement témoin décoré sur rendez-vous. A proximité immédiate des commerces, du tram B et du Campus, ses grandes écoles de renom # NOVEO, un programme immobilier neuf à Bordeaux, offre des appartements écoresponsables aux Bassins à Flot # Les matériaux locaux et bas carbone soulignent l'engagement envers la durabilité # L'architecture contemporaine de NOVEO s'intègre harmonieusement au paysage urbain de Bordeaux # Un coeur d'îlot verdoyant de 2500 m² au sein de NOVEO crée un équilibre unique entre nature et vie urbaine # Le jardin partagé de la résidence est un havre de paix pour les résidents, favorisant la détente et la convivialité # Les villes voisines comme Mérignac et Pessac offrent des opportunités culturelles et commerciales, enrichissant l'expérience résidentielle à Bordeaux # Choisir NOVEO, c'est opter pour un mode de vie qui allie respect de l'environnement, confort moderne et accès aux commodités urbaines. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 355000,
+        "superficie": 81.3,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 400000,
+        "superficie": 81.3,
+        "nbr_piece": 4,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 390000,
+        "superficie": 93.29,
+        "nbr_piece": 5,
+        "etage": "1"
+      }
+    ]
+  },
+  {
     "name": "Quai Neuf - Alba",
     "city": "Bordeaux",
     "dept_num": "33",
@@ -3231,143 +3368,6 @@
         "superficie": 70.76,
         "nbr_piece": 3,
         "etage": "8"
-      }
-    ]
-  },
-  {
-    "name": "Quai Neuf - Otago & Callao",
-    "city": "Bordeaux",
-    "dept_num": "33",
-    "cp": "33",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-quai-neuf-otago-callao-215800-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_0afdc496_030-233ap7_1_vign.jpg",
-    "description": "\n\nAppartements visitables à Bordeaux, visitez sur rendez-vous le témoin décoré. T3 et T4 à vendre, pour une remise des clés immédiate ! Devenez propriétaire ou investissez dans votre appartement neuf sur les résidences Otago et Callao de Quai Neuf ! Situé à l'entrée de ville de Bordeaux et dans le prolongement du nouveau pont Simone Veil, Quai Neuf s'inscrit dans un nouveau quartier vivant de logements, commerces de proximité et bureaux # Habiter ce nouveau quartier est l'opportunité exceptionnelle de vivre en ville, dans un rapport constant au végétal les jardins de l'Ars et la Garonne # L'arrêt de tramway Carle Vernet dessert les lignes C et D permettant de rejoindre le centre-ville en seulement 16 min # La résidence profite de cette situation privilégiée pour proposer des appartements lumineux, ouverts sur des vues dégagées # Callao accueille des appartements lumineux et ouverts sur des vues exceptionnelles : perspectives dégagées vers le parvis urbain ou panorama intimiste sur le jardin intérieur # Pour habiter : accédez à la propriété à des conditions exceptionnelles grâce à une TVA réduite à 5.5% # Quai Neuf à bordeaux est une copromotion de Bouygues Immobilier et Sogeprom.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 312815,
-        "superficie": 62.24,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 327000,
-        "superficie": 62.41,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 339000,
-        "superficie": 63.99,
-        "nbr_piece": 3,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 336700,
-        "superficie": 65.03,
-        "nbr_piece": 3,
-        "etage": "7"
-      },
-      {
-        "typology": "A",
-        "prix": 382600,
-        "superficie": 83.3,
-        "nbr_piece": 4,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 390351,
-        "superficie": 86.11,
-        "nbr_piece": 4,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 388000,
-        "superficie": 86.11,
-        "nbr_piece": 4,
-        "etage": "4"
-      }
-    ]
-  },
-  {
-    "name": "Quai Neuf-Adelaide",
-    "city": "Bordeaux",
-    "dept_num": "33",
-    "cp": "33",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-quai-neuf-adelaide-215738-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_986ae1f6_289-233ap9_1_vign.jpg",
-    "description": "Située sur le quai de Brienne, à proximité des commodités, la résidence Quai Neuf est idéalement placée dans un quartier dynamique de Bordeaux. 1 appartement 5 pièces et 2 appartements 5 pièces. Eligibles à la TVA réduite à 5 ,5% (sous conditions). Livraison immédiate. Ne manquez pas ces dernières opportunités à des prix avantageux. Contactez-nous pour visiter notre appartement décoré et obtenir plus d'informations ! Résidence en co-promotion Bouygues Immobilier et SOGEPROM. TVA à taux réduit, sous conditions d'éligibilité : résidence principale de l'acquéreur - plafonds de ressources du réservataire à respecter. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 499000,
-        "superficie": 112.55,
-        "nbr_piece": 5,
-        "etage": "10"
-      }
-    ]
-  },
-  {
-    "name": "Iksso",
-    "city": "Bordeaux",
-    "dept_num": "33",
-    "cp": "33",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bordeaux-programme-iksso-215907-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_51ae9ddd_030-233ap5_1_vign.jpg",
-    "description": "Visitez l'appartement décoré, choisissez et et profitez d'une remise des clés immédiate. Appartements 2, 3 et 5 pièces disponibles - Accédez à la propriété à des conditions exceptionnelles grâce à une TVA réduite à 5.5% # IKSSO à Bordeaux mêle patrimoine et modernité # Structure majoritairement en bois pour la durabilité # 86 appartements du 2 au 5 pièces # Espaces de vie spacieux et lumineux avec des agencements optimisés # Séjours sans vis-à-vis pour plus d'intimité # Balcons, loggias et terrasses offrent des vues extérieures variées # Situé au cœur d'un quartier dynamique avec accès facile aux services # Proximité des villes voisines pour une expérience culturelle enrichie. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 268000,
-        "superficie": 47.11,
-        "nbr_piece": 2,
-        "etage": "7"
-      },
-      {
-        "typology": "A",
-        "prix": 322109,
-        "superficie": 67.67,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 416303,
-        "superficie": 108.15,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 583033,
-        "superficie": 141.88,
-        "nbr_piece": 5,
-        "etage": "9"
-      },
-      {
-        "typology": "A",
-        "prix": 476587,
-        "superficie": 133.04,
-        "nbr_piece": 5,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 424929,
-        "superficie": 106.95,
-        "nbr_piece": 5,
-        "etage": "2"
       }
     ]
   },
@@ -3728,6 +3728,38 @@
     ]
   },
   {
+    "name": "Avenue des près d'Arènes",
+    "city": "Montpellier",
+    "dept_num": "34",
+    "cp": "34",
+    "statut": "Avant-Première",
+    "livraison": "3ème trimestre 2028",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/montpellier-programme-avenue-des-pres-darenes-216187-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_8da3aac8_030-234ab4_1_vign.jpg",
+    "description": "Au sud de Montpellier, la nouvelle résidence Bouygues Immobilier offre un cadre pratique et connecté : tram et bus à 5 min, commerces, écoles et parc à proximité. Appartements neufs du studio au 5 pièces, avec la possibilité d'acheter à prix attractif avec le dispositif Bail Réel Solidaire (sous conditions de ressources) ! Un emplacement idéal pour habiter ou investir dans un quartier en plein renouveau ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": []
+  },
+  {
+    "name": "Talauma",
+    "city": "Montpellier",
+    "dept_num": "34",
+    "cp": "34",
+    "statut": "Livraison immédiate",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/montpellier-programme-talauma-215796-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_387057e3_030-234yj3_1_vign.jpg",
+    "description": "\n\nDernière opportunité avant livraison fin janvier 2026 ! Découvrez Talauma, une résidence neuve au cœur du quartier résidentiel prisé d'Aiguelongue, à Montpellier. Profitez d'un cadre de vie calme et pratique, à proximité des commodités et du centre-ville.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 645000,
+        "superficie": 114.44,
+        "nbr_piece": 4,
+        "etage": "5"
+      }
+    ]
+  },
+  {
     "name": "Residence Theia",
     "city": "Montpellier",
     "dept_num": "34",
@@ -3765,38 +3797,6 @@
         "superficie": 115.08,
         "nbr_piece": 4,
         "etage": "4"
-      }
-    ]
-  },
-  {
-    "name": "Avenue des près d'Arènes",
-    "city": "Montpellier",
-    "dept_num": "34",
-    "cp": "34",
-    "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2028",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/montpellier-programme-avenue-des-pres-darenes-216187-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_8da3aac8_030-234ab4_1_vign.jpg",
-    "description": "Au sud de Montpellier, la nouvelle résidence Bouygues Immobilier offre un cadre pratique et connecté : tram et bus à 5 min, commerces, écoles et parc à proximité. Appartements neufs du studio au 5 pièces, avec la possibilité d'acheter à prix attractif avec le dispositif Bail Réel Solidaire (sous conditions de ressources) ! Un emplacement idéal pour habiter ou investir dans un quartier en plein renouveau ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": []
-  },
-  {
-    "name": "Talauma",
-    "city": "Montpellier",
-    "dept_num": "34",
-    "cp": "34",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/montpellier-programme-talauma-215796-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_387057e3_030-234yj3_1_vign.jpg",
-    "description": "\n\nDernière opportunité avant livraison fin janvier 2026 ! Découvrez Talauma, une résidence neuve au cœur du quartier résidentiel prisé d'Aiguelongue, à Montpellier. Profitez d'un cadre de vie calme et pratique, à proximité des commodités et du centre-ville.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 645000,
-        "superficie": 114.44,
-        "nbr_piece": 4,
-        "etage": "5"
       }
     ]
   },
@@ -4508,40 +4508,6 @@
     "units": []
   },
   {
-    "name": "Paloma",
-    "city": "Rennes",
-    "dept_num": "35",
-    "cp": "35",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/rennes-programme-paloma-215759-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_07e11b2b_030-235yl5_1_vign.jpg",
-    "description": "Travaux en cours ! Prochainement à 5 minutes du coeur de Rennes - La résidence se décompose en deux bâtiments - Du studio au 5 pièces, la conception des petites typologies répondra aux attentes des investisseurs tandis que les grands logements viendront combler, de par leurs surfaces généreuses jusqu'à 132 m² et prestations, les acquéreurs en résidence principale - Les surfaces extérieures jusqu'à 102 m² sont un véritable atout sur ce projet ! Aux abords du quartier prisé de Saint-Hélier, cette nouvelle résidence profite d'une connexion directe à la gare et au cœur rennais - Au quotidien, boulangerie et tabac-presse ne sont qu'à 2 minutes à pied tandis que rejoindre le Carrefour City en demandera moins de 10 - La Promenade Georges Brassens, encerclant le stade Jean Coquelin est accessible en 3 minutes ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 599900,
-        "superficie": 132.53,
-        "nbr_piece": 5,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 589900,
-        "superficie": 132.64,
-        "nbr_piece": 5,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 699900,
-        "superficie": 113.36,
-        "nbr_piece": 5,
-        "etage": "5"
-      }
-    ]
-  },
-  {
     "name": "My Campus Chateaubriand",
     "city": "Rennes",
     "dept_num": "35",
@@ -4572,6 +4538,40 @@
         "superficie": 38.28,
         "nbr_piece": 2,
         "etage": "6"
+      }
+    ]
+  },
+  {
+    "name": "Paloma",
+    "city": "Rennes",
+    "dept_num": "35",
+    "cp": "35",
+    "statut": "Travaux en cours",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/rennes-programme-paloma-215759-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_07e11b2b_030-235yl5_1_vign.jpg",
+    "description": "Travaux en cours ! Prochainement à 5 minutes du coeur de Rennes - La résidence se décompose en deux bâtiments - Du studio au 5 pièces, la conception des petites typologies répondra aux attentes des investisseurs tandis que les grands logements viendront combler, de par leurs surfaces généreuses jusqu'à 132 m² et prestations, les acquéreurs en résidence principale - Les surfaces extérieures jusqu'à 102 m² sont un véritable atout sur ce projet ! Aux abords du quartier prisé de Saint-Hélier, cette nouvelle résidence profite d'une connexion directe à la gare et au cœur rennais - Au quotidien, boulangerie et tabac-presse ne sont qu'à 2 minutes à pied tandis que rejoindre le Carrefour City en demandera moins de 10 - La Promenade Georges Brassens, encerclant le stade Jean Coquelin est accessible en 3 minutes ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 599900,
+        "superficie": 132.53,
+        "nbr_piece": 5,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 589900,
+        "superficie": 132.64,
+        "nbr_piece": 5,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 699900,
+        "superficie": 113.36,
+        "nbr_piece": 5,
+        "etage": "5"
       }
     ]
   },
@@ -5089,7 +5089,7 @@
     "city": "Fondettes",
     "dept_num": "37",
     "cp": "37",
-    "statut": "Avant-Première",
+    "statut": "Livraison 2026",
     "livraison": "2ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/fondettes-programme-les-jardins-de-musset-215858-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_39538df9_030-237yu2_1_vign.jpg",
@@ -5223,26 +5223,6 @@
     ]
   },
   {
-    "name": "My Campus Jean Jaurès",
-    "city": "Joué-lès-Tours",
-    "dept_num": "37",
-    "cp": "37",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/joue-les-tours-programme-my-campus-jean-jaures-215901-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_f1d39fbc_030-237yr4_1_vign.jpg",
-    "description": "Studio à vendre - Prêt à louer, aux portes de Tours ! Clé en main, studio de 22 m² disponible immédiatement dans une résidence moderne pensée pour étudiants et jeunes actifs. À 9 minutes du campus Grandmont de Tours. Forte demande locative - Espaces communs et lieux de vie partagés. Remise des clés immédiate - Investissement clé en main ! Louez sans fiscalité grâce au dispositif LMNP (louer meublé non professionnel) !\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 129000,
-        "superficie": 22.17,
-        "nbr_piece": 1,
-        "etage": "0"
-      }
-    ]
-  },
-  {
     "name": "Coeur de Ville",
     "city": "Joué-lès-Tours",
     "dept_num": "37",
@@ -5368,6 +5348,58 @@
     ]
   },
   {
+    "name": "My Campus Jean Jaurès",
+    "city": "Joué-lès-Tours",
+    "dept_num": "37",
+    "cp": "37",
+    "statut": "Avant-Première",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/joue-les-tours-programme-my-campus-jean-jaures-215901-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_f1d39fbc_030-237yr4_1_vign.jpg",
+    "description": "Studio à vendre - Prêt à louer, aux portes de Tours ! Clé en main, studio de 22 m² disponible immédiatement dans une résidence moderne pensée pour étudiants et jeunes actifs. À 9 minutes du campus Grandmont de Tours. Forte demande locative - Espaces communs et lieux de vie partagés. Remise des clés immédiate - Investissement clé en main ! Louez sans fiscalité grâce au dispositif LMNP (louer meublé non professionnel) !\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 129000,
+        "superficie": 22.17,
+        "nbr_piece": 1,
+        "etage": "0"
+      }
+    ]
+  },
+  {
+    "name": "Patio Kipolis",
+    "city": "Tours",
+    "dept_num": "37",
+    "cp": "37",
+    "statut": "Avant-Première",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/tours-programme-patio-kipolis-215890-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_cde95b8d_030-237yq5_1_vign.jpg",
+    "description": "Rare à Tours. A vendre un 4 et un 5 pièces, remise des clés immédiate ! La résidence est ainsi implantée au cœur d'un remarquable parc-jardin de 1 hectare et profite d'une situation idéale pour rejoindre à vélo, en transports ou en voiture les quartiers attractifs de Tours centre. Se déplacer est un jeu d'enfant, 7 lignes de bus dont une Tempo au pied de la résidence - Atout majeur : à moins de 5 minutes à pied de la station de tramway « Marne », ligne A, rejoignant le cœur historique de Tours et la gare en moins de 20 minutes. Face à la résidence, toutes les commodités sont réunies dans le centre commercial de la Petite Arche : Auchan, boulangerie, banque, restauration rapide ainsi qu'une salle de sport. Etude financière sur mesure offerte. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 309000,
+        "superficie": 85.44,
+        "nbr_piece": 4,
+        "etage": "1"
+      }
+    ]
+  },
+  {
+    "name": "Urban Garden",
+    "city": "Tours",
+    "dept_num": "37",
+    "cp": "37",
+    "statut": "Lancement commercial",
+    "livraison": "4ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/tours-programme-urban-garden-215740-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_87368416_666-237zn6_1_vign.jpg",
+    "description": "Nouveau programme Bouygues-Immobilier Urban Garden à Tours : un placement patrimonial sûr et rentable - Jusqu'à 40 % de décote en nue-propriété, sans fiscalité ni gestion locative - Adresse stratégique : à 400 m du tramway, 20 min de la gare TGV, Paris à 1h10 - Résidence neuve au cœur d'un parc-jardin d'1 hectare, proche commerces, écoles et transports - Seulement 22 appartements T2 et T3 lumineux, avec extérieurs et parking inclus. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": []
+  },
+  {
     "name": "Les Collectionneurs",
     "city": "Tours",
     "dept_num": "37",
@@ -5462,7 +5494,7 @@
     "city": "Tours",
     "dept_num": "37",
     "cp": "37",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "4ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/tours-programme-urban-lodges-215729-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_f6138029_030-237yq8_1_vign.jpg",
@@ -5621,38 +5653,6 @@
         "superficie": 62.06,
         "nbr_piece": 3,
         "etage": "6"
-      }
-    ]
-  },
-  {
-    "name": "Urban Garden",
-    "city": "Tours",
-    "dept_num": "37",
-    "cp": "37",
-    "statut": "Avant-Première",
-    "livraison": "4ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/tours-programme-urban-garden-215740-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_87368416_666-237zn6_1_vign.jpg",
-    "description": "Nouveau programme Bouygues-Immobilier Urban Garden à Tours : un placement patrimonial sûr et rentable - Jusqu'à 40 % de décote en nue-propriété, sans fiscalité ni gestion locative - Adresse stratégique : à 400 m du tramway, 20 min de la gare TGV, Paris à 1h10 - Résidence neuve au cœur d'un parc-jardin d'1 hectare, proche commerces, écoles et transports - Seulement 22 appartements T2 et T3 lumineux, avec extérieurs et parking inclus. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": []
-  },
-  {
-    "name": "Patio Kipolis",
-    "city": "Tours",
-    "dept_num": "37",
-    "cp": "37",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/tours-programme-patio-kipolis-215890-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_cde95b8d_030-237yq5_1_vign.jpg",
-    "description": "Rare à Tours. A vendre un 4 et un 5 pièces, remise des clés immédiate ! La résidence est ainsi implantée au cœur d'un remarquable parc-jardin de 1 hectare et profite d'une situation idéale pour rejoindre à vélo, en transports ou en voiture les quartiers attractifs de Tours centre. Se déplacer est un jeu d'enfant, 7 lignes de bus dont une Tempo au pied de la résidence - Atout majeur : à moins de 5 minutes à pied de la station de tramway « Marne », ligne A, rejoignant le cœur historique de Tours et la gare en moins de 20 minutes. Face à la résidence, toutes les commodités sont réunies dans le centre commercial de la Petite Arche : Auchan, boulangerie, banque, restauration rapide ainsi qu'une salle de sport. Etude financière sur mesure offerte. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 309000,
-        "superficie": 85.44,
-        "nbr_piece": 4,
-        "etage": "1"
       }
     ]
   },
@@ -6658,7 +6658,7 @@
     "city": "Dax",
     "dept_num": "40",
     "cp": "40",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "2ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/dax-programme-villa-serena-215823-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_d95ba118_030-240aw1_1_vign.jpg",
@@ -6988,7 +6988,7 @@
     "city": "Saint-Vincent-de-Tyrosse",
     "dept_num": "40",
     "cp": "40",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "2ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-vincent-de-tyrosse-programme-canopee-215748-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_d8f65ad0_334-240av8_1_vign.jpg",
@@ -7427,7 +7427,7 @@
     "city": "Clisson",
     "dept_num": "44",
     "cp": "44",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "2ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clisson-programme-dolce-vita-215736-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_d882e53f_030-244yt7_1_vign.jpg",
@@ -7515,95 +7515,6 @@
         "prix": 289000,
         "superficie": null,
         "nbr_piece": 8
-      }
-    ]
-  },
-  {
-    "name": "Cour Monselet",
-    "city": "Nantes",
-    "dept_num": "44",
-    "cp": "44",
-    "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/nantes-programme-cour-monselet-215734-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_ef300261_030-244yc8_1_vign.jpg",
-    "description": "Travaux en cours ! Cour Monselet, une nouvelle histoire d'héritage et d'élégance s'écrit au cœur de Nantes - Découvrez une adresse unique et exceptionnelle sur le site emblématique de l'ancienne Clinique Sourdille - Niché au cœur du triangle d'or Nantais, au sein même des quartiers très prisés les Hauts-Pavés-Saint-Félix et Procé, le quartier Monselet est une véritable parenthèse de quiétude dans la ville - A 10 minutes à pied des recherchées places Viarme et Graslin, profitez d'un cadre de vie idéal où tout se fait à pied ou à vélo - Vous serez séduits par les prestations de standing de cette résidence et les magnifiques vues panoramiques sur un jardin inattendu en cœur de ville - En derniers niveaux de la résidence se cache une pépite : un unique appartement 5 pièces de 140 m², entouré d'une terrasse rarissime en ville de 159 m² ! Inscrivez-vous dès à présent pour réserver votre appartement d'exception en dernier étage. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 676000,
-        "superficie": 104.11,
-        "nbr_piece": 4,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 666000,
-        "superficie": 104.11,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 655000,
-        "superficie": 104.01,
-        "nbr_piece": 4,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 655000,
-        "superficie": 104.01,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 675000,
-        "superficie": 104.01,
-        "nbr_piece": 4,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 920000,
-        "superficie": 138.8,
-        "nbr_piece": 5,
-        "etage": "4"
-      }
-    ]
-  },
-  {
-    "name": "Terra Stilla",
-    "city": "Nantes",
-    "dept_num": "44",
-    "cp": "44",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/nantes-programme-terra-stilla-215787-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_9fa20a27_030-244yk1_1_vign.jpg",
-    "description": "Travaux en cours ! Quartier Nantes-Erdre, faites le choix d'un appartement neuf où vous aurez plaisir à vivre en famille - Pour votre résidence principale, quelques appartements sont à prix spécial propriétaire-occupant. Commerces, zones d'activités, établissements scolaires, parcs, golf, transports, bords de l'Erdre,…tout est à portée de main ! Terra Stilla s'inscrit au cœur projet du Champ de Manœuvre, à seulement 10 minutes à pied du bourg dynamique de Saint-Joseph-de-Porterie et à 20 minutes en voiture du cœur de ville de Nantes  - Ses appartements se déclinent du studio au 5 pièces et profitent de vues dégagées sur ce cadre apaisant. Les futurs résidents apprécieront les espaces extérieurs généreux, qu'il s'agisse d'un balcon ou d'une terrasse profitant généralement d'une double, voire d'une triple exposition ! Au cœur même du projet, des espaces communs, unis via un mail central paysager, ont été imaginés pour favoriser l'échange et l'épanouissement de la famille : jeux pour enfants, promenade, crèche, école primaire, pôle commercial, jardins partagés, espace de télétravail et le \"blob\", lieu de rencontre à disposition des particuliers et associations. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 349000,
-        "superficie": 91.9,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 369000,
-        "superficie": 91.9,
-        "nbr_piece": 4,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 339000,
-        "superficie": 121.3,
-        "nbr_piece": 5,
-        "etage": "0"
       }
     ]
   },
@@ -7782,6 +7693,95 @@
     ]
   },
   {
+    "name": "Cour Monselet",
+    "city": "Nantes",
+    "dept_num": "44",
+    "cp": "44",
+    "statut": "Travaux en cours",
+    "livraison": "2ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/nantes-programme-cour-monselet-215734-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_ef300261_030-244yc8_1_vign.jpg",
+    "description": "Travaux en cours ! Cour Monselet, une nouvelle histoire d'héritage et d'élégance s'écrit au cœur de Nantes - Découvrez une adresse unique et exceptionnelle sur le site emblématique de l'ancienne Clinique Sourdille - Niché au cœur du triangle d'or Nantais, au sein même des quartiers très prisés les Hauts-Pavés-Saint-Félix et Procé, le quartier Monselet est une véritable parenthèse de quiétude dans la ville - A 10 minutes à pied des recherchées places Viarme et Graslin, profitez d'un cadre de vie idéal où tout se fait à pied ou à vélo - Vous serez séduits par les prestations de standing de cette résidence et les magnifiques vues panoramiques sur un jardin inattendu en cœur de ville - En derniers niveaux de la résidence se cache une pépite : un unique appartement 5 pièces de 140 m², entouré d'une terrasse rarissime en ville de 159 m² ! Inscrivez-vous dès à présent pour réserver votre appartement d'exception en dernier étage. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 676000,
+        "superficie": 104.11,
+        "nbr_piece": 4,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 666000,
+        "superficie": 104.11,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 655000,
+        "superficie": 104.01,
+        "nbr_piece": 4,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 655000,
+        "superficie": 104.01,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 675000,
+        "superficie": 104.01,
+        "nbr_piece": 4,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 920000,
+        "superficie": 138.8,
+        "nbr_piece": 5,
+        "etage": "4"
+      }
+    ]
+  },
+  {
+    "name": "Terra Stilla",
+    "city": "Nantes",
+    "dept_num": "44",
+    "cp": "44",
+    "statut": "Travaux en cours",
+    "livraison": "1er trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/nantes-programme-terra-stilla-215787-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_9fa20a27_030-244yk1_1_vign.jpg",
+    "description": "Travaux en cours ! Quartier Nantes-Erdre, faites le choix d'un appartement neuf où vous aurez plaisir à vivre en famille - Pour votre résidence principale, quelques appartements sont à prix spécial propriétaire-occupant. Commerces, zones d'activités, établissements scolaires, parcs, golf, transports, bords de l'Erdre,…tout est à portée de main ! Terra Stilla s'inscrit au cœur projet du Champ de Manœuvre, à seulement 10 minutes à pied du bourg dynamique de Saint-Joseph-de-Porterie et à 20 minutes en voiture du cœur de ville de Nantes  - Ses appartements se déclinent du studio au 5 pièces et profitent de vues dégagées sur ce cadre apaisant. Les futurs résidents apprécieront les espaces extérieurs généreux, qu'il s'agisse d'un balcon ou d'une terrasse profitant généralement d'une double, voire d'une triple exposition ! Au cœur même du projet, des espaces communs, unis via un mail central paysager, ont été imaginés pour favoriser l'échange et l'épanouissement de la famille : jeux pour enfants, promenade, crèche, école primaire, pôle commercial, jardins partagés, espace de télétravail et le \"blob\", lieu de rencontre à disposition des particuliers et associations. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 349000,
+        "superficie": 91.9,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 369000,
+        "superficie": 91.9,
+        "nbr_piece": 4,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 339000,
+        "superficie": 121.3,
+        "nbr_piece": 5,
+        "etage": "0"
+      }
+    ]
+  },
+  {
     "name": "Caliza",
     "city": "Olivet",
     "dept_num": "45",
@@ -7865,129 +7865,23 @@
     ]
   },
   {
-    "name": "Vauquois Signature",
+    "name": "Les Allées d'Aria",
     "city": "Orléans",
     "dept_num": "45",
     "cp": "45",
     "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/orleans-programme-vauquois-signature-215724-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_0bdfbf00_030-245yw4_1_vign.jpg",
-    "description": "\n\nUn cadre de vie rare et privilégié à Orléans : visitez sur rendez-vous l'appartement décoré, choisissez et emménagez auu 2ème trimestre 2026 ! Le charme unique d'un appartement neuf, au cœur d'un quartier historique. Idéalement située au cœur du quartier très prisé de la rue de Vauquois, la résidence allie commodités et confort de vie et offre à ses futurs résidents un environnement calme et de grande qualité. A proximité immédiate, les transports en commun (lignes de bus et le tramway) permettent de rejoindre le centre-ville et la gare d'Orléans en 5 minutes. Chacun des appartements a été spécialement soigné pour garantir un confort quotidien. Tous les logements possèdent un extérieur privé, que ce soit un balcon, une terrasse ou un jardin. Des volumes confortables et ses vastes loggias et terrasses font de ces appartements d'exceptions un choix de standing pour une clientèle attentive à la qualité des prestations. Offrez-vous le privilège d'habiter ou investir au cœur de l'un des quartiers les plus recherchés d'Orléans.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 199900,
-        "superficie": 41.11,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 289900,
-        "superficie": 62.25,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 374900,
-        "superficie": 66.91,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 379900,
-        "superficie": 73.65,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 304900,
-        "superficie": 65.44,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 289900,
-        "superficie": 61.53,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 324900,
-        "superficie": 63.81,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 329900,
-        "superficie": 64.24,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 424900,
-        "superficie": 80.94,
-        "nbr_piece": 4,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 524900,
-        "superficie": 112.03,
-        "nbr_piece": 4,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 549900,
-        "superficie": 94.71,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 499900,
-        "superficie": 80.76,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 624900,
-        "superficie": 107.13,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 489900,
-        "superficie": 95.05,
-        "nbr_piece": 4,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 799900,
-        "superficie": 139.1,
-        "nbr_piece": 5,
-        "etage": "1"
-      }
-    ]
+    "livraison": "3ème trimestre 2028",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/orleans-programme-les-allees-daria-216359-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_47a55971_030-245zg6_1_vign.jpg",
+    "description": "Orléans, à deux pas du quartier Saint-Marc. Exceptionnel : votre 2 pièces à partir de 129.900 € (*). Que vous cherchiez une ambiance urbaine animée ou une tranquillité résidentielle, cette nouvelle adresse offre un choix de vie équilibré à 15 min en voiture du centre historique d'Orléans. Résidences neuves de 426 appartements du 2 au 4 pièces, tous avec espace extérieur et parking, éligible TVA réduite 5,5 %* et Prêt à Taux Zéro***, dans un quartier calme et bien desservi. * (Lot N°F005 T2, selon stock disponible prix en TVA 5,5 %.) *** (Sous conditions d'éligibilité). Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": []
   },
   {
     "name": "Villa Marceau",
     "city": "Orléans",
     "dept_num": "45",
     "cp": "45",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "1er trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/orleans-programme-villa-marceau-215746-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_2c62ad1a_030-245yt6_1_vign.jpg",
@@ -8118,122 +8012,6 @@
         "superficie": 137.6,
         "nbr_piece": 4,
         "etage": "5"
-      }
-    ]
-  },
-  {
-    "name": "Les Allées d'Aria",
-    "city": "Orléans",
-    "dept_num": "45",
-    "cp": "45",
-    "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2028",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/orleans-programme-les-allees-daria-216359-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_47a55971_030-245zg6_1_vign.jpg",
-    "description": "Orléans, à deux pas du quartier Saint-Marc. Exceptionnel : votre 2 pièces à partir de 129.900 € (*). Que vous cherchiez une ambiance urbaine animée ou une tranquillité résidentielle, cette nouvelle adresse offre un choix de vie équilibré à 15 min en voiture du centre historique d'Orléans. Résidences neuves de 426 appartements du 2 au 4 pièces, tous avec espace extérieur et parking, éligible TVA réduite 5,5 %* et Prêt à Taux Zéro***, dans un quartier calme et bien desservi. * (Lot N°F005 T2, selon stock disponible prix en TVA 5,5 %.) *** (Sous conditions d'éligibilité). Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": []
-  },
-  {
-    "name": "Hikari",
-    "city": "Orléans",
-    "dept_num": "45",
-    "cp": "45",
-    "statut": "Avant-Première",
-    "livraison": "1er trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/orleans-programme-hikari-215896-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_3ede1d48_030-245zb5_1_vign.jpg",
-    "description": "La résidence Hikari offre un cadre de vie exceptionnel alliant confort, praticité et qualité de vie. À seulement 1h de Paris et à proximité immédiate du centre-ville d'Orléans et des commodités. Appartements neufs 2 et 3 pièces spacieux, au cœur d'une résidence de 43 logements seulement. Les belles expositions associées aux grandes baies vitrées invitent le soleil au sein des appartements. Les espaces extérieurs sont spacieux. La résidence dispose également de places de parkings nécessaires aux logements, ainsi que des locaux pour les vélos. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 235500,
-        "superficie": 45.22,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 198000,
-        "superficie": 38.26,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 199000,
-        "superficie": 38.26,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 196000,
-        "superficie": 38.26,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 234000,
-        "superficie": 45.12,
-        "nbr_piece": 2,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 234000,
-        "superficie": 45.51,
-        "nbr_piece": 2,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 229000,
-        "superficie": 45.41,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 229500,
-        "superficie": 47.6,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 279000,
-        "superficie": 62.46,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 289000,
-        "superficie": 62.4,
-        "nbr_piece": 3,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 294900,
-        "superficie": 62.26,
-        "nbr_piece": 3,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 284000,
-        "superficie": 62.04,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 284000,
-        "superficie": 62.39,
-        "nbr_piece": 3,
-        "etage": "3"
       }
     ]
   },
@@ -8377,6 +8155,228 @@
     ]
   },
   {
+    "name": "Hikari",
+    "city": "Orléans",
+    "dept_num": "45",
+    "cp": "45",
+    "statut": "Avant-Première",
+    "livraison": "1er trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/orleans-programme-hikari-215896-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_3ede1d48_030-245zb5_1_vign.jpg",
+    "description": "La résidence Hikari offre un cadre de vie exceptionnel alliant confort, praticité et qualité de vie. À seulement 1h de Paris et à proximité immédiate du centre-ville d'Orléans et des commodités. Appartements neufs 2 et 3 pièces spacieux, au cœur d'une résidence de 43 logements seulement. Les belles expositions associées aux grandes baies vitrées invitent le soleil au sein des appartements. Les espaces extérieurs sont spacieux. La résidence dispose également de places de parkings nécessaires aux logements, ainsi que des locaux pour les vélos. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 235500,
+        "superficie": 45.22,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 198000,
+        "superficie": 38.26,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 199000,
+        "superficie": 38.26,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 196000,
+        "superficie": 38.26,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 234000,
+        "superficie": 45.12,
+        "nbr_piece": 2,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 234000,
+        "superficie": 45.51,
+        "nbr_piece": 2,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 229000,
+        "superficie": 45.41,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 229500,
+        "superficie": 47.6,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 279000,
+        "superficie": 62.46,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 289000,
+        "superficie": 62.4,
+        "nbr_piece": 3,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 294900,
+        "superficie": 62.26,
+        "nbr_piece": 3,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 284000,
+        "superficie": 62.04,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 284000,
+        "superficie": 62.39,
+        "nbr_piece": 3,
+        "etage": "3"
+      }
+    ]
+  },
+  {
+    "name": "Vauquois Signature",
+    "city": "Orléans",
+    "dept_num": "45",
+    "cp": "45",
+    "statut": "Avant-Première",
+    "livraison": "2ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/orleans-programme-vauquois-signature-215724-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_0bdfbf00_030-245yw4_1_vign.jpg",
+    "description": "\n\nUn cadre de vie rare et privilégié à Orléans : visitez sur rendez-vous l'appartement décoré, choisissez et emménagez auu 2ème trimestre 2026 ! Le charme unique d'un appartement neuf, au cœur d'un quartier historique. Idéalement située au cœur du quartier très prisé de la rue de Vauquois, la résidence allie commodités et confort de vie et offre à ses futurs résidents un environnement calme et de grande qualité. A proximité immédiate, les transports en commun (lignes de bus et le tramway) permettent de rejoindre le centre-ville et la gare d'Orléans en 5 minutes. Chacun des appartements a été spécialement soigné pour garantir un confort quotidien. Tous les logements possèdent un extérieur privé, que ce soit un balcon, une terrasse ou un jardin. Des volumes confortables et ses vastes loggias et terrasses font de ces appartements d'exceptions un choix de standing pour une clientèle attentive à la qualité des prestations. Offrez-vous le privilège d'habiter ou investir au cœur de l'un des quartiers les plus recherchés d'Orléans.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 199900,
+        "superficie": 41.11,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 289900,
+        "superficie": 62.25,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 374900,
+        "superficie": 66.91,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 379900,
+        "superficie": 73.65,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 304900,
+        "superficie": 65.44,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 289900,
+        "superficie": 61.53,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 324900,
+        "superficie": 63.81,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 329900,
+        "superficie": 64.24,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 424900,
+        "superficie": 80.94,
+        "nbr_piece": 4,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 524900,
+        "superficie": 112.03,
+        "nbr_piece": 4,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 549900,
+        "superficie": 94.71,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 499900,
+        "superficie": 80.76,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 624900,
+        "superficie": 107.13,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 489900,
+        "superficie": 95.05,
+        "nbr_piece": 4,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 799900,
+        "superficie": 139.1,
+        "nbr_piece": 5,
+        "etage": "1"
+      }
+    ]
+  },
+  {
     "name": "Les Terrasses de Jade",
     "city": "Saint-Jean-de-Braye",
     "dept_num": "45",
@@ -8502,54 +8502,6 @@
     ]
   },
   {
-    "name": "L'Akébia",
-    "city": "Saint-Jean-de-Braye",
-    "dept_num": "45",
-    "cp": "45",
-    "statut": "Avant-Première",
-    "livraison": "4ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-jean-de-braye-programme-lakebia-215891-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_25a10457_030-245zb9_1_vign.jpg",
-    "description": "Appartements 2 et 3 pièces encore disponibles ! Appartements prêts à louer, avec une cuisine déjà installée. Ces logements sont prêts à être loués, avec une cuisine déjà installée. Chaque appartement dispose d'un espace extérieur privatif (balcon, terrasse ou jardin) ainsi qu'une place de stationnement privative et sécurisée en sous-sol ou aériennes. Saint-Jean-de-Braye, une commune au cadre de vie préservée, connectée au centre-ville d'Orléans. Situation idéale au calme tout en bénéficiant des avantages de la vie en ville.  Emplacement fonctionnel au cœur de la commune, avec un accès à pied à toutes les facilités : mairie, poste, commerces, écoles, équipements culturels et sportifs. Tramway en pied de résidence, , centre historique d'Orléans en 15 mn ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 179900,
-        "superficie": 38.66,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 189900,
-        "superficie": 38.68,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 199900,
-        "superficie": 38.66,
-        "nbr_piece": 2,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 239900,
-        "superficie": 63.42,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 229900,
-        "superficie": 64.32,
-        "nbr_piece": 3,
-        "etage": "4"
-      }
-    ]
-  },
-  {
     "name": "My Work Orléans Clos du Hameau",
     "city": "Saint-Jean-de-Braye",
     "dept_num": "45",
@@ -8622,6 +8574,54 @@
         "superficie": 25.97,
         "nbr_piece": 2,
         "etage": "2"
+      }
+    ]
+  },
+  {
+    "name": "L'Akébia",
+    "city": "Saint-Jean-de-Braye",
+    "dept_num": "45",
+    "cp": "45",
+    "statut": "Avant-Première",
+    "livraison": "4ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-jean-de-braye-programme-lakebia-215891-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_25a10457_030-245zb9_1_vign.jpg",
+    "description": "Appartements 2 et 3 pièces encore disponibles ! Appartements prêts à louer, avec une cuisine déjà installée. Ces logements sont prêts à être loués, avec une cuisine déjà installée. Chaque appartement dispose d'un espace extérieur privatif (balcon, terrasse ou jardin) ainsi qu'une place de stationnement privative et sécurisée en sous-sol ou aériennes. Saint-Jean-de-Braye, une commune au cadre de vie préservée, connectée au centre-ville d'Orléans. Situation idéale au calme tout en bénéficiant des avantages de la vie en ville.  Emplacement fonctionnel au cœur de la commune, avec un accès à pied à toutes les facilités : mairie, poste, commerces, écoles, équipements culturels et sportifs. Tramway en pied de résidence, , centre historique d'Orléans en 15 mn ! Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 179900,
+        "superficie": 38.66,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 189900,
+        "superficie": 38.68,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 199900,
+        "superficie": 38.66,
+        "nbr_piece": 2,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 239900,
+        "superficie": 63.42,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 229900,
+        "superficie": 64.32,
+        "nbr_piece": 3,
+        "etage": "4"
       }
     ]
   },
@@ -8782,7 +8782,7 @@
     "city": "Saint-Barthélemy-d'Anjou",
     "dept_num": "49",
     "cp": "49",
-    "statut": "Avant-Première",
+    "statut": "Lancement commercial",
     "livraison": "4ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-barthelemy-danjou-programme-initiale-215789-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b898d8c5_030-249za6_1_vign.jpg",
@@ -9028,61 +9028,6 @@
     ]
   },
   {
-    "name": "Cap de Saire",
-    "city": "Cherbourg-en-Cotentin",
-    "dept_num": "50",
-    "cp": "50",
-    "statut": "Avant-Première",
-    "livraison": "4ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/cherbourg-en-cotentin-programme-cap-de-saire-215732-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_4d6e5dbd_666-250ph5_1_vign.jpg",
-    "description": "Un emplacement idéal à deux pas du cœur historique de Cherbourg, découvrez Cap de Saire, une résidence confortable et familiale de 28 appartements neufs du 2 au 4 pièces. Surfaces généreuses, places de stationnement boxables. Logements durables, confortables et configurables : pompe à chaleur, rangements, espace extérieur. Emplacement central idéal, près du centre commercial Les Eléis, du centre hospitalier Louis Pasteur, de la gare et du port. Toutes les commodités (commerces, transports, établissements scolaires, ...) sont à proximité. Cuisine Bouygues Immobilier en option : louez ou emménagez dès la remise des clés. Profitez de tous les avantages de l'immobilier neuf à Cherbourg : pas de travaux à prévoir après la livraison, performances énergétiques et acoustiques aux dernières normes, garanties jusqu'à 10 ans après l'achat. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 199000,
-        "superficie": 41.32,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 319000,
-        "superficie": 76.78,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 289000,
-        "superficie": 66.83,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 275000,
-        "superficie": 61.29,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 275000,
-        "superficie": 61.93,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 289000,
-        "superficie": 66.83,
-        "nbr_piece": 3,
-        "etage": "2"
-      }
-    ]
-  },
-  {
     "name": "Résidence du Pont Tournant",
     "city": "Cherbourg-en-Cotentin",
     "dept_num": "50",
@@ -9271,11 +9216,66 @@
     ]
   },
   {
+    "name": "Cap de Saire",
+    "city": "Cherbourg-en-Cotentin",
+    "dept_num": "50",
+    "cp": "50",
+    "statut": "Avant-Première",
+    "livraison": "4ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/cherbourg-en-cotentin-programme-cap-de-saire-215732-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_4d6e5dbd_666-250ph5_1_vign.jpg",
+    "description": "Un emplacement idéal à deux pas du cœur historique de Cherbourg, découvrez Cap de Saire, une résidence confortable et familiale de 28 appartements neufs du 2 au 4 pièces. Surfaces généreuses, places de stationnement boxables. Logements durables, confortables et configurables : pompe à chaleur, rangements, espace extérieur. Emplacement central idéal, près du centre commercial Les Eléis, du centre hospitalier Louis Pasteur, de la gare et du port. Toutes les commodités (commerces, transports, établissements scolaires, ...) sont à proximité. Cuisine Bouygues Immobilier en option : louez ou emménagez dès la remise des clés. Profitez de tous les avantages de l'immobilier neuf à Cherbourg : pas de travaux à prévoir après la livraison, performances énergétiques et acoustiques aux dernières normes, garanties jusqu'à 10 ans après l'achat. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 199000,
+        "superficie": 41.32,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 319000,
+        "superficie": 76.78,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 289000,
+        "superficie": 66.83,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 275000,
+        "superficie": 61.29,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 275000,
+        "superficie": 61.93,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 289000,
+        "superficie": 66.83,
+        "nbr_piece": 3,
+        "etage": "2"
+      }
+    ]
+  },
+  {
     "name": "Angora",
     "city": "Laval",
     "dept_num": "53",
     "cp": "53",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "3ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/laval-programme-angora-215869-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_d87329aa_030-253yx9_1_vign.jpg",
@@ -10281,7 +10281,7 @@
     "city": "Vannes",
     "dept_num": "56",
     "cp": "56",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "1er trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/vannes-programme-les-balcons-de-maya-215872-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_92272a51_030-256yu7_1_vign.jpg",
@@ -10475,7 +10475,7 @@
     "city": "Metz",
     "dept_num": "57",
     "cp": "57",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "3ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/metz-programme-my-campus-metz-technopole-215771-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_2b26674d_030-257d49_1_vign.jpg",
@@ -10705,7 +10705,7 @@
     "city": "Metz",
     "dept_num": "57",
     "cp": "57",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "4ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/metz-programme-printemps-sur-cour-215828-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_272f77c1_666-257d45_1_vign.jpg",
@@ -11413,7 +11413,7 @@
     "city": "Cébazat",
     "dept_num": "63",
     "cp": "63",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "1er trimestre 2028",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/cebazat-programme-alchimie-215784-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_911a737d_030-263k82_1_vign.jpg",
@@ -11555,78 +11555,57 @@
     ]
   },
   {
-    "name": "Conversio",
+    "name": "RÉS. Twenty Campus Republique - Origine Franc Ros",
     "city": "Clermont-Ferrand",
     "dept_num": "63",
     "cp": "63",
     "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-conversio-215797-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_571b848f_030-263l06_1_vign.jpg",
-    "description": "Découvrez CONVERSIO, un programme neuf situé Avenue Barbier Daubrée à Clermont-Ferrand. Profitez d'appartements neufs modernes du 2 au 4 pièces tous avec balcon ou terrasse avec des vues dégagées sur la ville et parkings privatifs. Idéalement situé dans un environnement très résidentiel et près des transports, écoles, commerces et loisirs. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "livraison": "3ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-res-twenty-campus-republique-origine-franc-ros-215830-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_f812a092_666-263l36_1_vign.jpg",
+    "description": "Twenty Campus Origine Franc Rosier à Clermont-Ferrand propose des appartements meublés neufs du studio au 2 pièces. La résidence bénéficie d'un emplacement idéal, proche du tramway, des universités et des commerces. Espaces communs modernes, salle de sport, coworking et locaux vélos sécurisés créent un cadre de vie fonctionnel, au cœur d'un quartier urbain dynamique et bien desservi.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
     "units": [
       {
         "typology": "A",
-        "prix": 179900,
-        "superficie": 41.09,
+        "prix": 92700,
+        "superficie": 17.2,
+        "nbr_piece": 1,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 93600,
+        "superficie": 17.2,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 103500,
+        "superficie": 17.2,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 101100,
+        "superficie": 17.7,
+        "nbr_piece": 1,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 171072,
+        "superficie": 36.1,
         "nbr_piece": 2,
-        "etage": "5"
+        "etage": "2"
       },
       {
         "typology": "A",
-        "prix": 184700,
-        "superficie": 42.11,
+        "prix": 176928,
+        "superficie": 36.1,
         "nbr_piece": 2,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 221900,
-        "superficie": 55.78,
-        "nbr_piece": 3,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 218900,
-        "superficie": 56.09,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 361900,
-        "superficie": 90.53,
-        "nbr_piece": 4,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 391900,
-        "superficie": 101.98,
-        "nbr_piece": 4,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 295900,
-        "superficie": 74.36,
-        "nbr_piece": 4,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 310900,
-        "superficie": 75.76,
-        "nbr_piece": 4,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 372900,
-        "superficie": 100.27,
-        "nbr_piece": 4,
-        "etage": "5"
+        "etage": "6"
       }
     ]
   },
@@ -11652,6 +11631,201 @@
         "typology": "A",
         "prix": 551900,
         "superficie": 137.59,
+        "nbr_piece": 5,
+        "etage": "4"
+      }
+    ]
+  },
+  {
+    "name": "Garden City - Viva'City",
+    "city": "Clermont-Ferrand",
+    "dept_num": "63",
+    "cp": "63",
+    "statut": "Avant-Première",
+    "livraison": "4ème trimestre 2026",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-garden-city-vivacity-215753-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_e513505a_030-263k01_1_vign.jpg",
+    "description": "\n\nGarden City – Inten'City, programme neuf situé à Clermont-Ferrand, propose des appartements du 3 au 5 pièces au cœur d'un quartier vivant proche de la place des Bughes. Commerces, écoles et transports accessibles à pied. Chaque logement offre des espaces lumineux, des prestations de qualité et deux prairies paysagées avec aires de jeux et zone sportive. Un cadre de vie pratique et agréable à 15 minutes de la place de Jaude.\n\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 139900,
+        "superficie": 31.46,
+        "nbr_piece": 1,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 144000,
+        "superficie": 31.46,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 151000,
+        "superficie": 31.46,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 208000,
+        "superficie": 52,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 221000,
+        "superficie": 44.1,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 241000,
+        "superficie": 52,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 216900,
+        "superficie": 43.28,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 224000,
+        "superficie": 44.1,
+        "nbr_piece": 2,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 199000,
+        "superficie": 43,
+        "nbr_piece": 2,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 231000,
+        "superficie": 44.85,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 219000,
+        "superficie": 43.84,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 142900,
+        "superficie": 39.82,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 147400,
+        "superficie": 39.82,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 152900,
+        "superficie": 43.28,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 165400,
+        "superficie": 43.84,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 143900,
+        "superficie": 37.08,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 281000,
+        "superficie": 67.32,
+        "nbr_piece": 3,
+        "etage": ""
+      },
+      {
+        "typology": "A",
+        "prix": 267000,
+        "superficie": 60.83,
+        "nbr_piece": 3,
+        "etage": ""
+      },
+      {
+        "typology": "A",
+        "prix": 261000,
+        "superficie": 61.66,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 267000,
+        "superficie": 61.66,
+        "nbr_piece": 3,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 271000,
+        "superficie": 61.66,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 330000,
+        "superficie": 82.12,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 356100,
+        "superficie": 82.12,
+        "nbr_piece": 4,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 337000,
+        "superficie": 85.42,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 451000,
+        "superficie": 101.16,
+        "nbr_piece": 5,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 563000,
+        "superficie": 113.05,
         "nbr_piece": 5,
         "etage": "4"
       }
@@ -11713,11 +11887,171 @@
     ]
   },
   {
+    "name": "My Originel",
+    "city": "Clermont-Ferrand",
+    "dept_num": "63",
+    "cp": "63",
+    "statut": "Travaux en cours",
+    "livraison": "2ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-my-originel-215935-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b95f7290_666-263l39_1_vign.jpg",
+    "description": "le (****)\nDu 09 février au 31 mars 2026, profitez du Pass'Invest (*) : OFFERT, Kitchenette, Kit mobilier, Gestion locative 1 an et Expert-Comptable 1 an  sur une sélection de logements\nTravaux en cours. Située avenue de la République à Clermont-Ferrand, la résidence services intergénérationnelle Originel propose 41 appartements meublés du studio au 3 pièces. Résidence conviviale avec salle commune et terrasse partagée. Environnement arboré avec 9 000 m² d'espaces verts, parc de 1 400 m², proximité des transports, commerces, CHU Estaing... Réhabilitation patrimoniale de la chapelle et de son noviciat sur site. Cette adresse vous permet de bénéficier du dispositif LMNP et de préparer sereinement votre avenir ou de devenir propriétaire en résidence principale.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 170900,
+        "superficie": 35.05,
+        "nbr_piece": 1,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 173500,
+        "superficie": 35.55,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 173600,
+        "superficie": 35.55,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 184900,
+        "superficie": 42.05,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 182900,
+        "superficie": 41.5,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 197900,
+        "superficie": 43.4,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 192700,
+        "superficie": 42.15,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 199900,
+        "superficie": 44.95,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 187900,
+        "superficie": 42.3,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 186800,
+        "superficie": 41.95,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 197900,
+        "superficie": 43.4,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 193900,
+        "superficie": 42.2,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 199900,
+        "superficie": 44.95,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 194900,
+        "superficie": 42.25,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 188900,
+        "superficie": 41.95,
+        "nbr_piece": 2,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 196900,
+        "superficie": 42.6,
+        "nbr_piece": 2,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 198800,
+        "superficie": 44.45,
+        "nbr_piece": 2,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 257700,
+        "superficie": 57.35,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 262900,
+        "superficie": 58.35,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 264500,
+        "superficie": 58.25,
+        "nbr_piece": 3,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 266600,
+        "superficie": 58.3,
+        "nbr_piece": 3,
+        "etage": "3"
+      }
+    ]
+  },
+  {
     "name": "Psla - Origine Franc Rosier",
     "city": "Clermont-Ferrand",
     "dept_num": "63",
     "cp": "63",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "3ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-psla-origine-franc-rosier-215902-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b5646c85_666-263k36_1_vign.jpg",
@@ -11792,61 +12126,6 @@
         "superficie": 59.15,
         "nbr_piece": 3,
         "etage": "2"
-      }
-    ]
-  },
-  {
-    "name": "RÉS. Twenty Campus Republique - Origine Franc Ros",
-    "city": "Clermont-Ferrand",
-    "dept_num": "63",
-    "cp": "63",
-    "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-res-twenty-campus-republique-origine-franc-ros-215830-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_f812a092_666-263l36_1_vign.jpg",
-    "description": "Twenty Campus Origine Franc Rosier à Clermont-Ferrand propose des appartements meublés neufs du studio au 2 pièces. La résidence bénéficie d'un emplacement idéal, proche du tramway, des universités et des commerces. Espaces communs modernes, salle de sport, coworking et locaux vélos sécurisés créent un cadre de vie fonctionnel, au cœur d'un quartier urbain dynamique et bien desservi.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 92700,
-        "superficie": 17.2,
-        "nbr_piece": 1,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 93600,
-        "superficie": 17.2,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 103500,
-        "superficie": 17.2,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 101100,
-        "superficie": 17.7,
-        "nbr_piece": 1,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 171072,
-        "superficie": 36.1,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 176928,
-        "superficie": 36.1,
-        "nbr_piece": 2,
-        "etage": "6"
       }
     ]
   },
@@ -12179,6 +12458,82 @@
     ]
   },
   {
+    "name": "Conversio",
+    "city": "Clermont-Ferrand",
+    "dept_num": "63",
+    "cp": "63",
+    "statut": "Avant-Première",
+    "livraison": "3ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-conversio-215797-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_571b848f_030-263l06_1_vign.jpg",
+    "description": "Découvrez CONVERSIO, un programme neuf situé Avenue Barbier Daubrée à Clermont-Ferrand. Profitez d'appartements neufs modernes du 2 au 4 pièces tous avec balcon ou terrasse avec des vues dégagées sur la ville et parkings privatifs. Idéalement situé dans un environnement très résidentiel et près des transports, écoles, commerces et loisirs. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 179900,
+        "superficie": 41.09,
+        "nbr_piece": 2,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 184700,
+        "superficie": 42.11,
+        "nbr_piece": 2,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 221900,
+        "superficie": 55.78,
+        "nbr_piece": 3,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 218900,
+        "superficie": 56.09,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 361900,
+        "superficie": 90.53,
+        "nbr_piece": 4,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 391900,
+        "superficie": 101.98,
+        "nbr_piece": 4,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 295900,
+        "superficie": 74.36,
+        "nbr_piece": 4,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 310900,
+        "superficie": 75.76,
+        "nbr_piece": 4,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 372900,
+        "superficie": 100.27,
+        "nbr_piece": 4,
+        "etage": "5"
+      }
+    ]
+  },
+  {
     "name": "Origine Franc Rosier",
     "city": "Clermont-Ferrand",
     "dept_num": "63",
@@ -12451,366 +12806,11 @@
     ]
   },
   {
-    "name": "My Originel",
-    "city": "Clermont-Ferrand",
-    "dept_num": "63",
-    "cp": "63",
-    "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-my-originel-215935-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b95f7290_666-263l39_1_vign.jpg",
-    "description": "le (****)\nDu 09 février au 31 mars 2026, profitez du Pass'Invest (*) : OFFERT, Kitchenette, Kit mobilier, Gestion locative 1 an et Expert-Comptable 1 an  sur une sélection de logements\nTravaux en cours. Située avenue de la République à Clermont-Ferrand, la résidence services intergénérationnelle Originel propose 41 appartements meublés du studio au 3 pièces. Résidence conviviale avec salle commune et terrasse partagée. Environnement arboré avec 9 000 m² d'espaces verts, parc de 1 400 m², proximité des transports, commerces, CHU Estaing... Réhabilitation patrimoniale de la chapelle et de son noviciat sur site. Cette adresse vous permet de bénéficier du dispositif LMNP et de préparer sereinement votre avenir ou de devenir propriétaire en résidence principale.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 170900,
-        "superficie": 35.05,
-        "nbr_piece": 1,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 173500,
-        "superficie": 35.55,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 173600,
-        "superficie": 35.55,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 184900,
-        "superficie": 42.05,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 182900,
-        "superficie": 41.5,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 197900,
-        "superficie": 43.4,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 192700,
-        "superficie": 42.15,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 199900,
-        "superficie": 44.95,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 187900,
-        "superficie": 42.3,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 186800,
-        "superficie": 41.95,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 197900,
-        "superficie": 43.4,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 193900,
-        "superficie": 42.2,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 199900,
-        "superficie": 44.95,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 194900,
-        "superficie": 42.25,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 188900,
-        "superficie": 41.95,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 196900,
-        "superficie": 42.6,
-        "nbr_piece": 2,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 198800,
-        "superficie": 44.45,
-        "nbr_piece": 2,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 257700,
-        "superficie": 57.35,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 262900,
-        "superficie": 58.35,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 264500,
-        "superficie": 58.25,
-        "nbr_piece": 3,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 266600,
-        "superficie": 58.3,
-        "nbr_piece": 3,
-        "etage": "3"
-      }
-    ]
-  },
-  {
-    "name": "Garden City - Viva'City",
-    "city": "Clermont-Ferrand",
-    "dept_num": "63",
-    "cp": "63",
-    "statut": "Avant-Première",
-    "livraison": "4ème trimestre 2026",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/clermont-ferrand-programme-garden-city-vivacity-215753-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_e513505a_030-263k01_1_vign.jpg",
-    "description": "\n\nGarden City – Inten'City, programme neuf situé à Clermont-Ferrand, propose des appartements du 3 au 5 pièces au cœur d'un quartier vivant proche de la place des Bughes. Commerces, écoles et transports accessibles à pied. Chaque logement offre des espaces lumineux, des prestations de qualité et deux prairies paysagées avec aires de jeux et zone sportive. Un cadre de vie pratique et agréable à 15 minutes de la place de Jaude.\n\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 139900,
-        "superficie": 31.46,
-        "nbr_piece": 1,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 144000,
-        "superficie": 31.46,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 151000,
-        "superficie": 31.46,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 208000,
-        "superficie": 52,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 221000,
-        "superficie": 44.1,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 241000,
-        "superficie": 52,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 216900,
-        "superficie": 43.28,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 224000,
-        "superficie": 44.1,
-        "nbr_piece": 2,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 199000,
-        "superficie": 43,
-        "nbr_piece": 2,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 231000,
-        "superficie": 44.85,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 219000,
-        "superficie": 43.84,
-        "nbr_piece": 2,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 142900,
-        "superficie": 39.82,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 147400,
-        "superficie": 39.82,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 152900,
-        "superficie": 43.28,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 165400,
-        "superficie": 43.84,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 143900,
-        "superficie": 37.08,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 281000,
-        "superficie": 67.32,
-        "nbr_piece": 3,
-        "etage": ""
-      },
-      {
-        "typology": "A",
-        "prix": 267000,
-        "superficie": 60.83,
-        "nbr_piece": 3,
-        "etage": ""
-      },
-      {
-        "typology": "A",
-        "prix": 261000,
-        "superficie": 61.66,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 267000,
-        "superficie": 61.66,
-        "nbr_piece": 3,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 271000,
-        "superficie": 61.66,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 330000,
-        "superficie": 82.12,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 356100,
-        "superficie": 82.12,
-        "nbr_piece": 4,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 337000,
-        "superficie": 85.42,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 451000,
-        "superficie": 101.16,
-        "nbr_piece": 5,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 563000,
-        "superficie": 113.05,
-        "nbr_piece": 5,
-        "etage": "4"
-      }
-    ]
-  },
-  {
     "name": "Les Rives de l'Ambene",
     "city": "Riom",
     "dept_num": "63",
     "cp": "63",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "1er trimestre 2028",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/riom-programme-les-rives-de-lambene-215793-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_25154518_030-263k88_1_vign.jpg",
@@ -13299,6 +13299,172 @@
     ]
   },
   {
+    "name": "Les Villas Aurera",
+    "city": "Bayonne",
+    "dept_num": "64",
+    "cp": "64",
+    "statut": "Avant-Première",
+    "livraison": "4ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bayonne-programme-les-villas-aurera-215843-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_a119a7f0_030-164zf9_1_vign.jpg",
+    "description": "Maisons neuves à Bayonne – clés en main ! 31 maisons T4 modulables en T5, prêtes à vivre, dans un cadre naturel à 10 min en voiture du coeur historique.\nParmi elles, 8 maisons à prix très attractifs grâce à l'accession à prix maîtrisé (Sous conditions d'éligibilité). Calme, verdure, commerces, transports et vie de quartier. Projet durable RE2020, pompe à chaleur, pré-équipé pour voiture électrique. Frais réduits, garanties, confort moderne et aucun travaux à prévoir. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "M",
+        "prix": 405000,
+        "superficie": 92.42,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 410000,
+        "superficie": 91.98,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 435000,
+        "superficie": 100.27,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 440000,
+        "superficie": 102.64,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 415000,
+        "superficie": 93,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 415000,
+        "superficie": 91.93,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 375000,
+        "superficie": 92.29,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 420000,
+        "superficie": 100.41,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 425000,
+        "superficie": 100.77,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 435000,
+        "superficie": 100.57,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 399000,
+        "superficie": 93.04,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 394000,
+        "superficie": 92.73,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 420000,
+        "superficie": 100.74,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 433500,
+        "superficie": 101.34,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 433000,
+        "superficie": 101.36,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 425000,
+        "superficie": 93.21,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 430000,
+        "superficie": 92.98,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 430500,
+        "superficie": 100.32,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 420000,
+        "superficie": 92.88,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "M",
+        "prix": 425000,
+        "superficie": 92.9,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 338000,
+        "superficie": 83.9,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": null,
+        "prix": 375000,
+        "superficie": null,
+        "nbr_piece": 8
+      }
+    ]
+  },
+  {
     "name": "Campus Baïona",
     "city": "Bayonne",
     "dept_num": "64",
@@ -13529,177 +13695,11 @@
     ]
   },
   {
-    "name": "Les Villas Aurera",
-    "city": "Bayonne",
-    "dept_num": "64",
-    "cp": "64",
-    "statut": "Avant-Première",
-    "livraison": "4ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/bayonne-programme-les-villas-aurera-215843-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_a119a7f0_030-164zf9_1_vign.jpg",
-    "description": "Maisons neuves à Bayonne – clés en main ! 31 maisons T4 modulables en T5, prêtes à vivre, dans un cadre naturel à 10 min en voiture du coeur historique.\nParmi elles, 8 maisons à prix très attractifs grâce à l'accession à prix maîtrisé (Sous conditions d'éligibilité). Calme, verdure, commerces, transports et vie de quartier. Projet durable RE2020, pompe à chaleur, pré-équipé pour voiture électrique. Frais réduits, garanties, confort moderne et aucun travaux à prévoir. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "M",
-        "prix": 405000,
-        "superficie": 92.42,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 410000,
-        "superficie": 91.98,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 435000,
-        "superficie": 100.27,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 440000,
-        "superficie": 102.64,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 415000,
-        "superficie": 93,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 415000,
-        "superficie": 91.93,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 375000,
-        "superficie": 92.29,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 420000,
-        "superficie": 100.41,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 425000,
-        "superficie": 100.77,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 435000,
-        "superficie": 100.57,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 399000,
-        "superficie": 93.04,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 394000,
-        "superficie": 92.73,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 420000,
-        "superficie": 100.74,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 433500,
-        "superficie": 101.34,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 433000,
-        "superficie": 101.36,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 425000,
-        "superficie": 93.21,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 430000,
-        "superficie": 92.98,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 430500,
-        "superficie": 100.32,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 420000,
-        "superficie": 92.88,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "M",
-        "prix": 425000,
-        "superficie": 92.9,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 338000,
-        "superficie": 83.9,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": null,
-        "prix": 375000,
-        "superficie": null,
-        "nbr_piece": 8
-      }
-    ]
-  },
-  {
     "name": "Les Hauts de Boucau",
     "city": "Boucau",
     "dept_num": "64",
     "cp": "64",
-    "statut": "Avant-Première",
+    "statut": "Lancement commercial",
     "livraison": "4ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/boucau-programme-les-hauts-de-boucau-215915-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_85b6d92c_030-264zg4_1_vign.jpg",
@@ -13976,7 +13976,7 @@
     "city": "Argelès-sur-Mer",
     "dept_num": "66",
     "cp": "66",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "2ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/argeles-sur-mer-programme-la-rose-des-sables-215870-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b2179488_030-266a06_1_vign.jpg",
@@ -14516,7 +14516,7 @@
     "city": "La Wantzenau",
     "dept_num": "67",
     "cp": "67",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "3ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/la-wantzenau-programme-terramenta-215765-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_f82d49ec_030-267d48_1_vign.jpg",
@@ -14817,6 +14817,110 @@
     ]
   },
   {
+    "name": "Le Clos Neudorf",
+    "city": "Strasbourg",
+    "dept_num": "67",
+    "cp": "67",
+    "statut": "Avant-Première",
+    "livraison": "4ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/strasbourg-programme-le-clos-neudorf-215919-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_9310ed95_030-267d59_1_vign.jpg",
+    "description": "Située au cœur de Strasbourg, dans le quartier prisé du Neudorf, la résidence \"Le Clos Neudorf\" offre un cadre de vie idéal. Composée de deux bâtiments de 20 appartements neufs, du studio au 5 pièces, cette résidence intimiste propose des logements avec balcons ou terrasses et jardins privatifs. Idéal primo-accédants : Résidence éligible à la TVA réduite 5,5 % (sous conditions) et cumulable avec le Prêt à Taux Zéro ! Ou profitez du LLI (TVA réduite à 10%, crédit d'impôt sur la taxe foncière, une rentabilité sécurisée par une forte demande locative, un prix d'acquisition inférieur au marché) pour investir à Strasbourg avec Bouygues Immobilier, votre partenaire de confiance. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 232500,
+        "superficie": 37.64,
+        "nbr_piece": 1,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 273500,
+        "superficie": 48.15,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 258000,
+        "superficie": 46.64,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 260000,
+        "superficie": 47.97,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 270500,
+        "superficie": 47.47,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 261500,
+        "superficie": 47.96,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 271500,
+        "superficie": 47.41,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 486500,
+        "superficie": 82.98,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 398000,
+        "superficie": 66.5,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 506000,
+        "superficie": 94.65,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 511000,
+        "superficie": 87.23,
+        "nbr_piece": 4,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 551000,
+        "superficie": 100.28,
+        "nbr_piece": 4,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 531000,
+        "superficie": 92.88,
+        "nbr_piece": 5,
+        "etage": "2"
+      }
+    ]
+  },
+  {
     "name": "My Work Strasbourg",
     "city": "Strasbourg",
     "dept_num": "67",
@@ -15063,6 +15167,362 @@
         "superficie": 99,
         "nbr_piece": 5,
         "etage": "5"
+      }
+    ]
+  },
+  {
+    "name": "Residence l'Edito",
+    "city": "Strasbourg",
+    "dept_num": "67",
+    "cp": "67",
+    "statut": "Avant-Première",
+    "livraison": "3ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/strasbourg-programme-residence-ledito-215924-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_7363dd4c_030-267d20_1_vign.jpg",
+    "description": "\n\nLes travaux ont démarré ! La Résidence étudiante L'Edito à Schiltigheim / Strasbourg, proposée par Bouygues Immobilier, propose des studios neufs. Cette résidence bénéficie d'une localisation stratégique et de nombreuses commodités. Les logements sont meublés, équipés et gérés par Les Belles Années, avec des espaces communs de qualité. Réalisez un investissement clé en main avec une rentabilité moyenne à 4%. Avec le LMNP, optez pour la tranquillité ! Gestion assurée, revenus garantis, fiscalité avantageuse.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 110800,
+        "superficie": 18.38,
+        "nbr_piece": 1,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 111900,
+        "superficie": 18.38,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.47,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 111000,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.47,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.49,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.47,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.47,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.49,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 111300,
+        "superficie": 18.4,
+        "nbr_piece": 1,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 111900,
+        "superficie": 18.38,
+        "nbr_piece": 1,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 111300,
+        "superficie": 18.4,
+        "nbr_piece": 1,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.13,
+        "nbr_piece": 1,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 111900,
+        "superficie": 18.38,
+        "nbr_piece": 1,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 111300,
+        "superficie": 18.4,
+        "nbr_piece": 1,
+        "etage": "7"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "7"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.47,
+        "nbr_piece": 1,
+        "etage": "7"
+      },
+      {
+        "typology": "A",
+        "prix": 124600,
+        "superficie": 20.59,
+        "nbr_piece": 1,
+        "etage": "8"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.47,
+        "nbr_piece": 1,
+        "etage": "8"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.47,
+        "nbr_piece": 1,
+        "etage": "8"
+      },
+      {
+        "typology": "A",
+        "prix": 111300,
+        "superficie": 18.4,
+        "nbr_piece": 1,
+        "etage": "9"
+      },
+      {
+        "typology": "A",
+        "prix": 111900,
+        "superficie": 18.38,
+        "nbr_piece": 1,
+        "etage": "9"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "9"
+      },
+      {
+        "typology": "A",
+        "prix": 111900,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 110600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 111900,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 111300,
+        "superficie": 18.43,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 111300,
+        "superficie": 18.43,
+        "nbr_piece": 1,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.49,
+        "nbr_piece": 1,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.64,
+        "nbr_piece": 1,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.49,
+        "nbr_piece": 1,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 111300,
+        "superficie": 18.43,
+        "nbr_piece": 1,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 111500,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 113000,
+        "superficie": 18.71,
+        "nbr_piece": 1,
+        "etage": "7"
+      },
+      {
+        "typology": "A",
+        "prix": 111600,
+        "superficie": 18.39,
+        "nbr_piece": 1,
+        "etage": "7"
       }
     ]
   },
@@ -15528,637 +15988,11 @@
     ]
   },
   {
-    "name": "Residence l'Edito",
-    "city": "Strasbourg",
-    "dept_num": "67",
-    "cp": "67",
-    "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/strasbourg-programme-residence-ledito-215924-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_7363dd4c_030-267d20_1_vign.jpg",
-    "description": "\n\nLes travaux ont démarré ! La Résidence étudiante L'Edito à Schiltigheim / Strasbourg, proposée par Bouygues Immobilier, propose des studios neufs. Cette résidence bénéficie d'une localisation stratégique et de nombreuses commodités. Les logements sont meublés, équipés et gérés par Les Belles Années, avec des espaces communs de qualité. Réalisez un investissement clé en main avec une rentabilité moyenne à 4%. Avec le LMNP, optez pour la tranquillité ! Gestion assurée, revenus garantis, fiscalité avantageuse.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 110800,
-        "superficie": 18.38,
-        "nbr_piece": 1,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 111900,
-        "superficie": 18.38,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.47,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 111000,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.47,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.49,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.47,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.47,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.49,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 111300,
-        "superficie": 18.4,
-        "nbr_piece": 1,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 111900,
-        "superficie": 18.38,
-        "nbr_piece": 1,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 111300,
-        "superficie": 18.4,
-        "nbr_piece": 1,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.13,
-        "nbr_piece": 1,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 111900,
-        "superficie": 18.38,
-        "nbr_piece": 1,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 111300,
-        "superficie": 18.4,
-        "nbr_piece": 1,
-        "etage": "7"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "7"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.47,
-        "nbr_piece": 1,
-        "etage": "7"
-      },
-      {
-        "typology": "A",
-        "prix": 124600,
-        "superficie": 20.59,
-        "nbr_piece": 1,
-        "etage": "8"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.47,
-        "nbr_piece": 1,
-        "etage": "8"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.47,
-        "nbr_piece": 1,
-        "etage": "8"
-      },
-      {
-        "typology": "A",
-        "prix": 111300,
-        "superficie": 18.4,
-        "nbr_piece": 1,
-        "etage": "9"
-      },
-      {
-        "typology": "A",
-        "prix": 111900,
-        "superficie": 18.38,
-        "nbr_piece": 1,
-        "etage": "9"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "9"
-      },
-      {
-        "typology": "A",
-        "prix": 111900,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 110600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 111900,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 111300,
-        "superficie": 18.43,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 111300,
-        "superficie": 18.43,
-        "nbr_piece": 1,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.49,
-        "nbr_piece": 1,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.64,
-        "nbr_piece": 1,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.49,
-        "nbr_piece": 1,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 111300,
-        "superficie": 18.43,
-        "nbr_piece": 1,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 111500,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 113000,
-        "superficie": 18.71,
-        "nbr_piece": 1,
-        "etage": "7"
-      },
-      {
-        "typology": "A",
-        "prix": 111600,
-        "superficie": 18.39,
-        "nbr_piece": 1,
-        "etage": "7"
-      }
-    ]
-  },
-  {
-    "name": "Le Clos Neudorf",
-    "city": "Strasbourg",
-    "dept_num": "67",
-    "cp": "67",
-    "statut": "Avant-Première",
-    "livraison": "4ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/strasbourg-programme-le-clos-neudorf-215919-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_9310ed95_030-267d59_1_vign.jpg",
-    "description": "Située au cœur de Strasbourg, dans le quartier prisé du Neudorf, la résidence \"Le Clos Neudorf\" offre un cadre de vie idéal. Composée de deux bâtiments de 20 appartements neufs, du studio au 5 pièces, cette résidence intimiste propose des logements avec balcons ou terrasses et jardins privatifs. Idéal primo-accédants : Résidence éligible à la TVA réduite 5,5 % (sous conditions) et cumulable avec le Prêt à Taux Zéro ! Ou profitez du LLI (TVA réduite à 10%, crédit d'impôt sur la taxe foncière, une rentabilité sécurisée par une forte demande locative, un prix d'acquisition inférieur au marché) pour investir à Strasbourg avec Bouygues Immobilier, votre partenaire de confiance. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 232500,
-        "superficie": 37.64,
-        "nbr_piece": 1,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 273500,
-        "superficie": 48.15,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 258000,
-        "superficie": 46.64,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 260000,
-        "superficie": 47.97,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 270500,
-        "superficie": 47.47,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 261500,
-        "superficie": 47.96,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 271500,
-        "superficie": 47.41,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 486500,
-        "superficie": 82.98,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 398000,
-        "superficie": 66.5,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 506000,
-        "superficie": 94.65,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 511000,
-        "superficie": 87.23,
-        "nbr_piece": 4,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 551000,
-        "superficie": 100.28,
-        "nbr_piece": 4,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 531000,
-        "superficie": 92.88,
-        "nbr_piece": 5,
-        "etage": "2"
-      }
-    ]
-  },
-  {
-    "name": "Gaïa",
-    "city": "Saint-Louis",
-    "dept_num": "68",
-    "cp": "68",
-    "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-louis-programme-gaia-215908-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b9588ef4_030-268d31_1_vign.jpg",
-    "description": "Emménagez dans votre future maison en septembre 2026 et découvrez nos appartements ! Au centre de Saint-Louis, au carrefour de l'Allemagne et la Suisse et à 1 km du centre-ville. Un nouveau quartier empreint de nature : profitez d'un parcours de santé ou d'une promenade à pied au bord d'un ruisseau. Maisons neuves en bois de 4 et 5 pièces, avec pompe à chaleur air/eau et radiateurs, place de stationnement extérieure et jardin privatif clôturé. Appartements neufs du studio au 4 pièces, avec place de stationnement extérieure et espace extérieur privatif : terrasse et jardin en rez de chaussée et balcon dans les étages. Raccordement au réseau de chauffage urbain et plancher chauffant. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 151000,
-        "superficie": 27.1,
-        "nbr_piece": 1,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 223000,
-        "superficie": 41,
-        "nbr_piece": 2,
-        "etage": ""
-      },
-      {
-        "typology": "A",
-        "prix": 185000,
-        "superficie": 38.2,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 204000,
-        "superficie": 40.8,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 212000,
-        "superficie": 44,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 217000,
-        "superficie": 46.1,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 206000,
-        "superficie": 41.5,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 175000,
-        "superficie": 38.5,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 277000,
-        "superficie": 61.6,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 249000,
-        "superficie": 58.9,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 299000,
-        "superficie": 64,
-        "nbr_piece": 3,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 286000,
-        "superficie": 62.6,
-        "nbr_piece": 3,
-        "etage": ""
-      },
-      {
-        "typology": "A",
-        "prix": 291000,
-        "superficie": 64.5,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 280000,
-        "superficie": 63.4,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 346000,
-        "superficie": 84.1,
-        "nbr_piece": 4,
-        "etage": ""
-      },
-      {
-        "typology": "A",
-        "prix": 360000,
-        "superficie": 79.9,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 356000,
-        "superficie": 82.7,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "M",
-        "prix": 378000,
-        "superficie": 86.35,
-        "nbr_piece": 4,
-        "etage": ""
-      },
-      {
-        "typology": "M",
-        "prix": 378000,
-        "superficie": 86.35,
-        "nbr_piece": 4,
-        "etage": ""
-      },
-      {
-        "typology": "M",
-        "prix": 378000,
-        "superficie": 86.35,
-        "nbr_piece": 4,
-        "etage": ""
-      },
-      {
-        "typology": "M",
-        "prix": 429000,
-        "superficie": 98.11,
-        "nbr_piece": 5,
-        "etage": ""
-      },
-      {
-        "typology": null,
-        "prix": 378000,
-        "superficie": null,
-        "nbr_piece": 8
-      }
-    ]
-  },
-  {
     "name": "L'Archipel 3f - 1",
     "city": "Saint-Louis",
     "dept_num": "68",
     "cp": "68",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "1er trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-louis-programme-larchipel-3f-1-215760-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b984d636_293-268d46_1_vign.jpg",
@@ -16436,6 +16270,172 @@
         "superficie": 103.54,
         "nbr_piece": 5,
         "etage": "9"
+      }
+    ]
+  },
+  {
+    "name": "Gaïa",
+    "city": "Saint-Louis",
+    "dept_num": "68",
+    "cp": "68",
+    "statut": "Avant-Première",
+    "livraison": "2ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-louis-programme-gaia-215908-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_b9588ef4_030-268d31_1_vign.jpg",
+    "description": "Emménagez dans votre future maison en septembre 2026 et découvrez nos appartements ! Au centre de Saint-Louis, au carrefour de l'Allemagne et la Suisse et à 1 km du centre-ville. Un nouveau quartier empreint de nature : profitez d'un parcours de santé ou d'une promenade à pied au bord d'un ruisseau. Maisons neuves en bois de 4 et 5 pièces, avec pompe à chaleur air/eau et radiateurs, place de stationnement extérieure et jardin privatif clôturé. Appartements neufs du studio au 4 pièces, avec place de stationnement extérieure et espace extérieur privatif : terrasse et jardin en rez de chaussée et balcon dans les étages. Raccordement au réseau de chauffage urbain et plancher chauffant. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 151000,
+        "superficie": 27.1,
+        "nbr_piece": 1,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 223000,
+        "superficie": 41,
+        "nbr_piece": 2,
+        "etage": ""
+      },
+      {
+        "typology": "A",
+        "prix": 185000,
+        "superficie": 38.2,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 204000,
+        "superficie": 40.8,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 212000,
+        "superficie": 44,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 217000,
+        "superficie": 46.1,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 206000,
+        "superficie": 41.5,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 175000,
+        "superficie": 38.5,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 277000,
+        "superficie": 61.6,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 249000,
+        "superficie": 58.9,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 299000,
+        "superficie": 64,
+        "nbr_piece": 3,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 286000,
+        "superficie": 62.6,
+        "nbr_piece": 3,
+        "etage": ""
+      },
+      {
+        "typology": "A",
+        "prix": 291000,
+        "superficie": 64.5,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 280000,
+        "superficie": 63.4,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 346000,
+        "superficie": 84.1,
+        "nbr_piece": 4,
+        "etage": ""
+      },
+      {
+        "typology": "A",
+        "prix": 360000,
+        "superficie": 79.9,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 356000,
+        "superficie": 82.7,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "M",
+        "prix": 378000,
+        "superficie": 86.35,
+        "nbr_piece": 4,
+        "etage": ""
+      },
+      {
+        "typology": "M",
+        "prix": 378000,
+        "superficie": 86.35,
+        "nbr_piece": 4,
+        "etage": ""
+      },
+      {
+        "typology": "M",
+        "prix": 378000,
+        "superficie": 86.35,
+        "nbr_piece": 4,
+        "etage": ""
+      },
+      {
+        "typology": "M",
+        "prix": 429000,
+        "superficie": 98.11,
+        "nbr_piece": 5,
+        "etage": ""
+      },
+      {
+        "typology": null,
+        "prix": 378000,
+        "superficie": null,
+        "nbr_piece": 8
       }
     ]
   },
@@ -17502,7 +17502,7 @@
     "city": "Sathonay-Village",
     "dept_num": "69",
     "cp": "69",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "3ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/sathonay-village-programme-le-clos-francois-215856-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_7a94e8d5_030-269l24_1_vign.jpg",
@@ -19944,7 +19944,7 @@
     "city": "Annecy",
     "dept_num": "74",
     "cp": "74",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "4ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/annecy-programme-les-camarines-215923-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_5ed4622f_666-274k43_1_vign.jpg",
@@ -20488,6 +20488,110 @@
     ]
   },
   {
+    "name": "BRS Esprit Leman",
+    "city": "Sciez",
+    "dept_num": "74",
+    "cp": "74",
+    "statut": "Avant-Première",
+    "livraison": "1er trimestre 2028",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/sciez-programme-brs-esprit-leman-215864-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_88c0a96a_666-274l07_1_vign.jpg",
+    "description": "Esprit Léman BRS à Sciez - La résidence propose 16 appartements neufs du 2 au 5 pièces avec deux stationnements, caves, celliers, locaux vélos et jardin commun. Située à 1,5 km du port de Sciez et à proximité des écoles, commerces et équipements sportifs, elle offre un cadre de vie agréable. Le dispositif BRS (Bail Réel Solidaire) permet un accès à la propriété simplifié et plus abordable, facilitant l'achat d'un logement neuf dans cette zone attractive entre lac Léman et montagnes. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 172000,
+        "superficie": 47.86,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 169000,
+        "superficie": 47.53,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 170000,
+        "superficie": 48.37,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 223000,
+        "superficie": 64.74,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 223000,
+        "superficie": 65.68,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 219000,
+        "superficie": 62.19,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 219000,
+        "superficie": 62.19,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 224000,
+        "superficie": 65.19,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 240000,
+        "superficie": 67.67,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 224000,
+        "superficie": 64.53,
+        "nbr_piece": 3,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 242000,
+        "superficie": 68.24,
+        "nbr_piece": 3,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 228000,
+        "superficie": 65.05,
+        "nbr_piece": 3,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 435000,
+        "superficie": 123.99,
+        "nbr_piece": 5,
+        "etage": "3"
+      }
+    ]
+  },
+  {
     "name": "Esprit Léman",
     "city": "Sciez",
     "dept_num": "74",
@@ -20620,108 +20724,16 @@
     ]
   },
   {
-    "name": "BRS Esprit Leman",
-    "city": "Sciez",
+    "name": "Eclat Leman",
+    "city": "Thonon-les-Bains",
     "dept_num": "74",
     "cp": "74",
     "statut": "Avant-Première",
-    "livraison": "1er trimestre 2028",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/sciez-programme-brs-esprit-leman-215864-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_88c0a96a_666-274l07_1_vign.jpg",
-    "description": "Esprit Léman BRS à Sciez - La résidence propose 16 appartements neufs du 2 au 5 pièces avec deux stationnements, caves, celliers, locaux vélos et jardin commun. Située à 1,5 km du port de Sciez et à proximité des écoles, commerces et équipements sportifs, elle offre un cadre de vie agréable. Le dispositif BRS (Bail Réel Solidaire) permet un accès à la propriété simplifié et plus abordable, facilitant l'achat d'un logement neuf dans cette zone attractive entre lac Léman et montagnes. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 172000,
-        "superficie": 47.86,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 169000,
-        "superficie": 47.53,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 170000,
-        "superficie": 48.37,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 223000,
-        "superficie": 64.74,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 223000,
-        "superficie": 65.68,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 219000,
-        "superficie": 62.19,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 219000,
-        "superficie": 62.19,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 224000,
-        "superficie": 65.19,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 240000,
-        "superficie": 67.67,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 224000,
-        "superficie": 64.53,
-        "nbr_piece": 3,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 242000,
-        "superficie": 68.24,
-        "nbr_piece": 3,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 228000,
-        "superficie": 65.05,
-        "nbr_piece": 3,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 435000,
-        "superficie": 123.99,
-        "nbr_piece": 5,
-        "etage": "3"
-      }
-    ]
+    "livraison": "3ème trimestre 2028",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/thonon-les-bains-programme-eclat-leman-215945-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_54c33469_666-274a01_1_vign.jpg",
+    "description": "ÉCLAT LÉMAN est un nouveau programme neuf à Thonon-les-Bains, idéalement situé à proximité du centre-ville et du lac. La résidence propose des appartements du 2 au 5 pièces, dont quelques logements en étage élevé offrant des vues panoramiques remarquables. Tous disposent d'un espace extérieur et s'intègrent dans un vaste parc paysager arboré. À deux pas des écoles, commerces et transports, ÉCLAT LÉMAN associe confort, modernité et emplacement stratégique entre lac et montagnes. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": []
   },
   {
     "name": "Les Pavillons d'Adele",
@@ -20749,18 +20761,6 @@
         "etage": "3"
       }
     ]
-  },
-  {
-    "name": "Eclat Leman",
-    "city": "Thonon-les-Bains",
-    "dept_num": "74",
-    "cp": "74",
-    "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2028",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/thonon-les-bains-programme-eclat-leman-215945-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_54c33469_666-274a01_1_vign.jpg",
-    "description": "ÉCLAT LÉMAN est un nouveau programme neuf à Thonon-les-Bains, idéalement situé à proximité du centre-ville et du lac. La résidence propose des appartements du 2 au 5 pièces, dont quelques logements en étage élevé offrant des vues panoramiques remarquables. Tous disposent d'un espace extérieur et s'intègrent dans un vaste parc paysager arboré. À deux pas des écoles, commerces et transports, ÉCLAT LÉMAN associe confort, modernité et emplacement stratégique entre lac et montagnes. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": []
   },
   {
     "name": "Terres de Lhottis",
@@ -21852,7 +21852,7 @@
     "city": "Saint-Germain-en-Laye",
     "dept_num": "78",
     "cp": "78",
-    "statut": "Avant-Première",
+    "statut": "Lancement commercial",
     "livraison": "4ème trimestre 2028",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/saint-germain-en-laye-programme-le-jardin-des-carmes-215881-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_4a81daf8_030-278k03_1_vign.jpg",
@@ -22113,47 +22113,6 @@
     ]
   },
   {
-    "name": "Equilia",
-    "city": "Sartrouville",
-    "dept_num": "78",
-    "cp": "78",
-    "statut": "Avant-Première",
-    "livraison": "3ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/sartrouville-programme-equilia-215752-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_e8ff0468_030-278k14_1_vign.jpg",
-    "description": "\n\nProgramme neuf EQUILIA à Sartrouville : GRAND LANCEMENT - Découvrez une résidence située au 32 avenue Georges Clémenceau à Sartrouville, commune dynamique à 15 km de Paris et 10 km de La Défense, avec une excellente desserte routière et en transports en commun. Dans le prolongement de la résidence Voltige, Equilia propose 28 appartements du 2 au 4 pièces avec des espaces extérieurs et des parkings pour la quasi-totalité. Profitez de la TVA réduite* pour devenir propriétaire. Pour en savoir plus, inscrivez-vous pour télécharger notre brochure. * Voir conditions sur notre site.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 269904,
-        "superficie": 64.1,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 269904,
-        "superficie": 64.1,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 279575,
-        "superficie": 64.1,
-        "nbr_piece": 3,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 289246,
-        "superficie": 64.4,
-        "nbr_piece": 3,
-        "etage": "3"
-      }
-    ]
-  },
-  {
     "name": "Voltige - Bail Réel et Solidaire",
     "city": "Sartrouville",
     "dept_num": "78",
@@ -22170,82 +22129,6 @@
         "superficie": 48.7,
         "nbr_piece": 2,
         "etage": "2"
-      }
-    ]
-  },
-  {
-    "name": "Voltige",
-    "city": "Sartrouville",
-    "dept_num": "78",
-    "cp": "78",
-    "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/sartrouville-programme-voltige-215817-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_265f19c9_030-278k07_1_vign.jpg",
-    "description": "\n\nProchainement à Sartrouville - Une résidence à la fois contemporaine et classique - Le charme de la meulière, de l'enduit et des toits métalliques donnent une touche de classicisme à cet ensemble contemporain pour un parfait ancrage dans la ville - Une œuvre d'art viendra parfaire l'élégance de cette nouvelle réalisation - L'îlot central végétalisé, réalisé par un paysagiste, offre à la résidence quiétude et verdure tout au long de l'année - Les appartements du studio au 4 pièces sont conçus pour offrir des espaces de vie pratiques, confortables et lumineux. Les espaces extérieurs, balcons ou loggias, permettent de profiter largement des espaces verts environnants - TVA à taux réduit, sous conditions d'éligibilité : résidence principale de l'acquéreur - plafonds de ressources du réservataire à respecter.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 249683,
-        "superficie": 48.3,
-        "nbr_piece": 2,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 219792,
-        "superficie": 42.6,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 289246,
-        "superficie": 65.15,
-        "nbr_piece": 3,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 309467,
-        "superficie": 71.6,
-        "nbr_piece": 3,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 289246,
-        "superficie": 69.75,
-        "nbr_piece": 3,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 289246,
-        "superficie": 63.4,
-        "nbr_piece": 3,
-        "etage": "5"
-      },
-      {
-        "typology": "A",
-        "prix": 329688,
-        "superficie": 79.45,
-        "nbr_piece": 4,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 329688,
-        "superficie": 79.45,
-        "nbr_piece": 4,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 329688,
-        "superficie": 81.7,
-        "nbr_piece": 4,
-        "etage": "1"
       }
     ]
   },
@@ -22542,11 +22425,316 @@
     ]
   },
   {
-    "name": "My Campus Niort",
+    "name": "Voltige",
+    "city": "Sartrouville",
+    "dept_num": "78",
+    "cp": "78",
+    "statut": "Avant-Première",
+    "livraison": "2ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/sartrouville-programme-voltige-215817-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_265f19c9_030-278k07_1_vign.jpg",
+    "description": "\n\nProchainement à Sartrouville - Une résidence à la fois contemporaine et classique - Le charme de la meulière, de l'enduit et des toits métalliques donnent une touche de classicisme à cet ensemble contemporain pour un parfait ancrage dans la ville - Une œuvre d'art viendra parfaire l'élégance de cette nouvelle réalisation - L'îlot central végétalisé, réalisé par un paysagiste, offre à la résidence quiétude et verdure tout au long de l'année - Les appartements du studio au 4 pièces sont conçus pour offrir des espaces de vie pratiques, confortables et lumineux. Les espaces extérieurs, balcons ou loggias, permettent de profiter largement des espaces verts environnants - TVA à taux réduit, sous conditions d'éligibilité : résidence principale de l'acquéreur - plafonds de ressources du réservataire à respecter.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 249683,
+        "superficie": 48.3,
+        "nbr_piece": 2,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 219792,
+        "superficie": 42.6,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 289246,
+        "superficie": 65.15,
+        "nbr_piece": 3,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 309467,
+        "superficie": 71.6,
+        "nbr_piece": 3,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 289246,
+        "superficie": 69.75,
+        "nbr_piece": 3,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 289246,
+        "superficie": 63.4,
+        "nbr_piece": 3,
+        "etage": "5"
+      },
+      {
+        "typology": "A",
+        "prix": 329688,
+        "superficie": 79.45,
+        "nbr_piece": 4,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 329688,
+        "superficie": 79.45,
+        "nbr_piece": 4,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 329688,
+        "superficie": 81.7,
+        "nbr_piece": 4,
+        "etage": "1"
+      }
+    ]
+  },
+  {
+    "name": "Equilia",
+    "city": "Sartrouville",
+    "dept_num": "78",
+    "cp": "78",
+    "statut": "Avant-Première",
+    "livraison": "3ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/sartrouville-programme-equilia-215752-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_e8ff0468_030-278k14_1_vign.jpg",
+    "description": "\n\nProgramme neuf EQUILIA à Sartrouville : GRAND LANCEMENT - Découvrez une résidence située au 32 avenue Georges Clémenceau à Sartrouville, commune dynamique à 15 km de Paris et 10 km de La Défense, avec une excellente desserte routière et en transports en commun. Dans le prolongement de la résidence Voltige, Equilia propose 28 appartements du 2 au 4 pièces avec des espaces extérieurs et des parkings pour la quasi-totalité. Profitez de la TVA réduite* pour devenir propriétaire. Pour en savoir plus, inscrivez-vous pour télécharger notre brochure. * Voir conditions sur notre site.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 269904,
+        "superficie": 64.1,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 269904,
+        "superficie": 64.1,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 279575,
+        "superficie": 64.1,
+        "nbr_piece": 3,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 289246,
+        "superficie": 64.4,
+        "nbr_piece": 3,
+        "etage": "3"
+      }
+    ]
+  },
+  {
+    "name": "Carré Mélusine",
     "city": "Niort",
     "dept_num": "79",
     "cp": "79",
     "statut": "Avant-Première",
+    "livraison": "2ème trimestre 2028",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/niort-programme-carre-melusine-215909-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_85f620f6_666-279aw8_1_vign.jpg",
+    "description": "L'agglomération du niortais ne cesse de s'accroitre et compte désormais plus de 122 000 âmes dont 60 000 pour la capitale des mutuelles. Formée de quatre îlots à l'architecture soignée, la résidence se divise en appartements neufs du 2 au 4 pièces. À l'intérieur, de grandes ouvertures qui baignent les séjours de lumière naturelle. Les extérieurs spacieux, qu'il s'agisse d'un rez-de-jardin, d'un balcon ou d'une terrasse, sont également faciles à aménager. À quelques pas de la résidence, vous trouverez tous les commerces et services essentiels. Située à seulement 10 minutes à vélo ou en bus (ligne 8) du centre-ville de Niort. Les nombreux établissements scolaires et la multitude d'infrastructures de loisirs proposés par la ville augmentent également son attractivité. Profitez de tous les avantages d'un logement neuf !  Découvrez nos packs disponibles pour un investissement clé en main et une mise en location rapide. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 169000,
+        "superficie": 42.7,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 164000,
+        "superficie": 42.56,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 184000,
+        "superficie": 41.05,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 184000,
+        "superficie": 42.75,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 159000,
+        "superficie": 41.09,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 164000,
+        "superficie": 42.64,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 169000,
+        "superficie": 42.74,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 159000,
+        "superficie": 41.26,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 184000,
+        "superficie": 42.74,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 179000,
+        "superficie": 41.26,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 179000,
+        "superficie": 46.36,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 168000,
+        "superficie": 42.52,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 164000,
+        "superficie": 42.55,
+        "nbr_piece": 2,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 181000,
+        "superficie": 46.36,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 179000,
+        "superficie": 42.48,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 144000,
+        "superficie": 42.68,
+        "nbr_piece": 2,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 183000,
+        "superficie": 46.36,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 259000,
+        "superficie": 73.81,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 278000,
+        "superficie": 73.78,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 259000,
+        "superficie": 73.83,
+        "nbr_piece": 3,
+        "etage": "0"
+      },
+      {
+        "typology": "A",
+        "prix": 279000,
+        "superficie": 73.82,
+        "nbr_piece": 3,
+        "etage": "1"
+      },
+      {
+        "typology": "A",
+        "prix": 319000,
+        "superficie": 86.87,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 309000,
+        "superficie": 86.75,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 304000,
+        "superficie": 86.82,
+        "nbr_piece": 4,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 329000,
+        "superficie": 96.58,
+        "nbr_piece": 4,
+        "etage": "1"
+      }
+    ]
+  },
+  {
+    "name": "My Campus Niort",
+    "city": "Niort",
+    "dept_num": "79",
+    "cp": "79",
+    "statut": "Travaux en cours",
     "livraison": "3ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/niort-programme-my-campus-niort-215818-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_aa595efd_030-279aw3_1_vign.jpg",
@@ -22908,194 +23096,6 @@
         "superficie": 19.42,
         "nbr_piece": 1,
         "etage": "3"
-      }
-    ]
-  },
-  {
-    "name": "Carré Mélusine",
-    "city": "Niort",
-    "dept_num": "79",
-    "cp": "79",
-    "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2028",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/niort-programme-carre-melusine-215909-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_85f620f6_666-279aw8_1_vign.jpg",
-    "description": "L'agglomération du niortais ne cesse de s'accroitre et compte désormais plus de 122 000 âmes dont 60 000 pour la capitale des mutuelles. Formée de quatre îlots à l'architecture soignée, la résidence se divise en appartements neufs du 2 au 4 pièces. À l'intérieur, de grandes ouvertures qui baignent les séjours de lumière naturelle. Les extérieurs spacieux, qu'il s'agisse d'un rez-de-jardin, d'un balcon ou d'une terrasse, sont également faciles à aménager. À quelques pas de la résidence, vous trouverez tous les commerces et services essentiels. Située à seulement 10 minutes à vélo ou en bus (ligne 8) du centre-ville de Niort. Les nombreux établissements scolaires et la multitude d'infrastructures de loisirs proposés par la ville augmentent également son attractivité. Profitez de tous les avantages d'un logement neuf !  Découvrez nos packs disponibles pour un investissement clé en main et une mise en location rapide. Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 169000,
-        "superficie": 42.7,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 164000,
-        "superficie": 42.56,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 184000,
-        "superficie": 41.05,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 184000,
-        "superficie": 42.75,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 159000,
-        "superficie": 41.09,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 164000,
-        "superficie": 42.64,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 169000,
-        "superficie": 42.74,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 159000,
-        "superficie": 41.26,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 184000,
-        "superficie": 42.74,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 179000,
-        "superficie": 41.26,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 179000,
-        "superficie": 46.36,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 168000,
-        "superficie": 42.52,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 164000,
-        "superficie": 42.55,
-        "nbr_piece": 2,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 181000,
-        "superficie": 46.36,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 179000,
-        "superficie": 42.48,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 144000,
-        "superficie": 42.68,
-        "nbr_piece": 2,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 183000,
-        "superficie": 46.36,
-        "nbr_piece": 2,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 259000,
-        "superficie": 73.81,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 278000,
-        "superficie": 73.78,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 259000,
-        "superficie": 73.83,
-        "nbr_piece": 3,
-        "etage": "0"
-      },
-      {
-        "typology": "A",
-        "prix": 279000,
-        "superficie": 73.82,
-        "nbr_piece": 3,
-        "etage": "1"
-      },
-      {
-        "typology": "A",
-        "prix": 319000,
-        "superficie": 86.87,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 309000,
-        "superficie": 86.75,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 304000,
-        "superficie": 86.82,
-        "nbr_piece": 4,
-        "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 329000,
-        "superficie": 96.58,
-        "nbr_piece": 4,
-        "etage": "1"
       }
     ]
   },
@@ -23840,7 +23840,7 @@
     "city": "Les Sables d'Olonne",
     "dept_num": "85",
     "cp": "85",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "2ème trimestre 2027",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/les-sables-dolonne-programme-nova-mar-215934-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_0d68c624_030-285au9_1_vign.jpg",
@@ -26260,7 +26260,7 @@
     "city": "Puteaux",
     "dept_num": "92",
     "cp": "92",
-    "statut": "Avant-Première",
+    "statut": "Lancement commercial",
     "livraison": "1er trimestre 2028",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/puteaux-programme-villa-marius-215921-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_ce795fc0_030-292k48_1_vign.jpg",
@@ -26328,7 +26328,7 @@
     "city": "Vanves",
     "dept_num": "92",
     "cp": "92",
-    "statut": "Avant-Première",
+    "statut": "Travaux en cours",
     "livraison": "4ème trimestre 2026",
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/vanves-programme-artchipel-215785-13143.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_98e1c202_041-292k36_1_vign.jpg",
@@ -28097,26 +28097,6 @@
     "units": []
   },
   {
-    "name": "Vivarea",
-    "city": "Cergy",
-    "dept_num": "95",
-    "cp": "95",
-    "statut": "Avant-Première",
-    "livraison": "2ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/cergy-programme-vivarea-216191-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_4a483c27_030-295j82_1_vign.jpg",
-    "description": "\n\nDans le tout nouvel et plébiscité éco-quartier des Doux Épis - Domaine des Grandes Terres, une nouvelle résidence Bouygues-Immobilier. Les appartements offrent une double, voire une triple exposition, de belles hauteurs sous plafond et des séjours plein sud pour un maximum de luminosité. Appartement neuf du studio au 5 pièces, ils se prolongent tous par un balcon ou une terrasse. Vos enfants pourront se rendre à l'école en quelques minutes à pied grâce a de nouveau complexe scolaire et sportif. Vous serez situé à proximité d'un pôle d'activités avec des commerces, des restaurants et des activés de loisirs. Pour vos déplacements : accès routiers et réseau de transports en commun performant (bus, RER A et ligne L du transilien). Ville verte et dynamique, Cergy est un cœur économique majeur en Île-de-France. Sélection d'appartements neufs éligibles au TVA à taux réduit, sous conditions d'éligibilité : résidence principale de l'acquéreur - plafonds de ressources du réservataire à respecter.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
-    "units": [
-      {
-        "typology": "A",
-        "prix": 259354,
-        "superficie": 61.44,
-        "nbr_piece": 3,
-        "etage": "2"
-      }
-    ]
-  },
-  {
     "name": "Bucolia",
     "city": "Cergy",
     "dept_num": "95",
@@ -28178,78 +28158,22 @@
     ]
   },
   {
-    "name": "L'Amiral",
-    "city": "Cormeilles-en-Parisis",
+    "name": "Vivarea",
+    "city": "Cergy",
     "dept_num": "95",
     "cp": "95",
     "statut": "Avant-Première",
     "livraison": "2ème trimestre 2027",
-    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/cormeilles-en-parisis-programme-lamiral-215770-13143.html",
-    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_e56195ed_030-295j84_1_vign.jpg",
-    "description": "\n\nNotre dernière réalisation, au coeur de Seine Parisii. La Résidence L'Amiral à Cormeilles-en-Parisis propose des appartements neufs avec des prestations haut de gamme. Située en lisière du quartier Seine Parisii, elle offre une proximité avec les écoles, transports, loisirs et commerces. Types de lots disponibles : appartements du studio au 5 pièces.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/cergy-programme-vivarea-216191-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_4a483c27_030-295j82_1_vign.jpg",
+    "description": "\n\nDans le tout nouvel et plébiscité éco-quartier des Doux Épis - Domaine des Grandes Terres, une nouvelle résidence Bouygues-Immobilier. Les appartements offrent une double, voire une triple exposition, de belles hauteurs sous plafond et des séjours plein sud pour un maximum de luminosité. Appartement neuf du studio au 5 pièces, ils se prolongent tous par un balcon ou une terrasse. Vos enfants pourront se rendre à l'école en quelques minutes à pied grâce a de nouveau complexe scolaire et sportif. Vous serez situé à proximité d'un pôle d'activités avec des commerces, des restaurants et des activés de loisirs. Pour vos déplacements : accès routiers et réseau de transports en commun performant (bus, RER A et ligne L du transilien). Ville verte et dynamique, Cergy est un cœur économique majeur en Île-de-France. Sélection d'appartements neufs éligibles au TVA à taux réduit, sous conditions d'éligibilité : résidence principale de l'acquéreur - plafonds de ressources du réservataire à respecter.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
     "units": [
       {
         "typology": "A",
-        "prix": 219000,
-        "superficie": 36.6,
-        "nbr_piece": 1,
-        "etage": "3"
-      },
-      {
-        "typology": "A",
-        "prix": 215000,
-        "superficie": 32.13,
-        "nbr_piece": 1,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 279000,
-        "superficie": 45.28,
-        "nbr_piece": 2,
+        "prix": 259354,
+        "superficie": 61.44,
+        "nbr_piece": 3,
         "etage": "2"
-      },
-      {
-        "typology": "A",
-        "prix": 369000,
-        "superficie": 67.53,
-        "nbr_piece": 3,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 375000,
-        "superficie": 68.5,
-        "nbr_piece": 3,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 384000,
-        "superficie": 68.5,
-        "nbr_piece": 3,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 399000,
-        "superficie": 74.96,
-        "nbr_piece": 3,
-        "etage": "4"
-      },
-      {
-        "typology": "A",
-        "prix": 389000,
-        "superficie": 74.96,
-        "nbr_piece": 3,
-        "etage": "6"
-      },
-      {
-        "typology": "A",
-        "prix": 459000,
-        "superficie": 85.93,
-        "nbr_piece": 4,
-        "etage": "4"
       }
     ]
   },
@@ -28731,6 +28655,82 @@
         "superficie": 136.6,
         "nbr_piece": 6,
         "etage": "5"
+      }
+    ]
+  },
+  {
+    "name": "L'Amiral",
+    "city": "Cormeilles-en-Parisis",
+    "dept_num": "95",
+    "cp": "95",
+    "statut": "Avant-Première",
+    "livraison": "2ème trimestre 2027",
+    "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/cormeilles-en-parisis-programme-lamiral-215770-13143.html",
+    "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//bouygues-immobilier/13143_e56195ed_030-295j84_1_vign.jpg",
+    "description": "\n\nNotre dernière réalisation, au coeur de Seine Parisii. La Résidence L'Amiral à Cormeilles-en-Parisis propose des appartements neufs avec des prestations haut de gamme. Située en lisière du quartier Seine Parisii, elle offre une proximité avec les écoles, transports, loisirs et commerces. Types de lots disponibles : appartements du studio au 5 pièces.\n Contactez-nous dès à présent au 01 55 18 7000 pour découvrir notre résidence et rencontrez nos équipes.",
+    "units": [
+      {
+        "typology": "A",
+        "prix": 219000,
+        "superficie": 36.6,
+        "nbr_piece": 1,
+        "etage": "3"
+      },
+      {
+        "typology": "A",
+        "prix": 215000,
+        "superficie": 32.13,
+        "nbr_piece": 1,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 279000,
+        "superficie": 45.28,
+        "nbr_piece": 2,
+        "etage": "2"
+      },
+      {
+        "typology": "A",
+        "prix": 369000,
+        "superficie": 67.53,
+        "nbr_piece": 3,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 375000,
+        "superficie": 68.5,
+        "nbr_piece": 3,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 384000,
+        "superficie": 68.5,
+        "nbr_piece": 3,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 399000,
+        "superficie": 74.96,
+        "nbr_piece": 3,
+        "etage": "4"
+      },
+      {
+        "typology": "A",
+        "prix": 389000,
+        "superficie": 74.96,
+        "nbr_piece": 3,
+        "etage": "6"
+      },
+      {
+        "typology": "A",
+        "prix": 459000,
+        "superficie": 85.93,
+        "nbr_piece": 4,
+        "etage": "4"
       }
     ]
   },

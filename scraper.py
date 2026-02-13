@@ -8,17 +8,27 @@ import time
 import os
 
 def extract_nuxt_data(html):
+    # More robust extraction using regex
+    pattern = r'<script id="__NUXT_DATA__"[^>]*>(.*?)</script>'
+    match = re.search(pattern, html, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group(1))
+        except Exception as e:
+            print(f"Error parsing Nuxt data: {e}")
+    
+    # Fallback to BeautifulSoup if regex fails
     soup = BeautifulSoup(html, 'html.parser')
     script = soup.find('script', id='__NUXT_DATA__')
-    if script:
+    if script and script.string:
         try:
             return json.loads(script.string)
         except Exception as e:
-            print(f"Error parsing Nuxt data: {e}")
+            print(f"Error parsing Nuxt data via BS4: {e}")
     return None
 
 def resolve_value(data, val_idx, depth=0):
-    if depth > 5: # Safety limit for recursion
+    if depth > 10: # Increased limit for deeper Nuxt structures
         return val_idx
     
     if not isinstance(val_idx, int) or val_idx < 0 or val_idx >= len(data):
@@ -34,6 +44,10 @@ def resolve_value(data, val_idx, depth=0):
     elif isinstance(val, list):
         return [resolve_value(data, item, depth + 1) for item in val]
     
+    # Filter out common placeholders
+    if isinstance(val, str) and val in ["No Data Available", "À définir"]:
+        return None
+        
     return val
 
 def parse_product(data, prod_idx):
@@ -84,20 +98,88 @@ def get_promoter_properties(slug, pid):
                 if prog:
                     # Status extraction
                     status = prog.get('stock')
+                    if not status or status == "" or status == "Avant-Première" or status == "Lancement commercial":
+                        mentions = prog.get('titre_mentions')
+                        if mentions and mentions not in ["", "Avant-Première", "Lancement commercial"]:
+                            status = mentions
+                        else:
+                            # Fallback to searching description for better status
+                            desc = prog.get('descriptif', "")
+                            if desc:
+                                if any(k in desc for k in ["Travaux en cours", "Chantier en cours", "Démarrage des travaux"]):
+                                    status = "Travaux en cours"
+                                elif "Livraison immédiate" in desc or "Dernière opportunité" in desc:
+                                    status = "Livraison immédiate"
+                                elif "Lancement" in desc or "Nouveau" in desc:
+                                    status = "Lancement commercial"
+                                else:
+                                    # Try to extract a delivery year if we still have nothing specific
+                                    liv_match = re.search(r"Livraison (?:en )?(202[4-8])", desc)
+                                    if liv_match:
+                                        status = f"Livraison {liv_match.group(1)}"
+                    
                     if not status or status == "":
-                        status = prog.get('titre_mentions')
+                        status = "N/A"
                     
                     # Resolve City Info
                     city_data = prog.get('city')
                     city_name = "N/A"
                     dept_num = "N/A"
-                    if isinstance(city_data, dict):
-                        city_name = city_data.get('name', "N/A")
-                        dept_num = city_data.get('departement_num', "N/A")
-                    elif isinstance(city_data, str):
-                        city_name = city_data
                     
+                    def deep_resolve_string(v, data_arr, depth=0):
+                        if depth > 10: return str(v)
+                        if v is None: return "N/A"
+                        if isinstance(v, int):
+                            if 0 <= v < len(data_arr):
+                                return deep_resolve_string(data_arr[v], data_arr, depth + 1)
+                            return str(v)
+                        if isinstance(v, dict):
+                            # Recursively try to find a string in common name keys
+                            for key in ['name', 'nom', 'label', 'text', 'ville_nom', 'departement_nom']:
+                                if key in v:
+                                    res = deep_resolve_string(v[key], data_arr, depth + 1)
+                                    if res and res != "N/A" and not res.startswith('{'):
+                                        return res
+                            # If no name key found, but it has a value, try that
+                            if 'value' in v:
+                                res = deep_resolve_string(v['value'], data_arr, depth + 1)
+                                if res and res != "N/A" and not res.startswith('{'):
+                                    return res
+                            # Last resort: just pick the first string-resolvable value that isn't a dict
+                            for k, val in v.items():
+                                if k not in ['id', 'kind', 'slug']:
+                                    res = deep_resolve_string(val, data_arr, depth + 1)
+                                    if res and res != "N/A" and not res.startswith('{'):
+                                        return res
+                            return "N/A"
+                        return str(v)
+
+                    if isinstance(city_data, dict):
+                        city_name = deep_resolve_string(city_data.get('name'), data)
+                        dept_num = deep_resolve_string(city_data.get('departement_num'), data)
+                        if city_name == "N/A" and city_data.get('nom'):
+                            city_name = deep_resolve_string(city_data.get('nom'), data)
+                    elif isinstance(city_data, (str, int)):
+                        city_name = deep_resolve_string(city_data, data)
+                    
+                    # Safety check for city_name that might still be a dict string
+                    if city_name.startswith('{'):
+                        # Try to parse and extract name
+                        try:
+                            import ast
+                            d = ast.literal_eval(city_name)
+                            if isinstance(d, dict):
+                                for k in ['name', 'nom', 'label']:
+                                    if k in d:
+                                        city_name = deep_resolve_string(d[k], data)
+                                        break
+                        except: pass
+
                     units = []
+                    # Fallback pricing and surface
+                    prix_min = prog.get('prix_min') or prog.get('prix')
+                    surface_min = prog.get('surface_min') or prog.get('superficie_min')
+                    
                     if 'types' in prog and isinstance(prog['types'], list):
                         for typology in prog['types']:
                             if isinstance(typology, dict):
@@ -110,23 +192,31 @@ def get_promoter_properties(slug, pid):
                                                 'prix': unit.get('prix'),
                                                 'superficie': unit.get('superficie'),
                                                 'nbr_piece': typology.get('nbr_piece') or unit.get('nbr_piece'),
-                                                'etage': unit.get('etage')
+                                                'etage': unit.get('etage'),
+                                                'nb_unités': 1
                                             })
                                 else:
                                     units.append({
                                         'typology': typology.get('typology'),
                                         'prix': typology.get('prix'),
                                         'superficie': typology.get('superficie'),
-                                        'nbr_piece': typology.get('nbr_piece')
+                                        'nbr_piece': typology.get('nbr_piece'),
+                                        'nb_unités': 1
                                     })
+                    
+                    # Robust unit count fallback
+                    prog_units = prog.get('nbrPiece') or prog.get('nbr_pieces') or 0
                     
                     properties.append({
                         'name': prog.get('nom'),
                         'city': city_name,
-                        'dept_num': str(dept_num),
+                        'dept_num': dept_num,
                         'cp': prog.get('cp'),
                         'statut': status,
                         'livraison': prog.get('livraison'),
+                        'prix_min': prix_min,
+                        'surface_min': surface_min,
+                        'nbr_piece_total': prog_units,
                         'link': f"https://www.trouver-un-logement-neuf.com{prog.get('link')}" if prog.get('link') else None,
                         'visual': prog.get('visual'),
                         'description': prog.get('descriptif'),

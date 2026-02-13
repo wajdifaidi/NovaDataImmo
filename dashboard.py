@@ -8,10 +8,12 @@ import subprocess
 import sys
 from datetime import datetime
 import glob
+import io
 import re
+from scraper import get_promoter_properties
 
 # Page Config
-st.set_page_config(page_title="NovaData Immo - Dashboard", layout="wide")
+st.set_page_config(page_title="TDB lancements des programmes chez les promoteurs", layout="wide")
 
 # Dept Mapping (Common French Departments)
 DEPT_MAP = {
@@ -63,177 +65,222 @@ def parse_delivery_date(text):
         
     return 9999, text # Fallback for unknown formats
 
-def load_all_scraped_data():
-    all_data = []
-    files = glob.glob('properties_*.json')
-    for f in files:
-        promoter_slug = f.replace('properties_', '').replace('.json', '')
-        mapping = load_promoter_mapping()
-        name = next((k for k, v in mapping.items() if v['slug'] == promoter_slug), promoter_slug)
+def process_raw_data(items, promoter_name, scraping_time):
+    processed = []
+    for item in items:
+        city_name = str(item.get('city', "N/A"))
+        dept_num = str(item.get('dept_num', "N/A"))
         
-        with open(f, 'r', encoding='utf-8') as jf:
+        # Double-check for residual dict strings
+        if city_name.startswith('{') or 'id' in city_name:
+            city_name = "N/A"
+        if dept_num.startswith('{') or 'id' in dept_num:
+            dept_num = "N/A"
+        
+        units = item.get('units', [])
+        
+        # Robust count of units
+        nb_logements = 0
+        if units:
+            for u in units:
+                try:
+                    val = u.get('nb_unités', 1)
+                    nb_logements += int(val if val else 1)
+                except (ValueError, TypeError):
+                    nb_logements += 1
+        
+        if nb_logements == 0:
             try:
-                items = json.load(jf)
+                # Fallback to program-level total pieces or default to 1
+                val = item.get('nbr_piece_total') or 1
+                nb_logements = int(val)
             except:
+                nb_logements = 1
+        
+        total_price = 0
+        total_surface = 0
+        for u in units:
+            try:
+                p = float(u.get('prix') or 0)
+                s = float(u.get('superficie') or 0)
+                if p > 0 and s > 0:
+                    total_price += p
+                    total_surface += s
+            except (ValueError, TypeError):
                 continue
-                
-            for item in items:
-                city_name = item.get('city', "N/A")
-                dept_num = item.get('dept_num', "N/A")
-                
-                units = item.get('units', [])
-                
-                # Robust count of units
-                nb_logements = 0
-                if units:
-                    for u in units:
-                        try:
-                            nb_logements += int(u.get('nb_unités', 1))
-                        except (ValueError, TypeError):
-                            nb_logements += 1
-                
-                if nb_logements == 0 and units:
-                    nb_logements = len(units)
-                
-                total_price = 0
-                total_surface = 0
-                for u in units:
-                    try:
-                        p = float(u.get('prix') or 0)
-                        s = float(u.get('superficie') or 0)
-                        if p > 0 and s > 0:
-                            total_price += p
-                            total_surface += s
-                    except (ValueError, TypeError):
-                        continue
-                
-                avg_price_m2 = (total_price / total_surface) if total_surface > 0 else 0
-                
-                sort_key, display_date = parse_delivery_date(item.get('livraison'))
-                
-                all_data.append({
-                    "Source": name,
-                    "Nom": item.get('name'),
-                    "Ville": city_name,
-                    "Département": dept_num,
-                    "Localisation": f"{city_name} ({dept_num})" if dept_num != "N/A" else city_name,
-                    "Statut": item.get('statut') or "N/A",
-                    "Livraison": item.get('livraison'),
-                    "Livraison_Code": sort_key,
-                    "Livraison_Label": display_date,
-                    "Nb_Logements": nb_logements,
-                    "Prix_m2": avg_price_m2,
-                    "Link": item.get('link'),
-                    "Date_Scraping": datetime.fromtimestamp(os.path.getmtime(f)).strftime('%Y-%m-%d %H:%M')
-                })
-    return pd.DataFrame(all_data)
+        
+        # Pricing Fallback
+        if total_price == 0 and item.get('prix_min'):
+            try: total_price = float(item['prix_min'])
+            except: pass
+        if total_surface == 0 and item.get('surface_min'):
+            try: total_surface = float(item['surface_min'])
+            except: pass
+
+        avg_price_m2 = (total_price / total_surface) if total_surface > 0 else 0
+        
+        sort_key, display_date = parse_delivery_date(item.get('livraison'))
+        
+        year_match = re.search(r'(202[4-9])', display_date)
+        year_val = year_match.group(1) if year_match else "Inconnu"
+
+        processed.append({
+            "Source": promoter_name,
+            "Nom": item.get('name'),
+            "Ville": city_name,
+            "Département": dept_num,
+            "Localisation": f"{city_name} ({dept_num})" if dept_num != "N/A" else city_name,
+            "Statut": item.get('statut') or "N/A",
+            "Livraison": item.get('livraison'),
+            "Livraison_Code": sort_key,
+            "Livraison_Label": display_date,
+            "Année": year_val,
+            "Nb_Logements": nb_logements,
+            "Prix_m2": avg_price_m2,
+            "Link": item.get('link'),
+            "Date_Extraction": scraping_time
+        })
+    return processed
 
 # Main UI
-st.title("🏙️ NovaData Immo")
+st.title("🏙️ TDB lancements des programmes chez les promoteurs")
 
-tab_dash, tab_admin = st.tabs(["📊 Dashboard", "⚙️ Ajouter un promoteur"])
+# Initialize session state for data
+if 'master_data' not in st.session_state:
+    st.session_state.master_data = pd.DataFrame()
 
-with tab_admin:
-    st.header("Gestion des Scrapers")
-    mapping = load_promoter_mapping()
-    
-    if not mapping:
-        st.error("Cartographie des promoteurs introuvable.")
-    else:
-        st.write(f"**{len(mapping)}** promoteurs disponibles.")
-        selected_name = st.selectbox("Sélectionner un promoteur", options=sorted(mapping.keys()))
-        selected_info = mapping[selected_name]
-        
-        if st.button(f"🚀 Lancer le Scraper"):
-            with st.spinner(f"Scraping en cours..."):
-                try:
-                    cmd = [sys.executable, "scraper.py", selected_name]
-                    result = subprocess.run(cmd, capture_output=True, text=True)
-                    if result.returncode == 0:
-                        st.success("Scraping terminé !")
-                        st.text(result.stdout)
-                        st.experimental_rerun()
-                    else:
-                        st.error(f"Erreur : {result.stderr}")
-                except Exception as e:
-                    st.error(f"Exception : {e}")
+mapping = load_promoter_mapping()
+promoter_options = sorted(mapping.keys())
 
-with tab_dash:
-    df = load_all_scraped_data()
-    
-    if df.empty:
-        st.warning("Aucune donnée disponible. Allez dans l'onglet Admin.")
-    else:
-        # Sidebar Filters
-        st.sidebar.header("Filtres")
-        src_filter = st.sidebar.multiselect("Promoteur", options=sorted(df['Source'].unique()), default=df['Source'].unique())
-        
-        unique_depts = sorted(df['Département'].unique())
-        dept_options = [f"{d} - {DEPT_MAP.get(d, 'Inconnu')}" for d in unique_depts if d != "N/A"]
-        dept_selection = st.sidebar.multiselect("Département (Autocomplete)", options=dept_options, default=[])
-        
-        selected_dept_nums = [opt.split(" - ")[0] for opt in dept_selection] if dept_selection else unique_depts
-        
-        status_options = sorted(df['Statut'].unique())
-        status_selection = st.sidebar.multiselect("Statut (Autocomplete)", options=status_options, default=[])
-        selected_status = status_selection if status_selection else status_options
-        
-        delivery_options = sorted(df['Livraison'].unique())
-        delivery_selection = st.sidebar.multiselect("Date de Livraison (Autocomplete)", options=delivery_options, default=[])
-        selected_delivery = delivery_selection if delivery_selection else delivery_options
-        
-        # Filtering logic
-        mask = (df['Source'].isin(src_filter)) & (df['Département'].isin(selected_dept_nums)) & (df['Statut'].isin(selected_status)) & (df['Livraison'].isin(selected_delivery))
-        filtered_df = df[mask]
-            
-        # Metrics
-        m1, m2, m3, m4 = st.columns(4)
-        m1.metric("Programmes", len(filtered_df))
-        m2.metric("Logements Total", f"{filtered_df['Nb_Logements'].sum():,}")
-        
-        valid_m2 = filtered_df[filtered_df['Prix_m2'] > 0]
-        avg_m2 = valid_m2['Prix_m2'].mean() if not valid_m2.empty else 0
-        m3.metric("Prix m² Moyen", f"{avg_m2:,.0f} €")
-        
-        m4.metric("Dernière MAJ", df['Date_Scraping'].max())
-        
-        # --- Market Trends Charts ---
-        st.subheader("📈 Analytique : Tendances du Marché")
-        
-        c1, c2 = st.columns(2)
-        
-        with c1:
-            # Curve 1: Housing Supply vs Time
-            st.write("**Évolution de l'Offre (Logements / Temps)**")
-            if not filtered_df.empty:
-                time_trend = filtered_df.groupby(['Livraison_Code', 'Livraison_Label'])['Nb_Logements'].sum().reset_index()
-                time_trend = time_trend.sort_values('Livraison_Code')
-                fig_time = px.line(time_trend, x='Livraison_Label', y='Nb_Logements', markers=True, 
-                                 labels={'Livraison_Label': 'Date de Livraison', 'Nb_Logements': 'Nombre de Logements'},
-                                 title="Tendance d'ouverture des programmes")
-                fig_time.update_layout(xaxis_tickangle=-45)
-                st.plotly_chart(fig_time, use_container_width=True)
+# Controls
+with st.container():
+    c1, c2 = st.columns([3, 1])
+    with c1:
+        selected_promoters = st.multiselect("Sélectionner les promoteurs à analyser", options=promoter_options)
+    with c2:
+        st.write("##")
+        if st.button("🚀 Lancer l'analyse en temps réel"):
+            if not selected_promoters:
+                st.warning("Veuillez choisir au moins un promoteur.")
             else:
-                st.info("Données insuffisantes pour la courbe temporelle.")
+                all_results = []
+                now_str = datetime.now().strftime('%Y-%m-%d %H:%M')
+                progress_bar = st.progress(0)
+                for i, p_name in enumerate(selected_promoters):
+                    st.write(f"Extraction pour **{p_name}**...")
+                    info = mapping[p_name]
+                    raw_props = get_promoter_properties(info['slug'], info['id'])
+                    if raw_props:
+                        processed = process_raw_data(raw_props, p_name, now_str)
+                        all_results.extend(processed)
+                    progress_bar.progress((i + 1) / len(selected_promoters))
                 
-        with c2:
-            # Curve 2: Housing Supply vs Department
-            st.write("**Répartition par Département (Logements / Dept)**")
-            if not filtered_df.empty:
-                dept_trend = filtered_df.groupby('Département')['Nb_Logements'].sum().reset_index()
-                dept_trend = dept_trend.sort_values('Nb_Logements', ascending=False)
-                # Add names for clarity in chart
-                dept_trend['Label'] = dept_trend['Département'].apply(lambda x: f"{x} - {DEPT_MAP.get(x, 'N/A')}")
-                fig_dept = px.bar(dept_trend, x='Label', y='Nb_Logements', 
-                                labels={'Label': 'Département', 'Nb_Logements': 'Nombre de Logements'},
-                                title="Forte demande par zone géographique",
-                                color='Nb_Logements', color_continuous_scale='Viridis')
-                st.plotly_chart(fig_dept, use_container_width=True)
-            else:
-                st.info("Données insuffisantes pour la répartition géographique.")
-            
-        # Data View
-        st.subheader("📋 Détails des Programmes")
-        st.dataframe(filtered_df.drop(columns=['Date_Scraping', 'Ville', 'Département', 'Livraison_Code', 'Livraison_Label']), use_container_width=True)
+                if all_results:
+                    st.session_state.master_data = pd.DataFrame(all_results)
+                    st.success(f"Analyse terminée : {len(all_results)} programmes trouvés.")
+                else:
+                    st.error("Aucune donnée trouvée pour cette sélection.")
+
+df = st.session_state.master_data
+
+if df.empty:
+    st.warning("Veuillez sélectionner au moins un promoteur et lancer l'analyse ci-dessus.")
+else:
+    # Sidebar Filters
+    st.sidebar.header("Filtres")
+    src_filter = st.sidebar.multiselect("Promoteur", options=sorted(df['Source'].unique()), default=df['Source'].unique())
+    
+    unique_depts = sorted(df['Département'].unique())
+    dept_options = [f"{d} - {DEPT_MAP.get(d, 'Inconnu')}" for d in unique_depts if d != "N/A"]
+    dept_selection = st.sidebar.multiselect("Département", options=dept_options, default=[])
+    
+    selected_dept_nums = [opt.split(" - ")[0] for opt in dept_selection] if dept_selection else unique_depts
+    
+    status_options = sorted(df['Statut'].unique())
+    status_selection = st.sidebar.multiselect("Statut", options=status_options, default=[])
+    selected_status = status_selection if status_selection else status_options
+    
+    year_options = sorted(df['Année'].unique())
+    year_selection = st.sidebar.multiselect("Année de Livraison", options=year_options, default=[])
+    selected_years = year_selection if year_selection else year_options
+
+    delivery_options = sorted(df['Livraison'].unique())
+    delivery_selection = st.sidebar.multiselect("Date de Livraison", options=delivery_options, default=[])
+    selected_delivery = delivery_selection if delivery_selection else delivery_options
+    
+    # Filtering logic
+    mask = (df['Source'].isin(src_filter)) & \
+           (df['Département'].isin(selected_dept_nums)) & \
+           (df['Statut'].isin(selected_status)) & \
+           (df['Année'].isin(selected_years)) & \
+           (df['Livraison'].isin(selected_delivery))
+    filtered_df = df[mask]
         
-        st.download_button("📥 Exporter CSV", filtered_df.to_csv(index=False).encode('utf-8-sig'), "export_immo.csv", "text/csv")
+    # Metrics
+    m1, m2, m3, m4 = st.columns(4)
+    m1.metric("Programmes", len(filtered_df))
+    m2.metric("Logements Total", f"{filtered_df['Nb_Logements'].sum():,}")
+    
+    valid_m2 = filtered_df[filtered_df['Prix_m2'] > 0]
+    if not valid_m2.empty:
+        avg_m2 = valid_m2['Prix_m2'].mean()
+    else:
+        avg_m2 = 0
+    m3.metric("Prix m² Moyen", f"{avg_m2:,.0f} €")
+    
+    m4.metric("Dernière Analyse", df['Date_Extraction'].max() if 'Date_Extraction' in df.columns else "N/A")
+    
+    # --- Market Trends Charts ---
+    st.subheader("📈 Analytique : Tendances du Marché")
+    
+    c1, c2 = st.columns(2)
+    
+    with c1:
+        # Curve 1: Housing Supply vs Time
+        st.write("**Évolution de l'Offre (Logements / Temps)**")
+        if not filtered_df.empty:
+            time_trend = filtered_df.groupby(['Livraison_Code', 'Livraison_Label'])['Nb_Logements'].sum().reset_index()
+            time_trend = time_trend.sort_values('Livraison_Code')
+            fig_time = px.line(time_trend, x='Livraison_Label', y='Nb_Logements', markers=True, 
+                             labels={'Livraison_Label': 'Date de Livraison', 'Nb_Logements': 'Nombre de Logements'},
+                             title="Tendance d'ouverture des programmes")
+            fig_time.update_layout(xaxis_tickangle=-45)
+            st.plotly_chart(fig_time, use_container_width=True)
+        else:
+            st.info("Données insuffisantes pour la courbe temporelle.")
+            
+    with c2:
+        # Curve 2: Housing Supply vs Department
+        st.write("**Répartition par Département (Logements / Dept)**")
+        if not filtered_df.empty:
+            dept_trend = filtered_df.groupby('Département')['Nb_Logements'].sum().reset_index()
+            dept_trend = dept_trend.sort_values('Nb_Logements', ascending=False)
+            # Add names for clarity in chart
+            dept_trend['Label'] = dept_trend['Département'].apply(lambda x: f"{x} - {DEPT_MAP.get(x, 'N/A')}")
+            fig_dept = px.bar(dept_trend, x='Label', y='Nb_Logements', 
+                            labels={'Label': 'Département', 'Nb_Logements': 'Nombre de Logements'},
+                            title="Forte demande par zone géographique",
+                            color='Nb_Logements', color_continuous_scale='Viridis')
+            st.plotly_chart(fig_dept, use_container_width=True)
+        else:
+            st.info("Données insuffisantes pour la répartition géographique.")
+        
+    # Data View
+    st.subheader("📋 Détails des Programmes")
+    drop_cols = ['Ville', 'Département', 'Livraison_Code', 'Livraison_Label']
+    if 'Date_Extraction' in filtered_df.columns:
+        drop_cols.append('Date_Extraction')
+    final_df = filtered_df.drop(columns=drop_cols)
+    st.dataframe(final_df, use_container_width=True)
+    
+    # Excel Export
+    buffer = io.BytesIO()
+    with pd.ExcelWriter(buffer, engine='openpyxl') as writer:
+        final_df.to_excel(writer, index=False, sheet_name='Lancements')
+    
+    st.download_button(
+        label="📥 Exporter vers Excel",
+        data=buffer.getvalue(),
+        file_name=f"export_immo_{datetime.now().strftime('%Y%m%d_%H%M')}.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )

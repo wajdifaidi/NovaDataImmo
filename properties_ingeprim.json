@@ -1,39 +1,19 @@
 [
   {
     "name": "Les Terrasses Gambetta",
-    "city": {
-      "kind": 361,
-      "id": 362,
-      "name": 363,
-      "ville_ref": 364,
-      "slug": 365,
-      "cp": 366,
-      "lat": 367,
-      "lng": 368,
-      "populations": 369,
-      "zone_fiscale": 370,
-      "parent": 371,
-      "ville_id": 362,
-      "departement_id": 59,
-      "departement_nom": 372,
-      "departement_num": 373,
-      "departement_slug": 374,
-      "region_id": 93,
-      "region_nom": 371,
-      "region_slug": 375
-    },
+    "city": "Hyères",
+    "dept_num": "83",
     "cp": "83",
+    "statut": "Livraison immédiate",
     "livraison": "IMMEDIATE",
+    "prix_min": null,
+    "surface_min": null,
+    "nbr_piece_total": [
+      5
+    ],
     "link": "https://www.trouver-un-logement-neuf.com/immobilier-neuf/hyeres-programme-les-terrasses-gambetta-202801-10272.html",
     "visual": "https://www.trouver-un-logement-neuf.com/immo-neuf/programmes-neufs//ingeprim/programme-neuf-hyeres-83400-695bbdacebf91_thb.jpg",
     "description": "OFFRE EXCEPTIONNELLE ! : GARAGE DOUBLE ÉLÉVATEUR + CUISINE ÉQUIPÉE + MEUBLES OFFERTS !!\r\nProfitez de 60 000 € d’avantages offerts.\r\nRésidence prestigieuse de 7 logements seulement en hyper centre-ville de Hyères\r\nDisponible immédiatement",
-    "units": [
-      {
-        "typology": null,
-        "prix": 550000,
-        "superficie": null,
-        "nbr_piece": 4
-      }
-    ]
+    "units": []
   }
 ]

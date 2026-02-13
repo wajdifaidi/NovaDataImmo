@@ -5,18 +5,30 @@ __pycache__/
 venv/
 .env
 
-# Data
-data.csv
-debug_nexity.html
-debug_more_hits.py
-debug_hit.py
-find_index.py
-find_metadata.py
-search_fields.py
-verify_values.py
-test_fetch.py
+# Data & Scraping Results
+properties_*.json
+*.html
+*.csv
+nuxt_data.json
+bordeaux_nuxt.json
+nexity_promoter_nuxt.json
+search_nuxt_10.json
+
+# Debug & Temp Scripts
+debug_*.py
+test_*.py
 exhaustive_debug.py
 query_algolia.py
+find_*.py
+list_*.py
+probe_*.py
+analyze_*.py
+extract_*.py
+parse_*.py
+download_debug.py
+final_verify.py
+verify_units.py
+tmp.py
 
 # Streamlit
 .streamlit/

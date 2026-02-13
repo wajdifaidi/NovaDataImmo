@@ -1,16 +1,134 @@
 {
-  "sources": [
-    {
-      "name": "Nexity",
-      "url": "https://www.nexity.fr/annonces-immobilieres/achat-vente/immobilier/neuf/france",
-      "type": "residential",
-      "selectors": {
-        "container": ".card-program",
-        "title": ".card-program__title",
-        "status": ".card-program__status",
-        "price": ".card-program__price",
-        "location": ".card-program__location"
-      }
-    }
-  ]
+    "developers": [
+        {
+            "name": "Nexity",
+            "active": true,
+            "engine": "algolia_nexity",
+            "config": {
+                "app_id": "04QRMGY2OL",
+                "api_key": "31bd735badd4f77d8e2dc769e29d8d04",
+                "index_name": "prod_bien"
+            }
+        },
+        {
+            "name": "BOUYGUES IMMOBILIER",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "KAUFMAN & BROAD",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "ICADE",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "VINCI IMMOBILIER",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "BASSAC",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "PROCIVIS",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "EIFFAGE IMMOBILIER",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "ADIM",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "CREDIT AGRICOLE IMMOBILIER",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "PICHET",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "SOGEPROM",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "QUARTUS",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "BNP PARIBAS REAL ESTATE",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "EMERIGE",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "LINKCITY",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "GREENCITY IMMOBILIER",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "REALITES",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "PIERREVAL",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "COGEDIM",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        },
+        {
+            "name": "WOODEUM-PITCH IMMOBILIER",
+            "active": true,
+            "engine": "discovery",
+            "config": {}
+        }
+    ]
 }

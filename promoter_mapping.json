@@ -1,0 +1,474 @@
+{
+  "Acheter Du Neuf": {
+    "id": "10308",
+    "slug": "acheter-du-neuf"
+  },
+  "Aic Provence": {
+    "id": "11564",
+    "slug": "aic-provence"
+  },
+  "Aipc": {
+    "id": "12610",
+    "slug": "arch-promotion"
+  },
+  "Alc Immo Conseils": {
+    "id": "11640",
+    "slug": "alc-immo-conseils"
+  },
+  "Alcys Realisations": {
+    "id": "4321",
+    "slug": "alcys-realisations"
+  },
+  "Aprim'immobilier": {
+    "id": "6993",
+    "slug": "aprim-immobilier"
+  },
+  "Ataraxia Promotion": {
+    "id": "745",
+    "slug": "ataraxia"
+  },
+  "Axeliha": {
+    "id": "8840",
+    "slug": "axelhia"
+  },
+  "Azur Home": {
+    "id": "12639",
+    "slug": "azurhome"
+  },
+  "Bati Armor": {
+    "id": "11057",
+    "slug": "batiarmor"
+  },
+  "Bati Lyon Promotion": {
+    "id": "12586",
+    "slug": "batilyon"
+  },
+  "Bnp Paribas Real Estate": {
+    "id": "771",
+    "slug": "bnp-paribas-immobilier"
+  },
+  "Bourseau Rossetto": {
+    "id": "11973",
+    "slug": "bourseau-rossetto"
+  },
+  "Bouygues Immobilier National": {
+    "id": "13143",
+    "slug": "bouygues-immobilier"
+  },
+  "Buesa Amenageur Promoteur": {
+    "id": "236",
+    "slug": "be-promotion"
+  },
+  "Casalia": {
+    "id": "13157",
+    "slug": "casalia"
+  },
+  "Cbi Promotion": {
+    "id": "10263",
+    "slug": "cbi-promotion-mediaveille"
+  },
+  "Cgpi": {
+    "id": "11000",
+    "slug": "cgpi"
+  },
+  "Cisn": {
+    "id": "278",
+    "slug": "cisn"
+  },
+  "Cogedim": {
+    "id": "11707",
+    "slug": "covalens-cogedim"
+  },
+  "Compagnie D'architecture Nouvelle": {
+    "id": "10862",
+    "slug": "can"
+  },
+  "Constructa Promotion": {
+    "id": "12154",
+    "slug": "constructa"
+  },
+  "Coti Immobilier": {
+    "id": "12935",
+    "slug": "coti-immobilier"
+  },
+  "Delta Promotion": {
+    "id": "10453",
+    "slug": "delta-promotion"
+  },
+  "Demathieu Bard Immobilier": {
+    "id": "11636",
+    "slug": "demathieubard"
+  },
+  "Dubois Promotion": {
+    "id": "6122",
+    "slug": "dubois-promotion"
+  },
+  "Durand-montouche": {
+    "id": "4718",
+    "slug": "durand-montouche"
+  },
+  "Edifim Annecy Leman": {
+    "id": "731",
+    "slug": "edifim"
+  },
+  "Edifipierre": {
+    "id": "144",
+    "slug": "edifipierre"
+  },
+  "Edouard Denis": {
+    "id": "746",
+    "slug": "edouard-denis"
+  },
+  "Eiffage Immobilier": {
+    "id": "11586",
+    "slug": "eiffage"
+  },
+  "Emerige": {
+    "id": "11202",
+    "slug": "emerige"
+  },
+  "Espace Maison Stradim": {
+    "id": "667",
+    "slug": "stradim"
+  },
+  "Expertimo": {
+    "id": "10808",
+    "slug": "expertimo"
+  },
+  "Fayat Immobilier": {
+    "id": "12683",
+    "slug": "fayat"
+  },
+  "Fily Promotion": {
+    "id": "4791",
+    "slug": "fily-promotion"
+  },
+  "Foncim Promotion": {
+    "id": "12528",
+    "slug": "groupe-jean"
+  },
+  "Fynaroc Patrimoine": {
+    "id": "61",
+    "slug": "fynaroc"
+  },
+  "Gilles Trignat Residences": {
+    "id": "68",
+    "slug": "gilles_trignat"
+  },
+  "Groupe Arc": {
+    "id": "12914",
+    "slug": "arc"
+  },
+  "Groupe Ej": {
+    "id": "12753",
+    "slug": "groupe-ej"
+  },
+  "Groupe Vacher": {
+    "id": "9867",
+    "slug": "adevim"
+  },
+  "Groupe Valloire": {
+    "id": "139",
+    "slug": "groupe-valloire"
+  },
+  "Groupement Savoyard Immobilier": {
+    "id": "10817",
+    "slug": "groupement-savoyard-immobilier"
+  },
+  "Guerin Promotion": {
+    "id": "12455",
+    "slug": "guerin-promotion"
+  },
+  "Habitec": {
+    "id": "4971",
+    "slug": "habitec-batisseur"
+  },
+  "Icade Promotion": {
+    "id": "8598",
+    "slug": "icade-natio"
+  },
+  "Ilt Immo": {
+    "id": "11181",
+    "slug": "ilt-immo"
+  },
+  "Immobiliere Savoie LÉman - Isl": {
+    "id": "5",
+    "slug": "isl"
+  },
+  "Immtim": {
+    "id": "12986",
+    "slug": "immtim"
+  },
+  "Imogroup": {
+    "id": "5048",
+    "slug": "JAILLET"
+  },
+  "Imotis": {
+    "id": "838",
+    "slug": "artis"
+  },
+  "Ingeprim": {
+    "id": "10272",
+    "slug": "ingeprim"
+  },
+  "Interconstruction Amenagement": {
+    "id": "8355",
+    "slug": "interconstruction"
+  },
+  "Isia Immo": {
+    "id": "13052",
+    "slug": "isaia"
+  },
+  "Isis Immobilier": {
+    "id": "5073",
+    "slug": "isis-immobilier"
+  },
+  "Jenzi S.a": {
+    "id": "796",
+    "slug": "jenzi-s-a"
+  },
+  "Jvl Immobilier": {
+    "id": "10905",
+    "slug": "jvl-immobilier"
+  },
+  "Kaufman Et Broad": {
+    "id": "361",
+    "slug": "ketb"
+  },
+  "Kermarrec Promotion": {
+    "id": "9987",
+    "slug": "kermarrec-mediaveille"
+  },
+  "Kic": {
+    "id": "7526",
+    "slug": "aretoile"
+  },
+  "Lcb Immo": {
+    "id": "12938",
+    "slug": "lcb"
+  },
+  "Lelievre Immobilier": {
+    "id": "12801",
+    "slug": "groupe-lelievre"
+  },
+  "Les Nouveaux Constructeurs": {
+    "id": "5891",
+    "slug": "nouveaux-constructeurs"
+  },
+  "Les Nouveaux Constructeurs Paris": {
+    "id": "13066",
+    "slug": "lncsa"
+  },
+  "Lk1 Immobilier": {
+    "id": "12933",
+    "slug": "lk1"
+  },
+  "Lspimmo": {
+    "id": "12791",
+    "slug": "contact-lsp"
+  },
+  "Marignan": {
+    "id": "672",
+    "slug": "bouwfonds-marignan-sas"
+  },
+  "Medicis Immobilier Neuf": {
+    "id": "29",
+    "slug": "medicis-patrimoine"
+  },
+  "MGM Constructeur": {
+    "id": "201",
+    "slug": "mgm"
+  },
+  "Mj Developpement": {
+    "id": "5313",
+    "slug": "mj-developpement"
+  },
+  "Moyse Promotion": {
+    "id": "778",
+    "slug": "moyse-sa"
+  },
+  "Nacarat Nord": {
+    "id": "11543",
+    "slug": "nacarat"
+  },
+  "Nexity": {
+    "id": "10",
+    "slug": "nexity"
+  },
+  "Ogic": {
+    "id": "11035",
+    "slug": "ogic"
+  },
+  "Opus Immo": {
+    "id": "11522",
+    "slug": "opus-conseils-neuf"
+  },
+  "Perspectim": {
+    "id": "10798",
+    "slug": "perspectim"
+  },
+  "Pierre De Seine - Odyssee Immobilier": {
+    "id": "12392",
+    "slug": "pierre-de-seine"
+  },
+  "Pierre Promotion Developpement": {
+    "id": "10131",
+    "slug": "blot-immobilier"
+  },
+  "Plurimmo Groupe Avantiel": {
+    "id": "99",
+    "slug": "plurimmo"
+  },
+  "Plus Immo": {
+    "id": "9668",
+    "slug": "plusimmo"
+  },
+  "Polylogis": {
+    "id": "12902",
+    "slug": "logis-h"
+  },
+  "Pozzo Patrimoine": {
+    "id": "6263",
+    "slug": "pozzo"
+  },
+  "Preference Home": {
+    "id": "12695",
+    "slug": "prefh"
+  },
+  "Premium Promotion Alsace": {
+    "id": "12846",
+    "slug": "premium-promotion"
+  },
+  "Priams": {
+    "id": "748",
+    "slug": "priams"
+  },
+  "Prodeom Immobilier Neuf": {
+    "id": "11714",
+    "slug": "prodeom"
+  },
+  "Promoca": {
+    "id": "12400",
+    "slug": "promoca"
+  },
+  "Promomidi": {
+    "id": "11014",
+    "slug": "promomidi"
+  },
+  "Ptdf - Pierre Passion": {
+    "id": "160",
+    "slug": "pierre-passion"
+  },
+  "Ptdf - Polimmo Promotion Amenagement": {
+    "id": "5474",
+    "slug": "polimmo"
+  },
+  "Quartus": {
+    "id": "10050",
+    "slug": "quartus"
+  },
+  "Quoi De Neuf Immobilier": {
+    "id": "10165",
+    "slug": "quoi-de-neuf-immobilier"
+  },
+  "Riviera Realisation": {
+    "id": "88",
+    "slug": "riviera-nice"
+  },
+  "Roxim Promotion Sa": {
+    "id": "11472",
+    "slug": "roxim"
+  },
+  "Sarl Resthocol": {
+    "id": "12975",
+    "slug": "resthocol"
+  },
+  "Sas Capi": {
+    "id": "10146",
+    "slug": "immobilier-neuf"
+  },
+  "Savoisienne Habitat": {
+    "id": "5635",
+    "slug": "savoisienne-habitat"
+  },
+  "Sccv La Chimere": {
+    "id": "12211",
+    "slug": "sccv-la-chimere"
+  },
+  "Scharf Immobilier": {
+    "id": "5642",
+    "slug": "scharf-immobilier"
+  },
+  "Sedelka": {
+    "id": "11878",
+    "slug": "sedelka"
+  },
+  "Select Imvest": {
+    "id": "11469",
+    "slug": "select-imvest"
+  },
+  "Sixieme Sens Promotion": {
+    "id": "4199",
+    "slug": "6eme-sens-promoteur"
+  },
+  "Slc Groupe Pitance": {
+    "id": "11836",
+    "slug": "slc-pitance"
+  },
+  "Smci": {
+    "id": "774",
+    "slug": "smci"
+  },
+  "Sogeprom": {
+    "id": "13133",
+    "slug": "sogeprom"
+  },
+  "Sogimm Maurice Monod Constructeur": {
+    "id": "5731",
+    "slug": "sogimm-maurice-monod"
+  },
+  "Sotrim": {
+    "id": "12838",
+    "slug": "sotrim"
+  },
+  "Sweet Home Leman": {
+    "id": "10322",
+    "slug": "SWEETHOME"
+  },
+  "Synalp Immobilier": {
+    "id": "12575",
+    "slug": "synalp-immobilier"
+  },
+  "Teccelia": {
+    "id": "12555",
+    "slug": "teccelia"
+  },
+  "Topaze": {
+    "id": "10312",
+    "slug": "topaze"
+  },
+  "Urbat": {
+    "id": "112",
+    "slug": "urbat"
+  },
+  "Urbis Realisations": {
+    "id": "8996",
+    "slug": "urbis"
+  },
+  "Utei": {
+    "id": "6451",
+    "slug": "utei"
+  },
+  "Villes Et Villages Creations": {
+    "id": "12298",
+    "slug": "villesetvillages"
+  },
+  "VINCI Immobilier Promotion": {
+    "id": "295",
+    "slug": "vinci"
+  },
+  "Voisin Immobilier": {
+    "id": "4944",
+    "slug": "voisin-immobilier"
+  }
+}

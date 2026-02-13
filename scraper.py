@@ -1,101 +1,140 @@
-import requests
+
 import json
-import pandas as pd
-from datetime import datetime
+import requests
+import re
+from bs4 import BeautifulSoup
+import sys
+import time
 import os
 
-def scrape_nexity():
-    print("Starting Algolia-based extraction (Target: 332 programs)...")
-    app_id = "04QRMGY2OL"
-    api_key = "31bd735badd4f77d8e2dc769e29d8d04"
-    index_name = "prod_bien"
+def extract_nuxt_data(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    script = soup.find('script', id='__NUXT_DATA__')
+    if script:
+        try:
+            return json.loads(script.string)
+        except Exception as e:
+            print(f"Error parsing Nuxt data: {e}")
+    return None
+
+def parse_product(data, prod_idx):
+    # data is the Nuxt list
+    # prod_idx is the index of the product object/map
+    product_map = data[prod_idx]
+    if not isinstance(product_map, dict):
+        return None
     
-    url = f"https://{app_id}-dsn.algolia.net/1/indexes/*/queries"
+    parsed = {}
+    for key, val_idx in product_map.items():
+        if isinstance(val_idx, int) and val_idx < len(data):
+            val = data[val_idx]
+            # Handle list of indices (like medias or types)
+            if isinstance(val, list) and len(val) > 0 and isinstance(val[0], int):
+                # For simplicity, we might just store the first one or keep the list
+                parsed[key] = val
+            else:
+                parsed[key] = val
+        else:
+            parsed[key] = val_idx
+            
+    return parsed
+
+def get_promoter_properties(slug, pid):
+    url = f"https://www.trouver-un-logement-neuf.com/programme-immobilier-neuf-promoteur-{slug}-{pid}.html"
+    print(f"Fetching {url}...")
     
-    params = {
-        "x-algolia-agent": "Algolia for JavaScript (4.13.1); Browser",
-        "x-algolia-api-key": api_key,
-        "x-algolia-application-id": app_id
-    }
-    
-    # Payload for 'neuf france' (518 results)
-    attrs = ["residence", "libelle", "ville", "codePostal", "prix", "prix_min", "sorting_prix", "flap", "dateDispo", "nb_lots", "surface", "surface_min", "surface_max", "typeBien"]
-    params_str = f"query=&hitsPerPage=1000&filters=neuf:1&attributesToRetrieve={json.dumps(attrs)}"
-    
-    payload = {
-        "requests": [
-            {
-                "indexName": index_name,
-                "params": params_str
-            }
-        ]
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
     
     try:
-        response = requests.post(url, params=params, json=payload, timeout=20)
-        if response.status_code == 200:
-            data = response.json()
-            hits = data['results'][0]['hits']
-            print(f"Successfully retrieved {len(hits)} hits!")
-            
-            programs = []
-            for h in hits:
-                # Extract clean fields
-                name = h.get('libelle', h.get('residence', 'N/A'))
-                city = h.get('ville', 'N/A')
-                cp = h.get('codePostal', 'N/A')
-                
-                # Pricing Logic: prioritize prix_min and surface_min for consistency
-                price = h.get('prix_min') or h.get('prix') or h.get('sorting_prix', 0)
-                # Ensure price is valid
-                if isinstance(price, (int, float)) and price <= 0:
-                    price = h.get('sorting_prix', 0)
-                
-                surface = h.get('surface_min') or h.get('surface', 0)
-                if not surface and h.get('surface'):
-                    surface = h.get('surface')
-                
-                # Calculate Prix/m2
-                prix_m2 = 0
-                if price and surface and surface > 0:
-                    prix_m2 = round(price / surface, 2)
-                
-                # Status Logic: Prioritize dateDispo
-                status = h.get('flap', 'En cours')
-                date_dispo = h.get('dateDispo')
-                if isinstance(date_dispo, dict) and 'date' in date_dispo:
-                    try:
-                        # Date format: 2026-12-31 00:00:00.000000
-                        dt_str = date_dispo['date'].split(' ')[0]
-                        dt = datetime.strptime(dt_str, "%Y-%m-%d")
-                        quarter = (dt.month - 1) // 3 + 1
-                        q_name = f"{quarter}er" if quarter == 1 else f"{quarter}e"
-                        status = f"{q_name} trim. {dt.year}"
-                    except:
-                        pass
-                elif any(x in status.lower() for x in ["bien", "lot", "restant"]):
-                    # If flap is "X biens restants", keep it but dateDispo is better
-                    pass
-                
-                programs.append({
-                    "Source": "Nexity",
-                    "Type": h.get('typeBien', 'N/A'),
-                    "Nom": name,
-                    "Statut": status,
-                    "Localisation": f"{city} ({cp})",
-                    "Nb_Logements": h.get('nb_lots', 0),
-                    "Prix_m2": prix_m2,
-                    "Date_Scraping": datetime.now().strftime("%Y-%m-%d")
-                })
-            
-            df = pd.DataFrame(programs)
-            df.to_csv('data.csv', index=False, encoding='utf-8-sig')
-            print(f"Saved {len(df)} programs to data.csv.")
-            return True
-    except Exception as e:
-        print(f"Scraping Error: {e}")
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code != 200:
+            print(f"Failed to fetch {url}: {response.status_code}")
+            return []
         
-    return False
+        html = response.text
+        data = extract_nuxt_data(html)
+        if not data:
+            print("No Nuxt data found")
+            return []
+        
+        # Find the product list key
+        # Under data[1]['data'] we find the keys for the current page
+        state_info = data[1]
+        data_key = state_info.get('data')
+        if data_key is None:
+            return []
+        
+        data_obj_idx = data[data_key][1] if isinstance(data[data_key], list) else data[data_key]
+        data_obj = data[data_obj_idx]
+        
+        product_indices = []
+        for key, val_idx in data_obj.items():
+            if key.startswith('search-products:'):
+                product_indices = data[val_idx]
+                break
+        
+        if not product_indices:
+            print("No search-products found in Nuxt data")
+            return []
+        
+        properties = []
+        for idx in product_indices:
+            if isinstance(idx, int) and idx < len(data):
+                prog = parse_product(data, idx)
+                if prog:
+                    # Clean up the program data
+                    # nbrPiece, city, visual, link, nom, descriptif, livraison
+                    # types is a list of unit indices
+                    units = []
+                    if 'types' in prog and isinstance(prog['types'], list):
+                        for u_idx in prog['types']:
+                            unit = parse_product(data, u_idx)
+                            if unit:
+                                units.append({
+                                    'typology': unit.get('typology'),
+                                    'prix': unit.get('prix'),
+                                    'superficie': unit.get('superficie'),
+                                    'nbr_piece': unit.get('nbr_piece')
+                                })
+                    
+                    properties.append({
+                        'name': prog.get('nom'),
+                        'city': prog.get('city'),
+                        'cp': prog.get('cp'),
+                        'livraison': prog.get('livraison'),
+                        'link': f"https://www.trouver-un-logement-neuf.com{prog.get('link')}" if prog.get('link') else None,
+                        'visual': prog.get('visual'),
+                        'description': prog.get('descriptif'),
+                        'units': units
+                    })
+        
+        return properties
+    except Exception as e:
+        print(f"Error scraping {slug}: {e}")
+        return []
 
 if __name__ == "__main__":
-    scrape_nexity()
+    # Example usage: py scraper.py nexity
+    target = sys.argv[1].lower() if len(sys.argv) > 1 else 'nexity'
+    
+    with open('promoter_mapping.json', 'r', encoding='utf-8') as f:
+        mapping = json.load(f)
+    
+    found = False
+    for name, info in mapping.items():
+        if target in name.lower() or target in info['slug'].lower():
+            res = get_promoter_properties(info['slug'], info['id'])
+            print(f"Scraped {len(res)} properties for {name}")
+            
+            # Save results
+            output_file = f"properties_{info['slug']}.json"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(res, f, indent=2, ensure_ascii=False)
+            print(f"Results saved to {output_file}")
+            found = True
+            break
+    
+    if not found:
+        print(f"Promoter '{target}' not found in mapping")

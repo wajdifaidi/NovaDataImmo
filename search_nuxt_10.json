@@ -1,0 +1,1750 @@
+[
+  [
+    "ShallowReactive",
+    1
+  ],
+  {
+    "data": 2,
+    "state": 589,
+    "once": 605,
+    "_errors": 606,
+    "serverRendered": 352,
+    "path": 608,
+    "pinia": 609
+  },
+  [
+    "ShallowReactive",
+    3
+  ],
+  {
+    "header-menu-all": 4,
+    "/articles?output=ArticlesHeaderResource&ids=6852-6832-6851-6854-6215&limit=5&orderBy=random": 303,
+    "cache-articles-6852-6832-6851-6854-6215": 353,
+    "/articles?output=ArticlesHeaderResource&ids=7219-710-3050-9959-7499&limit=5&orderBy=": 358,
+    "articles-data-7219-710-3050-9959-7499": 387,
+    "cache-articles-7219-710-3050-9959-7499": 398,
+    "total-product-counter": 401,
+    "articles-du-9-fr": 405
+  },
+  [
+    5,
+    92,
+    179,
+    204,
+    217,
+    271
+  ],
+  {
+    "id": 6,
+    "title": 7,
+    "href": 8,
+    "alt": 9,
+    "display": 10,
+    "subitems": 11
+  },
+  1,
+  "Habiter",
+  "#",
+  "Acheter un logement neuf",
+  "both",
+  {
+    "part1": 12,
+    "part2": 36,
+    "part3": 90
+  },
+  [
+    13
+  ],
+  {
+    "title": 14,
+    "items": 15
+  },
+  "Accès rapides en France",
+  [
+    16,
+    20,
+    24,
+    28,
+    32
+  ],
+  {
+    "title": 17,
+    "href": 18,
+    "alt": 19,
+    "display": 10
+  },
+  "Les Avant-Premières",
+  "/selection-avant-premiere.html",
+  "Programmes immobiliers neufs en avant-première en France",
+  {
+    "title": 21,
+    "href": 22,
+    "alt": 23,
+    "display": 10
+  },
+  "Programmes livraison immédiate",
+  "/livraison-immediate.html",
+  "Découvrez les livraisons immédiates en France",
+  {
+    "title": 25,
+    "href": 26,
+    "alt": 27,
+    "display": 10
+  },
+  "Sélection de la semaine",
+  "/selection-de-la-semaine.html",
+  "Sélection immobilier neuf de la newsletter ",
+  {
+    "title": 29,
+    "href": 30,
+    "alt": 31,
+    "display": 10
+  },
+  "Acheter un parking neuf",
+  "/achat-boxs-garages-parkings.html",
+  "Consulter nos offres de parkings neufs",
+  {
+    "title": 33,
+    "href": 34,
+    "alt": 35,
+    "display": 10
+  },
+  "Tous nos logements neufs",
+  "/logement-neuf.html",
+  "Toutes nos offres de programmes immobiliers neufs",
+  [
+    37
+  ],
+  {
+    "title": 38,
+    "items": 39
+  },
+  "Les villes les plus recherchées",
+  [
+    40,
+    46,
+    51,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85
+  ],
+  {
+    "title": 41,
+    "href": 42,
+    "alt": 43,
+    "display": 10,
+    "nb_prog": 44,
+    "only_invest": 45
+  },
+  "<b>Bordeaux </b> - 36 programmes neufs",
+  "/programme-immobilier-neuf-bordeaux-33000.html",
+  "Découvrez les programmes neufs à Bordeaux",
+  36,
+  0,
+  {
+    "title": 47,
+    "href": 48,
+    "alt": 49,
+    "display": 10,
+    "nb_prog": 50,
+    "only_invest": 45
+  },
+  "<b>Lille </b> - 6 programmes neufs",
+  "/programme-immobilier-neuf-lille-59000.html",
+  "Découvrez les programmes neufs à Lille",
+  6,
+  {
+    "title": 52,
+    "href": 53,
+    "alt": 54,
+    "display": 10,
+    "nb_prog": 44,
+    "only_invest": 45
+  },
+  "<b>Lyon </b> - 36 programmes neufs",
+  "/programme-immobilier-neuf-lyon-69000.html",
+  "Découvrez les programmes neufs à Lyon",
+  {
+    "title": 56,
+    "href": 57,
+    "alt": 58,
+    "display": 10,
+    "nb_prog": 59,
+    "only_invest": 45
+  },
+  "<b>Marseille </b> - 28 programmes neufs",
+  "/programme-immobilier-neuf-marseille-13000.html",
+  "Découvrez les programmes neufs à Marseille",
+  28,
+  {
+    "title": 61,
+    "href": 62,
+    "alt": 63,
+    "display": 10,
+    "nb_prog": 64,
+    "only_invest": 45
+  },
+  "<b>Montpellier </b> - 32 programmes neufs",
+  "/programme-immobilier-neuf-montpellier-34000.html",
+  "Découvrez les programmes neufs à Montpellier",
+  32,
+  {
+    "title": 66,
+    "href": 67,
+    "alt": 68,
+    "display": 10,
+    "nb_prog": 69,
+    "only_invest": 45
+  },
+  "<b>Nantes </b> - 18 programmes neufs",
+  "/programme-immobilier-neuf-nantes-44000.html",
+  "Découvrez les programmes neufs à Nantes",
+  18,
+  {
+    "title": 71,
+    "href": 72,
+    "alt": 73,
+    "display": 10,
+    "nb_prog": 74,
+    "only_invest": 45
+  },
+  "<b>Nice </b> - 14 programmes neufs",
+  "/programme-immobilier-neuf-nice-06000.html",
+  "Découvrez les programmes neufs à Nice",
+  14,
+  {
+    "title": 76,
+    "href": 77,
+    "alt": 78,
+    "display": 10,
+    "nb_prog": 79,
+    "only_invest": 45
+  },
+  "<b>Paris </b> - 12 programmes neufs",
+  "/programme-immobilier-neuf-paris-75000.html",
+  "Découvrez les programmes neufs à Paris",
+  10,
+  {
+    "title": 81,
+    "href": 82,
+    "alt": 83,
+    "display": 10,
+    "nb_prog": 84,
+    "only_invest": 45
+  },
+  "<b>Strasbourg </b> - 35 programmes neufs",
+  "/programme-immobilier-neuf-strasbourg-67000.html",
+  "Découvrez les programmes neufs à Strasbourg",
+  35,
+  {
+    "title": 86,
+    "href": 87,
+    "alt": 88,
+    "display": 10,
+    "nb_prog": 89,
+    "only_invest": 45
+  },
+  "<b>Toulouse </b> - 57 programmes neufs",
+  "/programme-immobilier-neuf-toulouse-31000.html",
+  "Découvrez les programmes neufs à Toulouse",
+  57,
+  [
+    91
+  ],
+  [],
+  {
+    "id": 93,
+    "title": 94,
+    "href": 8,
+    "alt": 95,
+    "display": 10,
+    "subitems": 96
+  },
+  2,
+  "Investir",
+  "Investir dans l'immobilier neuf",
+  {
+    "part1": 97,
+    "part2": 145,
+    "part3": 177
+  },
+  [
+    98
+  ],
+  {
+    "title": 99,
+    "items": 100
+  },
+  "Type d'investissement",
+  [
+    101,
+    105,
+    109,
+    113,
+    117,
+    121,
+    125,
+    129,
+    133,
+    137,
+    141
+  ],
+  {
+    "title": 102,
+    "href": 103,
+    "alt": 104,
+    "display": 10
+  },
+  "Investir en Loi Denormandie",
+  "/investissement-denormandie.html",
+  "Investissement Denormandie",
+  {
+    "title": 106,
+    "href": 107,
+    "alt": 108,
+    "display": 10
+  },
+  "En quoi consiste le dispositif Denormandie ?",
+  "/immobilier-infos/dispositif-denormandie-mode-emploi-10608.html",
+  "Investir avec le dispositif Denormandie : mode d'emploi",
+  {
+    "title": 110,
+    "href": 111,
+    "alt": 112,
+    "display": 10
+  },
+  "Investir en LLI",
+  "/investissement-logement-locatif-intermedaire.html",
+  "Investissement LLI",
+  {
+    "title": 114,
+    "href": 115,
+    "alt": 116,
+    "display": 10
+  },
+  "Qu’est ce que le logement locatif intermédiaire ?",
+  "/immobilier-infos/investir-en-lli-mode-emploi-10679.html",
+  "Investir en LLI : mode d'emploi !",
+  {
+    "title": 118,
+    "href": 119,
+    "alt": 120,
+    "display": 10
+  },
+  "Programmes LMP/LMNP",
+  "/investissement-location-meublee/statut-lmnp-lmp.html",
+  "Investissement LMP/LMNP Location meublée",
+  {
+    "title": 122,
+    "href": 123,
+    "alt": 124,
+    "display": 10
+  },
+  "Comment bénéficier du statut de loueur meublé ?",
+  "/immobilier-infos/lmnp-investir-location-meublee-non-professionnelle-8343.html",
+  "Achat LMNP : investir en location meublée non professionnelle",
+  {
+    "title": 126,
+    "href": 127,
+    "alt": 128,
+    "display": 10
+  },
+  "Logements PLS pour investir",
+  "/investissement-pret-locatif-social.html",
+  "Prêt Locatif Social",
+  {
+    "title": 130,
+    "href": 131,
+    "alt": 132,
+    "display": 10
+  },
+  "Quels sont les avantages du prêt locatif social ?",
+  "/immobilier-infos/pls-avantages-investissement-pret-locatif-social-3003.html",
+  "Investissement immobilier PLS : les avantages à investir avec le prêt locatif social",
+  {
+    "title": 134,
+    "href": 135,
+    "alt": 136,
+    "display": 10
+  },
+  "Investir dans un parking",
+  "/investissement-boxs-garages-parkings.html",
+  "Toutes nos offres d'investissement en parkings",
+  {
+    "title": 138,
+    "href": 139,
+    "alt": 140,
+    "display": 10
+  },
+  "Quels sont les avantages d’investir dans un parking ?",
+  "/immobilier-infos/frais-de-notaire-garage-parking-box-10043.html",
+  "Investir : quels sont les frais de notaire pour un garage ?",
+  {
+    "title": 142,
+    "href": 143,
+    "alt": 144,
+    "display": 10
+  },
+  "Voir tous nos investissements immobiliers",
+  "/investissement-immobilier.html",
+  "Toutes nos offres d'investissement immobiliers neufs",
+  [
+    146
+  ],
+  {
+    "title": 147,
+    "items": 148
+  },
+  "Type de résidence",
+  [
+    149,
+    153,
+    157,
+    161,
+    165,
+    169,
+    173
+  ],
+  {
+    "title": 150,
+    "href": 151,
+    "alt": 152,
+    "display": 10
+  },
+  "Résidences d'Affaires",
+  "/investissement-residence-affaires.html",
+  "Investissement Résidences d'Affaires",
+  {
+    "title": 154,
+    "href": 155,
+    "alt": 156,
+    "display": 10
+  },
+  "Résidences Etudiantes",
+  "/residences-etudiantes/residence-etudiante.html",
+  "Investissement Résidences Étudiante",
+  {
+    "title": 158,
+    "href": 159,
+    "alt": 160,
+    "display": 10
+  },
+  "Résidences de Tourisme",
+  "/investissement-residence-tourisme.html",
+  "Investissement Résidences de Tourisme",
+  {
+    "title": 162,
+    "href": 163,
+    "alt": 164,
+    "display": 10
+  },
+  "Résidences à la mer",
+  "/investissement-residence-tourisme-mer.html",
+  "Investissement Résidences à la mer",
+  {
+    "title": 166,
+    "href": 167,
+    "alt": 168,
+    "display": 10
+  },
+  "Résidences à la montagne",
+  "/investissement-residence-montagne.html",
+  "Investissement Résidences à la montagne",
+  {
+    "title": 170,
+    "href": 171,
+    "alt": 172,
+    "display": 10
+  },
+  "Résidences Seniors",
+  "/investissement-residence-senior.html",
+  "Investissement Résidences Seniors",
+  {
+    "title": 174,
+    "href": 175,
+    "alt": 176,
+    "display": 10
+  },
+  "Résidences Services",
+  "/investissement-residence-services.html",
+  "Investissement Résidences Services",
+  [
+    178
+  ],
+  [],
+  {
+    "id": 180,
+    "title": 181,
+    "href": 8,
+    "alt": 182,
+    "display": 183,
+    "subitems": 184
+  },
+  3,
+  "Bons Plans",
+  "Les bons plans du neuf",
+  "desktop",
+  {
+    "part1": 185
+  },
+  [
+    186
+  ],
+  {
+    "title": 14,
+    "items": 187
+  },
+  [
+    188,
+    192,
+    196,
+    200
+  ],
+  {
+    "title": 189,
+    "href": 190,
+    "alt": 191,
+    "display": 10
+  },
+  "Les promos du neuf",
+  "/opportunites-du-neuf.html",
+  "Découvrez les opportunités du neuf en France",
+  {
+    "title": 193,
+    "href": 194,
+    "alt": 195,
+    "display": 10
+  },
+  "Logements neufs à - de 200 000 €",
+  "/immobilier-neuf-logements-200000-euros.html",
+  "Logements neufs accessibles à moins de 200 000 €",
+  {
+    "title": 197,
+    "href": 198,
+    "alt": 199,
+    "display": 10
+  },
+  "Programmes immobiliers neufs TVA réduite",
+  "/selection-tva-reduite.html",
+  "Programmes immobiliers neufs TVA réduite en France",
+  {
+    "title": 201,
+    "href": 202,
+    "alt": 203,
+    "display": 10
+  },
+  "Programmes BRS – Bail Réel Solidaire",
+  "/programme-immobilier-neuf-brs-bail-reel-solidaire.html",
+  "Immobilier neuf en bail réel solidaire",
+  {
+    "id": 205,
+    "title": 206,
+    "href": 8,
+    "alt": 207,
+    "display": 10,
+    "subitems": 208
+  },
+  4,
+  "Prix du neuf",
+  "Les prix de l'immobilier neuf partout en France",
+  {
+    "part1": 209
+  },
+  [
+    210
+  ],
+  {
+    "title": 211,
+    "items": 212
+  },
+  "Les prix du neuf",
+  [
+    213
+  ],
+  {
+    "title": 214,
+    "href": 215,
+    "alt": 216,
+    "display": 10
+  },
+  "Les prix de l'immobilier neuf en France",
+  "/prix-immobilier-neuf-france.html",
+  "Découvrez les prix de l'immobilier neuf en France",
+  {
+    "id": 218,
+    "title": 219,
+    "href": 8,
+    "alt": 220,
+    "display": 10,
+    "subitems": 221
+  },
+  5,
+  "Actus / Conseils",
+  "Actualité, conseils et guide de l'immobilier neuf",
+  {
+    "part1": 222,
+    "part2": 242,
+    "part3": 269
+  },
+  [
+    223
+  ],
+  {
+    "title": 224,
+    "items": 225
+  },
+  "Les actus du neuf",
+  [
+    226,
+    230,
+    234,
+    238
+  ],
+  {
+    "title": 227,
+    "href": 228,
+    "alt": 229,
+    "display": 10
+  },
+  "Acheter en VEFA",
+  "/immobilier-infos/achat-appartement-neuf-sur-plan-etapes-vefa-7185.html",
+  "Quelle durée pour les différentes étapes de construction d'un appartement neuf en VEFA ?",
+  {
+    "title": 231,
+    "href": 232,
+    "alt": 233,
+    "display": 10
+  },
+  "Investissement immobilier",
+  "/immobilier-infos/premier-investissement-locatif-mode-emploi-9587.html",
+  "Premier investissement locatif : mode d'emploi",
+  {
+    "title": 235,
+    "href": 236,
+    "alt": 237,
+    "display": 10
+  },
+  "Habiter dans le neuf",
+  "/immobilier-infos/avantages-acheter-logement-neuf-pour-habiter-7184.html",
+  "Achat appartement neuf : les avantages",
+  {
+    "title": 239,
+    "href": 240,
+    "alt": 241,
+    "display": 10
+  },
+  "Toutes nos actualités",
+  "/immobilier-infos/actualites-immobilier-neuf.html",
+  "Toutes les actualités de l'immobilier neuf",
+  [
+    243
+  ],
+  {
+    "title": 244,
+    "items": 245
+  },
+  "Nos guides",
+  [
+    246,
+    250,
+    253,
+    257,
+    261,
+    265
+  ],
+  {
+    "title": 247,
+    "href": 248,
+    "alt": 249,
+    "display": 10
+  },
+  "Le guide pour habiter",
+  "/guide-achat-immobilier-neuf.html",
+  "",
+  {
+    "title": 251,
+    "href": 252,
+    "alt": 249,
+    "display": 10
+  },
+  "Le guide pour investir",
+  "/guide-investissement-immobilier-neuf.html",
+  {
+    "title": 254,
+    "href": 255,
+    "alt": 256,
+    "display": 10
+  },
+  "Nos dossiers",
+  "/dossiers-immobilier-neuf.html",
+  "Découvrez les dossiers de l'immobilier neuf",
+  {
+    "title": 258,
+    "href": 259,
+    "alt": 260,
+    "display": 10
+  },
+  "Les grands projets urbains",
+  "/dossiers-projet-urbain.html",
+  "Nos dossiers sur les grands projets urbains",
+  {
+    "title": 262,
+    "href": 263,
+    "alt": 264,
+    "display": 10
+  },
+  "Nos vidéos",
+  "/videos-immobilier-neuf.html",
+  "Nos vidéos sur les thématiques de l'immobilier neuf",
+  {
+    "title": 266,
+    "href": 267,
+    "alt": 268,
+    "display": 10
+  },
+  "FAQ",
+  "/faq-immobilier-neuf.html",
+  "Les réponses aux questions les plus fréquentes sur l'achat immobilier neuf",
+  [
+    270
+  ],
+  [],
+  {
+    "id": 50,
+    "title": 272,
+    "href": 8,
+    "alt": 273,
+    "display": 10,
+    "subitems": 274
+  },
+  "Services",
+  "Nos services pratiques",
+  {
+    "part1": 275,
+    "part2": 283,
+    "part3": 295
+  },
+  [
+    276
+  ],
+  {
+    "title": 277,
+    "items": 278
+  },
+  "Simulateurs et Calculettes",
+  [
+    279
+  ],
+  {
+    "title": 280,
+    "href": 281,
+    "alt": 282,
+    "display": 10
+  },
+  "Crédit immobilier : comparateur de taux",
+  "/credit-immobilier-empruntis.php",
+  "Découvrez les prix du neuf partout en France",
+  [
+    284
+  ],
+  {
+    "title": 285,
+    "items": 286
+  },
+  "Téléchargez vos guides gratuits",
+  [
+    287,
+    291
+  ],
+  {
+    "title": 288,
+    "href": 289,
+    "alt": 290,
+    "display": 10
+  },
+  "Acheter un logement neuf : mode d'emploi",
+  "/telechargement-gratuit-guide-achat-immobilier-neuf.html",
+  "Télécharger notre guide d'achat immobilier neuf",
+  {
+    "title": 292,
+    "href": 293,
+    "alt": 294,
+    "display": 10
+  },
+  "Investir dans le neuf : mode d’emploi",
+  "/telechargement-gratuit-guide-investissement-immobilier-neuf.html",
+  "Télécharger notre guide pour l'investissement immobilier neuf",
+  [
+    296
+  ],
+  {
+    "title": 297,
+    "items": 298
+  },
+  "Restez informé.e",
+  [
+    299
+  ],
+  {
+    "title": 300,
+    "href": 301,
+    "alt": 302,
+    "display": 10
+  },
+  "Inscription alertes nouveautés et newsletters",
+  "/inscription-alertes-newsletters.html",
+  "Recevez les dernières annonces et avant-premières",
+  {
+    "data": 304,
+    "meta": 342,
+    "seo": 343,
+    "filtersParams": 347
+  },
+  [
+    305,
+    314,
+    321,
+    328,
+    335
+  ],
+  {
+    "id_article": 306,
+    "text_intro": 307,
+    "titre": 308,
+    "alt": 309,
+    "image": 310,
+    "url_rewrite": 311,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  6854,
+  "<p>Sécurisé et connecté, l&rsquo;immobilier neuf offre de plus en plus d&rsquo;outils digitaux pour créer un véritable cocon au sein de son logement, tout en étant en lien avec son environnement. Voici les atouts du logement neuf connecté.</p>",
+  "Les avantages d'un logement neuf connecté ",
+  "Les avantages d'un logement neuf connecté",
+  "https://www.trouver-un-logement-neuf.com/img_article/f78aed03610481225fb44bbf131be382-6854.jpg",
+  "/immobilier-infos/avantages-logement-neuf-connecte-6854",
+  "TULN",
+  "0",
+  {
+    "id_article": 315,
+    "text_intro": 316,
+    "titre": 317,
+    "alt": 318,
+    "image": 319,
+    "url_rewrite": 320,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  6851,
+  "<p>Être à la pointe de la modernité, c&rsquo;est anticiper un avenir meilleur pour la planète en achetant un logement neuf aux dernières normes environnementales&hellip; Tour d&rsquo;horizon des principaux avantages écologiques d&rsquo;opter pour l&rsquo;habitat neuf.</p>",
+  "Un bien immobilier neuf moderne et durable",
+  "Les avantages écologiques d'un logement neuf",
+  "https://www.trouver-un-logement-neuf.com/img_article/ef0226723c12596edb1d1c7dcf084a15-6851.jpg",
+  "/immobilier-infos/avantages-ecologiques-immobilier-neuf-6851",
+  {
+    "id_article": 322,
+    "text_intro": 323,
+    "titre": 324,
+    "alt": 325,
+    "image": 326,
+    "url_rewrite": 327,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  6832,
+  "<p>Opter pour un logement neuf, ce sont des avantages financiers à la clé, dont l&rsquo;acquéreur ne peut bénéficier dans l&rsquo;immobilier ancien. Tour d&rsquo;horizon de ces aides et atouts financiers de l&rsquo;immobilier neuf.</p>",
+  "Les avantages financiers d'un logement neuf",
+  "Quels sont les avantages financiers et fiscaux d'un logement neuf ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/1fc0e378efba34da8aee39f1f6819198-6832.jpg",
+  "/immobilier-infos/avantages-financiers-logement-neuf-6832",
+  {
+    "id_article": 329,
+    "text_intro": 330,
+    "titre": 331,
+    "alt": 332,
+    "image": 333,
+    "url_rewrite": 334,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  6215,
+  "<p>Garantie décennale, garantie de parfait achèvement&hellip; le logement neuf, acheté sur plan en VEFA, Vente en Etat Futur d&rsquo;Achèvement, bénéficie de nombreuses garanties pour protéger l&rsquo;acquéreur. Quelles sont les garanties d'un logement neuf ?</p>",
+  "Achat d'un logement neuf : quelles sont les garanties de la VEFA ?",
+  "Quelles sont les garanties de la VEFA ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/3e99ad277cbf7649dd03d54b9731a655-6215.jpg",
+  "/immobilier-infos/achat-logement-neuf-quelles-garanties-6215",
+  {
+    "id_article": 336,
+    "text_intro": 337,
+    "titre": 338,
+    "alt": 339,
+    "image": 340,
+    "url_rewrite": 341,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  6852,
+  "<p>Acheter un logement neuf, c&rsquo;est faire le choix d&rsquo;un logement optimisé et personnalisable pour qu&rsquo;il s&rsquo;adapte à tous les modes de vie, grâce à des concepts innovants développés par les promoteurs immobiliers.</p>",
+  "Un logement neuf qui vous ressemble",
+  "Comment personnaliser un logement neuf ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/98e33b69a283038677ea5dc4d9e95ab6-6852.jpg",
+  "/immobilier-infos/avantages-logement-neuf-personnalisable-6852",
+  [],
+  {
+    "title": 344,
+    "description": 345,
+    "h1": 346,
+    "msg_result": 249,
+    "nb_res": 218,
+    "page_header": 249
+  },
+  "Trouver un logement neuf",
+  "Programmes immobiliers neufs en ligne pour trouver facilement votre futur logement neuf...",
+  "Immobilier neuf programmes immobiliers neufs et terrains à bâtir",
+  {
+    "output": 348,
+    "ids": 349,
+    "limit": 350,
+    "orderBy": 351,
+    "orderByRandom": 352
+  },
+  "ArticlesHeaderResource",
+  "6852-6832-6851-6854-6215",
+  "5",
+  "random",
+  true,
+  {
+    "data": 303,
+    "pending": 354,
+    "error": 356
+  },
+  [
+    "EmptyRef",
+    355
+  ],
+  "false",
+  [
+    "EmptyRef",
+    357
+  ],
+  "_",
+  {
+    "data": 359,
+    "meta": 382,
+    "seo": 383,
+    "filtersParams": 384
+  },
+  [
+    360,
+    368,
+    375
+  ],
+  {
+    "id_article": 361,
+    "text_intro": 362,
+    "titre": 363,
+    "alt": 364,
+    "image": 365,
+    "url_rewrite": 366,
+    "site_parution": 312,
+    "video_id": 367
+  },
+  7219,
+  "<p>Retrouvez ici tous les conseils et astuces pour naviguer sur notre site Trouver-un-logement-neuf.com et ainsi obtenir toutes les informations sur un programme immobilier neuf qui vous intéresse. Mode d&rsquo;emploi. </p>",
+  "Comment s'informer sur un programme immobilier neuf qui vous intéresse ?",
+  "Comment avoir un avis sur un programme immobilier neuf ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/18d29ae57322288ff3407103bbb031f1-7219.jpg",
+  "/immobilier-infos/comment-s-informer-sur-programme-immobilier-neuf-7219",
+  "vLQbHLAHrFg",
+  {
+    "id_article": 369,
+    "text_intro": 370,
+    "titre": 371,
+    "alt": 372,
+    "image": 373,
+    "url_rewrite": 374,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  9959,
+  "<p>De l'idée à la remise des clés, plongez dans les coulisses de la construction immobilière en VEFA. Découvrez les secrets des fondations aux finitions d'un bâtiment neuf, explorez le processus de construction d'un immeuble, du terrain à la réalité, où chaque étape vous rapproche de votre futur chez-soi.</p>",
+  "VEFA : quelles sont les étapes pour construire un immeuble neuf ?",
+  "VEFA : quelles sont les étapes de la construction d'un immeuble ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/c7abc80af24b8f225fca0400e5c66065-9959.jpg",
+  "/immobilier-infos/vefa-etapes-construction-immeuble-neuf-9959",
+  {
+    "id_article": 376,
+    "text_intro": 377,
+    "titre": 378,
+    "alt": 379,
+    "image": 380,
+    "url_rewrite": 381,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  7499,
+  "<p>Etape clé de l&rsquo;achat sur plan d&rsquo;un logement neuf : la livraison ! Une livraison minutieuse permettra de s&rsquo;assurer de la viabilité du bien immobilier dans le temps. Mode d&rsquo;emploi pour réussir la livraison de son appartement neuf.  </p>",
+  "Logement neuf : les conseils à suivre pour la livraison",
+  "Conseils pour réussir la livraison d'un appartement neuf",
+  "https://www.trouver-un-logement-neuf.com/img_article/8f621132723ba7b72fde6254c0d7e267-7499.jpg",
+  "/immobilier-infos/logement-neuf-livraison-conseils-7499",
+  [],
+  {
+    "title": 344,
+    "description": 345,
+    "h1": 346,
+    "msg_result": 249,
+    "nb_res": 180,
+    "page_header": 249
+  },
+  {
+    "output": 348,
+    "ids": 385,
+    "limit": 350,
+    "orderBy": 386,
+    "orderByRandom": 352
+  },
+  "7219-710-3050-9959-7499",
+  null,
+  {
+    "data": 388,
+    "pending": 396,
+    "error": 397
+  },
+  {
+    "data": 389,
+    "meta": 393,
+    "seo": 394,
+    "filtersParams": 395
+  },
+  [
+    390,
+    391,
+    392
+  ],
+  {
+    "id_article": 361,
+    "text_intro": 362,
+    "titre": 363,
+    "alt": 364,
+    "image": 365,
+    "url_rewrite": 366,
+    "site_parution": 312,
+    "video_id": 367
+  },
+  {
+    "id_article": 369,
+    "text_intro": 370,
+    "titre": 371,
+    "alt": 372,
+    "image": 373,
+    "url_rewrite": 374,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  {
+    "id_article": 376,
+    "text_intro": 377,
+    "titre": 378,
+    "alt": 379,
+    "image": 380,
+    "url_rewrite": 381,
+    "site_parution": 312,
+    "video_id": 313
+  },
+  [],
+  {
+    "title": 344,
+    "description": 345,
+    "h1": 346,
+    "msg_result": 249,
+    "nb_res": 180,
+    "page_header": 249
+  },
+  {
+    "output": 348,
+    "ids": 385,
+    "limit": 350,
+    "orderBy": 386,
+    "orderByRandom": 352
+  },
+  [
+    "EmptyRef",
+    355
+  ],
+  [
+    "EmptyRef",
+    357
+  ],
+  {
+    "data": 358,
+    "pending": 399,
+    "error": 400
+  },
+  [
+    "EmptyRef",
+    355
+  ],
+  [
+    "EmptyRef",
+    357
+  ],
+  {
+    "count": 402,
+    "suffix": 403,
+    "location": 404
+  },
+  3048,
+  "s",
+  "France",
+  {
+    "dossiers": 406,
+    "experts": 530,
+    "actus": 560
+  },
+  [
+    407,
+    429,
+    476,
+    526
+  ],
+  {
+    "id": 408,
+    "nom": 409,
+    "url": 410,
+    "articles": 411
+  },
+  8,
+  "Immobilier neuf Ile de Nantes, nouveau cœur de Nantes",
+  "immobilier-neuf-ile-de-nantes",
+  [
+    412,
+    416,
+    421,
+    425
+  ],
+  {
+    "id_article": 413,
+    "titre": 414,
+    "images": 415,
+    "video_id": 313
+  },
+  10356,
+  "Île de Nantes : quatre équipes en finale pour une transformation écologique renforcée",
+  "https://infos.trouver-un-logement-neuf.com/img_article/ff8ac3583408d8b19f9a98a9076f76ad-10356.jpg",
+  {
+    "id_article": 417,
+    "titre": 418,
+    "images": 419,
+    "video_id": 420
+  },
+  9528,
+  "Immobilier neuf Pays de Loire : pourquoi cet intérêt pour le Grand Ouest ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/b14aa361a3ba97e79c659b3e25703999-9528.jpg",
+  "fVfyUUhOMbw",
+  {
+    "id_article": 422,
+    "titre": 423,
+    "images": 424,
+    "video_id": 313
+  },
+  9814,
+  "Vivre et investir à Nantes : quels sont les 10 quartiers les plus attractifs ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/778a2321b3a3eacecf0fdf90e325eb2b-9814.jpg",
+  {
+    "id_article": 426,
+    "titre": 427,
+    "images": 428,
+    "video_id": 313
+  },
+  9733,
+  "Où en est l'immobilier neuf dans l'ouest de l'île de Nantes ?",
+  "https://infos.trouver-un-logement-neuf.com/img_article/53401581fbc21d4127feaa41e9ddc970-9733.jpg",
+  {
+    "id": 93,
+    "nom": 430,
+    "url": 431,
+    "articles": 432
+  },
+  "Le PTZ ou Prêt à Taux Zéro pour votre achat immobilier neuf",
+  "ptz-pret-taux-zero",
+  [
+    433,
+    438,
+    442,
+    446,
+    450,
+    454,
+    458,
+    462,
+    467,
+    471
+  ],
+  {
+    "id_article": 434,
+    "titre": 435,
+    "images": 436,
+    "video_id": 437
+  },
+  10506,
+  "Prêt à Taux Zéro 2026 : aurez-vous droit au PTZ pour accéder à la propriété ?",
+  "https://infos.trouver-un-logement-neuf.com/img_article/7b7e907e0988ee5519fae4219e355371-10506.png",
+  "g_bPWs1lz00",
+  {
+    "id_article": 439,
+    "titre": 440,
+    "images": 441,
+    "video_id": 313
+  },
+  9819,
+  "Comment rembourser un prêt à taux zéro par anticipation ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/7a9e0a18e4c30f2236af578a464f029c-9819.jpg",
+  {
+    "id_article": 443,
+    "titre": 444,
+    "images": 445,
+    "video_id": 313
+  },
+  9330,
+  "PTZ : comment louer avec un Prêt à Taux Zéro ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/a6aada79c6ca86b153b6504045ef4205-9330.jpg",
+  {
+    "id_article": 447,
+    "titre": 448,
+    "images": 449,
+    "video_id": 313
+  },
+  2104,
+  "Primo-accédant : comment réussir son premier achat immobilier ?",
+  "https://infos.trouver-un-logement-neuf.com/img_article/1d6e78beeeb1130068ca9a2f75f6fa01-2104.jpg",
+  {
+    "id_article": 451,
+    "titre": 452,
+    "images": 453,
+    "video_id": 313
+  },
+  8996,
+  "Crédit immo : comment faire baisser le coût de son assurance emprunteur ?",
+  "https://infos.trouver-un-logement-neuf.com/img_article/d98c2d0bb9b5dc8fa85238e09e60a678-8996.jpg",
+  {
+    "id_article": 455,
+    "titre": 456,
+    "images": 457,
+    "video_id": 313
+  },
+  9583,
+  "Primo-accédant : quelles aides lors d'une première acquisition immobilière ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/91120d5fe9e1a5f67e4937d48a8ca90f-9583.jpg",
+  {
+    "id_article": 459,
+    "titre": 460,
+    "images": 461,
+    "video_id": 313
+  },
+  7184,
+  "Quels sont les avantages d'acheter un bien immobilier neuf ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/4fdf14373052b79e5d9af17e235558e9-7184.jpg",
+  {
+    "id_article": 463,
+    "titre": 464,
+    "images": 465,
+    "video_id": 466
+  },
+  7421,
+  "PTZ ou Pinel : comment financer son achat dans le neuf ?",
+  "https://infos.trouver-un-logement-neuf.com/img_article/4137af8ac4a9e4dd2322c52f17de8b00-7421.jpg",
+  "kZNDVfyrODk",
+  {
+    "id_article": 468,
+    "titre": 469,
+    "images": 470,
+    "video_id": 437
+  },
+  6171,
+  "PTZ et logement neuf : comment devenir propriétaire avec le Prêt à Taux Zéro ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/5ce149d9ec020282316c25c5ac942e39-6171.png",
+  {
+    "id_article": 472,
+    "titre": 473,
+    "images": 474,
+    "video_id": 475
+  },
+  7083,
+  "Comment acheter sans apport son logement neuf ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/c2a4dc55328a7121a200fe48d99bd21a-7083.jpg",
+  "Pfu9zIy6zIw",
+  {
+    "id": 477,
+    "nom": 478,
+    "url": 479,
+    "articles": 480
+  },
+  20,
+  "Tout sur l'immobilier neuf à Tours",
+  "immobilier-neuf-tours",
+  [
+    481,
+    485,
+    490,
+    494,
+    498,
+    502,
+    506,
+    510,
+    514,
+    518,
+    522
+  ],
+  {
+    "id_article": 482,
+    "titre": 483,
+    "images": 484,
+    "video_id": 313
+  },
+  9890,
+  "Les meilleurs quartiers pour acheter de l'immobilier neuf à Tours",
+  "https://www.trouver-un-logement-neuf.com/img_article/6c62ff504a93f0862d861ef257a9bb91-9890.jpg",
+  {
+    "id_article": 486,
+    "titre": 487,
+    "images": 488,
+    "video_id": 489
+  },
+  9817,
+  "Investir dans l'immobilier neuf à Tours : un choix judicieux aux portes des Châteaux de la Loire",
+  "https://www.trouver-un-logement-neuf.com/img_article/c303c122cbb2c22b415bf161f8c923dd-9817.jpg",
+  "dC9hakXMJiI",
+  {
+    "id_article": 491,
+    "titre": 492,
+    "images": 493,
+    "video_id": 489
+  },
+  9724,
+  "Pourquoi investir dans l'immobilier neuf en Centre Val de Loire ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/6c62ff504a93f0862d861ef257a9bb91-9724.jpg",
+  {
+    "id_article": 495,
+    "titre": 496,
+    "images": 497,
+    "video_id": 313
+  },
+  10092,
+  "Ecoquartier et tramway dynamisent l'immobilier neuf à Chambray-lès-Tours",
+  "https://www.trouver-un-logement-neuf.com/img_article/67f1b0f88a990a528ca681184a076e6b-10092.jpg",
+  {
+    "id_article": 499,
+    "titre": 500,
+    "images": 501,
+    "video_id": 313
+  },
+  9589,
+  "Des maisons et appartements neufs pour seniors près de Tours",
+  "https://www.trouver-un-logement-neuf.com/img_article/56ac851812cdda40edc76a9f2cbad01b-9589.png",
+  {
+    "id_article": 503,
+    "titre": 504,
+    "images": 505,
+    "video_id": 313
+  },
+  10516,
+  "Pyramides d'Argent en Centre-Val de Loire : les meilleurs programmes neufs de 2024 récompensés - Diaporama",
+  "https://infos.trouver-un-logement-neuf.com/img_article/1bb9bbfe989ccd0114468026f6a4823b-10516.jpg",
+  {
+    "id_article": 507,
+    "titre": 508,
+    "images": 509,
+    "video_id": 313
+  },
+  10704,
+  "Centre Val-de-Loire : la promotion immobilière continue de vaciller",
+  "https://infos.trouver-un-logement-neuf.com/img_article/33ff171cc97af4709b932f2839fff40b-10704.jpg",
+  {
+    "id_article": 511,
+    "titre": 512,
+    "images": 513,
+    "video_id": 313
+  },
+  10094,
+  "Allure à Tours : qui peut accéder à ce programme immobilier en location-accession ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/3d966e11ca99ca60fe1baa40bfc81136-10094.jpg",
+  {
+    "id_article": 515,
+    "titre": 516,
+    "images": 517,
+    "video_id": 489
+  },
+  10046,
+  "Les bons conseils pour trouver les meilleurs promoteurs immobiliers à Tours et sa région ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/4f6865c7fdde734ab1259e69ba5fa423-10046.jpg",
+  {
+    "id_article": 519,
+    "titre": 520,
+    "images": 521,
+    "video_id": 489
+  },
+  10012,
+  "Investissement locatif : pourquoi investir à Tours ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/72c2c4e45eb4916f90dcee56c7646af4-10012.jpg",
+  {
+    "id_article": 523,
+    "titre": 524,
+    "images": 525,
+    "video_id": 313
+  },
+  9670,
+  "Du logement neuf en accession au nord de Tours",
+  "https://www.trouver-un-logement-neuf.com/img_article/e14f4bccb673880050e37cb9d2259202-9670.jpg",
+  {
+    "id": 79,
+    "nom": 527,
+    "url": 528,
+    "articles": 529
+  },
+  "Immobilier neuf Euroméditerranée : le renouveau marseillais",
+  "immobilier-neuf-euromediterranee-marseille",
+  [],
+  [
+    531,
+    538,
+    545,
+    553
+  ],
+  {
+    "id_article": 532,
+    "text_intro": 533,
+    "titre": 534,
+    "alt": 535,
+    "image": 536,
+    "url_rewrite": 537,
+    "site_parution": 312,
+    "video_id": 249
+  },
+  11174,
+  "<p>Conleau, Tohannic, Albert 1er ou encore la Garenne, rive droite ou rive gauche&hellip; les différents quartiers de Vannes ont de quoi séduire pour investir ou habiter dans l&rsquo;immobilier neuf, entre mer, centre-ville et espaces verts. Tour d&rsquo;horizon des quartiers les plus prisés de Vannes pour profiter pleinement de la douceur de vivre bretonne.</p>",
+  "Les meilleurs quartiers de Vannes pour vivre et investir",
+  "Vannes : quels sont les meilleurs quartiers à privilégier pour investir ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/3c999165f71633c22299d7e84e930f8f-11174.jpg",
+  "/immobilier-infos/meilleurs-quartiers-vannes-immobilier-neuf-11174",
+  {
+    "id_article": 539,
+    "text_intro": 540,
+    "titre": 541,
+    "alt": 542,
+    "image": 543,
+    "url_rewrite": 544,
+    "site_parution": 312,
+    "video_id": 249
+  },
+  11173,
+  "<p>Entre le charme du Vieil Antibes et l&rsquo;exclusivité du Cap, la commune d&rsquo;Antibes Juan-les-Pins propose une diversité de quartiers. Ce guide explore les meilleurs secteurs pour habiter à l&rsquo;année ou investir dans l&rsquo;immobilier neuf sur la Côte d&rsquo;Azur, selon votre style de vie et vos priorités.</p>",
+  "Quels sont les meilleurs quartiers d'Antibes Juan-les-Pins pour investir ou se loger ?",
+  "Quels sont les meilleurs quartiers pour habiter ou investir à Antibes Juan-les-Pins ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/340532019bcd3017a8fedf9e52849a8c-11173.jpg",
+  "/immobilier-infos/meilleurs-quartiers-antibes-juan-les-pins-11173",
+  {
+    "id_article": 546,
+    "text_intro": 547,
+    "titre": 548,
+    "alt": 549,
+    "image": 550,
+    "url_rewrite": 551,
+    "site_parution": 312,
+    "video_id": 552
+  },
+  7879,
+  "<p>Vous connaissez surement la garantie décennale, mais une autre garantie protège l&rsquo;achat sur plan d&rsquo;un logement neuf : la GPA immobilier ou Garantie de Parfait Achèvement. Voici comment faire jouer la garantie de parfait achèvement en cas de malfaçons ?</p>",
+  "Garantie de parfait achèvement : comment ça marche ?",
+  "GPA immobilier ou garantie de parfait achèvement : comment ça marche ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/3cbdf3157270db8e3347e953a190b31d-7879.jpg",
+  "/immobilier-infos/garantie-de-parfait-achevement-comment-ca-marche-7879",
+  "UxD8uIJTH5U",
+  {
+    "id_article": 554,
+    "text_intro": 555,
+    "titre": 556,
+    "alt": 557,
+    "image": 558,
+    "url_rewrite": 559,
+    "site_parution": 312,
+    "video_id": 249
+  },
+  11164,
+  "<p>Maison neuve, abri de jardin, piscine&hellip; Ces projets peuvent déclencher la taxe d&rsquo;aménagement, souvent sous-estimée. Calcul, taux 2026, exonérations possibles : ce qu&rsquo;il faut absolument savoir avant de construire ou d&rsquo;aménager.</p>",
+  "Taxe d'aménagement : maison neuve, abri de jardin, piscine… ce que vous devez payer en 2026",
+  "Taxe d'aménagement 2026 : combien allez-vous payer pour votre maison, votre piscine ou votre abri de jardin ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/cb5f0b7face86e9bed4c3084439ef917-11164.jpg",
+  "/immobilier-infos/taxe-amenagement-calcul-2026-11164",
+  [
+    561,
+    568,
+    575,
+    582
+  ],
+  {
+    "id_article": 562,
+    "text_intro": 563,
+    "titre": 564,
+    "alt": 565,
+    "image": 566,
+    "url_rewrite": 567,
+    "site_parution": 312,
+    "video_id": 249
+  },
+  11183,
+  "<p>A Lyon Part-Dieu, l&rsquo;immeuble neuf Manufacture incarne une nouvelle génération de programmes immobiliers réversibles. Bureaux, logements et commerces y cohabitent dans un ensemble évolutif, conçu pour s&rsquo;adapter aux futures mutations urbaines et limiter l&rsquo;empreinte carbone.</p>",
+  "Immobilier neuf à Lyon : Manufacture, le pari avant-gardiste de la réversibilité",
+  "Lyon Part-Dieu : un immeuble neuf capable de devenir 100 % logement",
+  "https://www.trouver-un-logement-neuf.com/img_article/80b8112d4655d9b3a4a527ff68e65d67-11183.jpg",
+  "/immobilier-infos/manufacture-programme-neuf-reversible-lyon-3e-11183",
+  {
+    "id_article": 569,
+    "text_intro": 570,
+    "titre": 571,
+    "alt": 572,
+    "image": 573,
+    "url_rewrite": 574,
+    "site_parution": 312,
+    "video_id": 249
+  },
+  11180,
+  "<p>Successeur du Pinel, le dispositif Jeanbrun ambitionne de relancer l&rsquo;investissement locatif dès 2026. Avantages fiscaux, éligibilité sans zonage, mais aussi complexité technique : c&rsquo;est surtout un signal fort pour le logement neuf. Décryptage d&rsquo;un mécanisme très attendu.</p>",
+  "Avis : le dispositif Jeanbrun est-il un nouvel élan pour l'investissement locatif ?",
+  "Avis : le dispositif Jeanbrun remplacera-t-il vraiment le Pinel ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/8ae458155a97fe5a12a59af3824e7d60-11180.jpg",
+  "/immobilier-infos/dispositif-jeanbrun-avis-avantages-et-inconvenients-11180",
+  {
+    "id_article": 576,
+    "text_intro": 577,
+    "titre": 578,
+    "alt": 579,
+    "image": 580,
+    "url_rewrite": 581,
+    "site_parution": 312,
+    "video_id": 249
+  },
+  11179,
+  "<p>Bagnolet, Saclay, Saint-Quentin-en-Yvelines : trois territoires, une même urgence : répondre à la pénurie de logements étudiants en Ile-de-France. Coup de projecteur sur trois projets et notamment le projet mené par The Boost Society et Emerige à Bagnolet.</p>",
+  "Trois nouvelles résidences étudiantes en Ile-de-France : Emerige en première ligne à Bagnolet",
+  "Trois nouvelles résidences étudiantes en Ile-de-France, Bagnolet en figure de proue",
+  "https://www.trouver-un-logement-neuf.com/img_article/d55c66d314c9c92ddf8267b594683901-11179.jpg",
+  "/immobilier-infos/trois-residences-etudiantes-ile-de-france-11179",
+  {
+    "id_article": 583,
+    "text_intro": 584,
+    "titre": 585,
+    "alt": 586,
+    "image": 587,
+    "url_rewrite": 588,
+    "site_parution": 312,
+    "video_id": 249
+  },
+  11169,
+  "<p>Face à la rareté du foncier en montagne, Novaxia et Priams font le choix du recyclage immobilier. Avec l'inauguration de L&rsquo;Écrin, Val d&rsquo;Isère accueille ainsi une résidence de prestige issue du recyclage d&rsquo;un immeuble existant, pensée pour les usages quatre saisons.</p>",
+  "Recycler plutôt que démolir : le pari de Novaxia et Priams dans la station de Val d'Isère",
+  "L'Ecrin à Val d'Isère : comment produire du logement neuf quand le foncier manque en montagne ?",
+  "https://www.trouver-un-logement-neuf.com/img_article/9b73769730c3e7b0a3d8a0748e1bc06c-11169.jpg",
+  "/immobilier-infos/reconversion-residence-montagne-ecrin-val-disere-priams-novaxia-11169",
+  [
+    "Reactive",
+    590
+  ],
+  {
+    "$scolor-mode": 591,
+    "$snuxt-seo-utils:routeRules": 594,
+    "$s$zTMrykK5gh": 593,
+    "$ssharedFilters": 595,
+    "$ssharedSeoMeta": 596,
+    "$ssharedApiMeta": 597,
+    "$ssite-config": 598
+  },
+  {
+    "preference": 592,
+    "value": 592,
+    "unknown": 352,
+    "forced": 593
+  },
+  "system",
+  false,
+  {
+    "head": -1,
+    "seoMeta": -1
+  },
+  {},
+  {},
+  {},
+  {
+    "_priority": 599,
+    "env": 602,
+    "name": 603,
+    "url": 604
+  },
+  {
+    "name": 600,
+    "env": 601,
+    "url": 45
+  },
+  -10,
+  -15,
+  "production",
+  "Trouver-un-logement-neuf.com",
+  "https://www.trouver-un-logement-neuf.com",
+  [
+    "Set"
+  ],
+  [
+    "ShallowReactive",
+    607
+  ],
+  {
+    "header-menu-all": -1,
+    "cache-articles-6852-6832-6851-6854-6215": -1,
+    "/articles?output=ArticlesHeaderResource&ids=6852-6832-6851-6854-6215&limit=5&orderBy=random": -1,
+    "articles-data-7219-710-3050-9959-7499": -1,
+    "/articles?output=ArticlesHeaderResource&ids=7219-710-3050-9959-7499&limit=5&orderBy=": -1,
+    "articles-du-9-fr": -1,
+    "total-product-counter": -1,
+    "cache-articles-7219-710-3050-9959-7499": -1
+  },
+  "/?error=404",
+  {
+    "user": 610,
+    "UIStore": 613,
+    "search": 628,
+    "searchMore": 640
+  },
+  {
+    "isLogout": 593,
+    "isAuthenticated": 593,
+    "me": 611,
+    "fingerprint": 249,
+    "loading": 593,
+    "isFormReady": 593,
+    "token": 249,
+    "error": 386,
+    "consulted": 612
+  },
+  {},
+  [],
+  {
+    "page_type": 614,
+    "current_product": 616,
+    "page_pubs": 619,
+    "seo_metas": 622,
+    "currentUrl": 625,
+    "searchIsOpen": 626,
+    "openModals": 627
+  },
+  [
+    "EmptyRef",
+    615
+  ],
+  "\"\"",
+  [
+    "Ref",
+    617
+  ],
+  [
+    "Reactive",
+    618
+  ],
+  {},
+  [
+    "Ref",
+    620
+  ],
+  [
+    "Reactive",
+    621
+  ],
+  [],
+  [
+    "Ref",
+    623
+  ],
+  [
+    "Reactive",
+    624
+  ],
+  {},
+  [
+    "Ref",
+    608
+  ],
+  [
+    "EmptyRef",
+    355
+  ],
+  [],
+  {
+    "filters": 629,
+    "resultsCount": 45,
+    "initialFilters": 635
+  },
+  {
+    "radius": 79,
+    "property": 630,
+    "rooms": 631,
+    "residence": 386,
+    "residences": 632,
+    "rubrique": 633,
+    "budget": 45,
+    "location": 634
+  },
+  [],
+  [],
+  [],
+  "habiter",
+  {
+    "kind": 249,
+    "name": 249,
+    "slug": 249,
+    "cp": 45,
+    "lat": 45,
+    "lng": 45,
+    "populations": 45,
+    "parent": 249,
+    "ville_id": 45,
+    "departement_id": 45,
+    "departement_nom": 249,
+    "departement_slug": 249,
+    "region_id": 45,
+    "region_nom": 249,
+    "region_slug": 249
+  },
+  {
+    "radius": 79,
+    "property": 636,
+    "rooms": 637,
+    "residence": 386,
+    "residences": 638,
+    "rubrique": 633,
+    "budget": 45,
+    "location": 639
+  },
+  [],
+  [],
+  [],
+  {
+    "kind": 249,
+    "name": 249,
+    "slug": 249,
+    "cp": 45,
+    "lat": 45,
+    "lng": 45,
+    "populations": 45,
+    "parent": 249,
+    "ville_id": 45,
+    "departement_id": 45,
+    "departement_nom": 249,
+    "departement_slug": 249,
+    "region_id": 45,
+    "region_nom": 249,
+    "region_slug": 249
+  },
+  {}
+]

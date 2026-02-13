@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "name": "Nexity",
+      "url": "https://www.nexity.fr/annonces-immobilieres/achat-vente/immobilier/neuf/france",
+      "type": "residential",
+      "selectors": {
+        "container": ".card-program",
+        "title": ".card-program__title",
+        "status": ".card-program__status",
+        "price": ".card-program__price",
+        "location": ".card-program__location"
+      }
+    }
+  ]
+}

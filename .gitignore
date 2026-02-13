@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data
+data.csv
+debug_nexity.html
+debug_more_hits.py
+debug_hit.py
+find_index.py
+find_metadata.py
+search_fields.py
+verify_values.py
+test_fetch.py
+exhaustive_debug.py
+query_algolia.py
+
+# Streamlit
+.streamlit/

@@ -18,9 +18,9 @@ def scrape_nexity():
         "x-algolia-application-id": app_id
     }
     
-    # Payload for 'appartement neuf france'
-    attrs = ["residence", "libelle", "ville", "codePostal", "prix", "prix_min", "sorting_prix", "flap", "dateDispo", "nb_lots", "surface", "surface_min", "surface_max"]
-    params_str = f"query=&hitsPerPage=1000&filters=typeBien:Appartement AND neuf:1&attributesToRetrieve={json.dumps(attrs)}"
+    # Payload for 'neuf france' (518 results)
+    attrs = ["residence", "libelle", "ville", "codePostal", "prix", "prix_min", "sorting_prix", "flap", "dateDispo", "nb_lots", "surface", "surface_min", "surface_max", "typeBien"]
+    params_str = f"query=&hitsPerPage=1000&filters=neuf:1&attributesToRetrieve={json.dumps(attrs)}"
     
     payload = {
         "requests": [
@@ -79,6 +79,7 @@ def scrape_nexity():
                 
                 programs.append({
                     "Source": "Nexity",
+                    "Type": h.get('typeBien', 'N/A'),
                     "Nom": name,
                     "Statut": status,
                     "Localisation": f"{city} ({cp})",

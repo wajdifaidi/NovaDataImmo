@@ -17,27 +17,27 @@ def extract_nuxt_data(html):
             print(f"Error parsing Nuxt data: {e}")
     return None
 
-def parse_product(data, prod_idx):
-    # data is the Nuxt list
-    # prod_idx is the index of the product object/map
-    product_map = data[prod_idx]
-    if not isinstance(product_map, dict):
-        return None
+def resolve_value(data, val_idx, depth=0):
+    if depth > 5: # Safety limit for recursion
+        return val_idx
     
-    parsed = {}
-    for key, val_idx in product_map.items():
-        if isinstance(val_idx, int) and val_idx < len(data):
-            val = data[val_idx]
-            # Handle list of indices (like medias or types)
-            if isinstance(val, list) and len(val) > 0 and isinstance(val[0], int):
-                # For simplicity, we might just store the first one or keep the list
-                parsed[key] = val
-            else:
-                parsed[key] = val
-        else:
-            parsed[key] = val_idx
-            
-    return parsed
+    if not isinstance(val_idx, int) or val_idx < 0 or val_idx >= len(data):
+        return val_idx
+    
+    val = data[val_idx]
+    
+    if isinstance(val, dict):
+        resolved_dict = {}
+        for k, v in val.items():
+            resolved_dict[k] = resolve_value(data, v, depth + 1)
+        return resolved_dict
+    elif isinstance(val, list):
+        return [resolve_value(data, item, depth + 1) for item in val]
+    
+    return val
+
+def parse_product(data, prod_idx):
+    return resolve_value(data, prod_idx)
 
 def get_promoter_properties(slug, pid):
     url = f"https://www.trouver-un-logement-neuf.com/programme-immobilier-neuf-promoteur-{slug}-{pid}.html"
@@ -48,7 +48,7 @@ def get_promoter_properties(slug, pid):
     }
     
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=15)
         if response.status_code != 200:
             print(f"Failed to fetch {url}: {response.status_code}")
             return []
@@ -59,8 +59,6 @@ def get_promoter_properties(slug, pid):
             print("No Nuxt data found")
             return []
         
-        # Find the product list key
-        # Under data[1]['data'] we find the keys for the current page
         state_info = data[1]
         data_key = state_info.get('data')
         if data_key is None:
@@ -84,25 +82,50 @@ def get_promoter_properties(slug, pid):
             if isinstance(idx, int) and idx < len(data):
                 prog = parse_product(data, idx)
                 if prog:
-                    # Clean up the program data
-                    # nbrPiece, city, visual, link, nom, descriptif, livraison
-                    # types is a list of unit indices
+                    # Status extraction
+                    status = prog.get('stock')
+                    if not status or status == "":
+                        status = prog.get('titre_mentions')
+                    
+                    # Resolve City Info
+                    city_data = prog.get('city')
+                    city_name = "N/A"
+                    dept_num = "N/A"
+                    if isinstance(city_data, dict):
+                        city_name = city_data.get('name', "N/A")
+                        dept_num = city_data.get('departement_num', "N/A")
+                    elif isinstance(city_data, str):
+                        city_name = city_data
+                    
                     units = []
                     if 'types' in prog and isinstance(prog['types'], list):
-                        for u_idx in prog['types']:
-                            unit = parse_product(data, u_idx)
-                            if unit:
-                                units.append({
-                                    'typology': unit.get('typology'),
-                                    'prix': unit.get('prix'),
-                                    'superficie': unit.get('superficie'),
-                                    'nbr_piece': unit.get('nbr_piece')
-                                })
+                        for typology in prog['types']:
+                            if isinstance(typology, dict):
+                                details = typology.get('details')
+                                if isinstance(details, list):
+                                    for unit in details:
+                                        if isinstance(unit, dict):
+                                            units.append({
+                                                'typology': typology.get('typology') or unit.get('type'),
+                                                'prix': unit.get('prix'),
+                                                'superficie': unit.get('superficie'),
+                                                'nbr_piece': typology.get('nbr_piece') or unit.get('nbr_piece'),
+                                                'etage': unit.get('etage')
+                                            })
+                                else:
+                                    units.append({
+                                        'typology': typology.get('typology'),
+                                        'prix': typology.get('prix'),
+                                        'superficie': typology.get('superficie'),
+                                        'nbr_piece': typology.get('nbr_piece')
+                                    })
                     
                     properties.append({
                         'name': prog.get('nom'),
-                        'city': prog.get('city'),
+                        'city': city_name,
+                        'dept_num': str(dept_num),
                         'cp': prog.get('cp'),
+                        'statut': status,
                         'livraison': prog.get('livraison'),
                         'link': f"https://www.trouver-un-logement-neuf.com{prog.get('link')}" if prog.get('link') else None,
                         'visual': prog.get('visual'),
@@ -113,13 +136,19 @@ def get_promoter_properties(slug, pid):
         return properties
     except Exception as e:
         print(f"Error scraping {slug}: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 if __name__ == "__main__":
-    # Example usage: py scraper.py nexity
     target = sys.argv[1].lower() if len(sys.argv) > 1 else 'nexity'
     
-    with open('promoter_mapping.json', 'r', encoding='utf-8') as f:
+    mapping_file = 'promoter_mapping.json'
+    if not os.path.exists(mapping_file):
+        print(f"Error: {mapping_file} not found.")
+        sys.exit(1)
+        
+    with open(mapping_file, 'r', encoding='utf-8') as f:
         mapping = json.load(f)
     
     found = False
@@ -128,7 +157,6 @@ if __name__ == "__main__":
             res = get_promoter_properties(info['slug'], info['id'])
             print(f"Scraped {len(res)} properties for {name}")
             
-            # Save results
             output_file = f"properties_{info['slug']}.json"
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(res, f, indent=2, ensure_ascii=False)
